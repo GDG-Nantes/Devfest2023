@@ -1,0 +1,6 @@
+node_modules/
+.cache/
+public
+json_schemas/interfaces/
+.idea
+.iml

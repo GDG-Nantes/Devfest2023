@@ -1,0 +1,51 @@
+name: deploy
+
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the version
+        id: get_version
+        run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
+
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+          cache: "npm"
+      - run: npm install --legacy-peer-deps
+
+      - run: npm run build
+
+      # Deploy
+
+      - run: cp .appengine/app.yaml public/
+
+      - id: "auth"
+        uses: "google-github-actions/auth@v0"
+        with:
+          credentials_json: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
+
+      - id: "deploy"
+        name: "Deploy to App Engine"
+        uses: "google-github-actions/deploy-appengine@v0"
+        with:
+          deliverables: "public/app.yaml"
+          promote: false
+          version: ${{ steps.get_version.outputs.VERSION }}
+
+      # Notification
+
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2.2.0
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_TITLE: Déploiement réussi
+          SLACK_MESSAGE: Version ${{ steps.get_version.outputs.VERSION }} "${{ steps.deploy.outputs.url }}"
+          SLACK_ICON: https://github.com/fluidicon.png
+          SLACK_USERNAME: Github Actions

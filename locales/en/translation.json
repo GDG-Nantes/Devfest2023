@@ -1,0 +1,117 @@
+{
+  "site": {
+    "description": "The Devfest (i.e Developers Festival), is a technical conference destined to developers. It's meant for students, professionals, or any curious techie",
+    "theme": "This year's theme will be Jules Verne ans his incredible universe !"
+  },
+  "pages": {
+    "home": {
+      "name": "Home",
+      "what-is": "What is DevFest Nantes?",
+      "jumbo": {
+        "date": "October 20,21 2022",
+        "cfp": "Become speaker",
+        "previous": "2021 Edition",
+        "generate-ticket": "Edit my ticket"
+      },
+      "newsletter": "Get notified about conference updates",
+      "numbers": {
+        "attendees": "Attendees",
+        "days": "Days",
+        "sessions": "Sessions",
+        "tracks": "Tracks",
+        "speakers": "Speakers"
+      },
+      "tickets": {
+        "name": "Tickets",
+        "description": "The sale is over !",
+        "2daysEarly": "Early Bird",
+        "2days-1st": "2 days ticket",
+        "1day": "1 day ticket",
+        "reduced": "Reduced price",
+        "2days-2nd": "On sale on September 6th"
+      },
+      "speakers": {
+        "title": "Speakers",
+        "seeAll": "See all speakers"
+      },
+      "photos": {
+        "p1": "Some pictures of the 2021 DevFest Nantes",
+        "p2": "on the Street Art theme 🎨",
+        "button": "See all photos"
+      }
+    },
+    "attending": {
+      "name": "Attending",
+      "map": {
+        "title": "The Venue",
+        "description": "Located in the center of Nantes, the event takes place in the “Cité des Congrès” with more than 3000m² of conference rooms, hand’s on and networking space…"
+      }
+    },
+    "partners": {
+      "name": "Partners",
+      "platinium-partners": "Platinium partners"
+    },
+    "speakers": {
+      "name": "Speakers"
+    },
+    "blog": {
+      "name": "Blog"
+    },
+    "menu": {
+      "name": "Menu",
+      "allergenes": {
+        "gluten": "Gluten",
+        "crustaces": "Shellfish",
+        "vegetarien": "Vegetarian",
+        "oeufs": "Eggs",
+        "poissons": "Fish",
+        "arachides": "Peanuts",
+        "soja": "Soy",
+        "lactose": "Milk",
+        "fruits-a-coques": "Nuts",
+        "celeri": "Celery",
+        "moutarde": "Mustard",
+        "sesame": "Sesame",
+        "sulfites": "Sulfites",
+        "lupin": "Lupine",
+        "mollusques": "Molluscs"
+      }
+    },
+    "jobs": {
+      "name": "Jobs"
+    },
+    "schedule": {
+      "name": "Schedule",
+      "day1-number": "Thursday 20th",
+      "day2-number": "Friday 21st",
+      "day1": "Thursday",
+      "day2": "Friday",
+      "opening": "Opening",
+      "keynote": "Keynote",
+      "break": "Break",
+      "lunch": "Lunch",
+      "party": "After Party"
+    },
+    "team": { "name": "Team" },
+    "code-of-conduct": { "name": "Code of conduct" },
+    "legal-mentions": { "name": "Legal Mentions" }
+  },
+  "404": {
+    "main": "You seem lost...",
+    "button": "Back to a safe place"
+  },
+  "sessions": {
+    "cancelled": "Cancelled"
+  },
+  "footer": {
+    "about": "About",
+    "follow": "Follow us",
+    "partnership-kit": "Partnership Kit",
+    "media-kit": "Media Kit",
+    "previous-editions": "Previous editions",
+    "partners": "For Partners",
+    "organizers": "Organized with ❤️ by GDG Nantes",
+    "no-spam": "No spam, only the latest news and updates!",
+    "news-button": "Discover"
+  }
+}
