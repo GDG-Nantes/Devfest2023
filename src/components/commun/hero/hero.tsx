@@ -29,17 +29,12 @@ export const Hero: React.FC<{ background?: string; title: string }> = ({
   const style = backgroundImage
     ? { backgroundImage: `url(${backgroundImage})` }
     : {
-        background: `linear-gradient(
-          var(--tertiary-dark) 0%,
-          var(--tertiary) 30%,
-          var(--tertiary) 70%,
-          var(--tertiary-dark) 100%
-        )`,
+        background: `var(--primary)`,
       };
   return (
     <div className="hero" style={style}>
       <div className="hero-content">
-        <Typography variant="h1" color="primary">
+        <Typography variant="h1" color="secondary">
           {title}
         </Typography>
         {children}

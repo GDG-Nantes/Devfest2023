@@ -8,9 +8,9 @@
       "name": "Accueil",
       "what-is": "Le DevFest Nantes",
       "jumbo": {
-        "date": "20 & 21 Octobre 2022",
+        "date": "19 & 20 Octobre 2023",
         "cfp": "Devenir speaker",
-        "previous": "Édition 2021",
+        "previous": "Édition 2022",
         "generate-ticket": "Générer mon billet"
       },
       "newsletter": "Soyez notifié des dernières informations !",
@@ -35,8 +35,8 @@
         "seeAll": "Voir tous les speakers"
       },
       "photos": {
-        "p1": "Quelques photos du DevFest Nantes 2021",
-        "p2": "sur le thème du Street Art 🎨",
+        "p1": "Quelques photos du DevFest Nantes 2022",
+        "p2": "sur le thème de Jules Vernes",
         "button": "Voir toutes les photos"
       }
     },
@@ -82,8 +82,8 @@
     },
     "schedule": {
       "name": "Programme",
-      "day1-number": "Jeudi 20",
-      "day2-number": "Vendredi 21",
+      "day1-number": "Jeudi 19",
+      "day2-number": "Vendredi 20",
       "day1": "Jeudi",
       "day2": "Vendredi",
       "opening": "Ouverture",

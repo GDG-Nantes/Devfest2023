@@ -1,8 +1,8 @@
 import { createTheme } from "@mui/material";
 import "./theme.scss";
 
-const primary = "#c14d32";
-const secondary = "#36666a";
+const primary = "#1a213d";
+const secondary = "#d14f34";
 // const primary = "#c14d32";
 // const secondary = "#36666a";
 // A custom theme for this app

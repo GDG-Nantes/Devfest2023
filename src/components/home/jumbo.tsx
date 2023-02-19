@@ -14,51 +14,26 @@ export const HomeJumbo = () => {
       <img
         className="logo-jumbo-home"
         alt="logo"
-        src="/images/logo_extraordinaire_bleu.svg"
+        src="/images/logo_transparent.svg"
         height="300"
         width="500"
       />
 
-      <Typography variant="h1" textAlign="center" color="var(--primary-dark)">
+      <Typography variant="h1" textAlign="center">
         {t("date")}
       </Typography>
 
-      <Typography
-        variant="subtitle1"
-        textAlign="center"
-        color="var(--primary-dark)"
-      >
-        Plonge dans l&apos;univers de Jules Verne !
+      <Typography variant="subtitle1" textAlign="center">
+        Code, Dev, et... Action !
       </Typography>
       <Stack direction="row" spacing={3}>
-        {/* <MyLink to="https://openfeedback.io/devfestnantes22">
-          <Button
-            variant="contained"
-            color="secondary"
-            aria-label="OpenFeedback"
-          >
-            <IconButton>
-              <AddComment />
-            </IconButton>
-            Openfeedback
-          </Button>
-        </MyLink> */}
-        <MyLink to="https://photos.app.goo.gl/zGn6FXECdRXH9D4f8">
-          <Button variant="contained" color="secondary" aria-label="Photos">
-            <IconButton>
-              <PhotoCamera />
-            </IconButton>
-            Photos
-          </Button>
-        </MyLink>
-        <MyLink to="https://www.youtube.com/watch?v=rQaEzZIZIRg&list=PLuZ_sYdawLiWIRK-QW6zpEJMSeCtspXP8">
-          <Button variant="contained" color="secondary" aria-label="Youtube">
-            <IconButton>
-              <YouTube />
-            </IconButton>
-            Youtube
-          </Button>
-        </MyLink>
+        <Button
+          color="secondary"
+          variant="contained"
+          aria-label={t("previous")}
+        >
+          {t("previous")}
+        </Button>
       </Stack>
     </>
   );

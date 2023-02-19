@@ -8,7 +8,7 @@ import {
   ListItem,
   Typography,
 } from "@mui/material";
-import { graphql, Link, useStaticQuery } from "gatsby";
+import { Link } from "gatsby";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { SubscribeNewsletter } from "../components/commun/newsletter";
@@ -23,14 +23,6 @@ export const Footer: React.FC = () => {
   const { isMobileOrTablet } = useResponsiveData();
   const { t } = useTranslation("translation", { keyPrefix: "footer" });
   const { t: tPages } = useTranslation("translation", { keyPrefix: "pages" });
-
-  const logo = useStaticQuery(graphql`
-    query {
-      file(name: { eq: "logo_blanc_fond_blanc" }) {
-        publicURL
-      }
-    }
-  `);
 
   const socials: SocialData[] = [
     {
@@ -50,7 +42,7 @@ export const Footer: React.FC = () => {
       type: "youtube",
     },
     {
-      login: "GDG-Nantes/Devfest2022",
+      login: "GDG-Nantes/Devfest2023",
       type: "github",
     },
   ];
@@ -87,6 +79,10 @@ export const Footer: React.FC = () => {
 
   const previousEditions: FooterLink[] = [
     {
+      url: `https://devfest2022.gdgnantes.com`,
+      label: "Devfest Nantes 2022",
+    },
+    {
       url: `https://devfest2021.gdgnantes.com`,
       label: "Devfest Nantes 2021",
     },
@@ -98,10 +94,6 @@ export const Footer: React.FC = () => {
     {
       url: `https://devfest2019.gdgnantes.com`,
       label: "Devfest Nantes 2019",
-    },
-    {
-      url: `https://devfest2018.gdgnantes.com`,
-      label: "Devfest Nantes 2018",
     },
   ];
 
@@ -143,7 +135,7 @@ export const Footer: React.FC = () => {
           <FooterItem size="full">
             <div>
               <img
-                src={logo.file.publicURL}
+                src="/images/logo_transparent.svg"
                 alt="logo devfest"
                 height="50"
                 width="150"

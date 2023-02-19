@@ -9,10 +9,10 @@ import {
   ListItemButton,
   ListItemText,
   ThemeProvider,
-  Toolbar
+  Toolbar,
 } from "@mui/material";
 import { Box } from "@mui/system";
-import { useLocation } from "@reach/router";
+import { useLocation } from "@gatsbyjs/reach-router";
 import { graphql, useStaticQuery } from "gatsby";
 import { useLocalization } from "gatsby-theme-i18n";
 import React from "react";
@@ -47,14 +47,6 @@ const Layout: React.FC = ({ children }) => {
     }
   });
 
-  const layout = useStaticQuery(graphql`
-    query {
-      file(name: { eq: "logo_blanc_fond_blanc" }) {
-        publicURL
-      }
-    }
-  `);
-
   const toggleDrawer = (open) => (event) => {
     if (
       event.type === "keydown" &&
@@ -70,7 +62,10 @@ const Layout: React.FC = ({ children }) => {
       <Helmet />
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Topbar toggleDrawer={toggleDrawer} logo={layout.file.publicURL} />
+        <Topbar
+          toggleDrawer={toggleDrawer}
+          logo="/images/logo_transparent.svg"
+        />
 
         <BarMenu isOpen={isOpen} toggleDrawer={toggleDrawer} />
         <CustomMDXProvider>{children}</CustomMDXProvider>
@@ -91,14 +86,14 @@ const Topbar: React.FC<{
   logo: string;
 }> = ({ toggleDrawer, logo }) => {
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" color="secondary">
       <Toolbar className="toolbar">
         <Box className="top-bar-left">
           <MyLink to="/">
             <img
               className="logo-top-bar"
               src={logo}
-              alt="Logo Devfest 2022"
+              alt="Logo Devfest"
               height="50"
               width="150"
             />

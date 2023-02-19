@@ -36,6 +36,7 @@
   }
   &.secondary {
     background-color: var(--secondary);
+    color: var(--primary);
   }
   &.tertiary {
     background-color: var(--tertiary);
@@ -46,7 +47,7 @@
     h5,
     h6,
     p {
-      color: var(--primary-dark);
+      color: var(--primary);
     }
   }
 }

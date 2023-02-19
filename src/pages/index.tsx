@@ -32,33 +32,33 @@ const HomeContent = () => {
         <Typography variant="body1">{t("site.description")}</Typography>
         <Typography variant="body1">{t("site.theme")}</Typography>
         <DevfestNumbers />
-        <Youtube id="rQaEzZIZIRg" title="Teaser 2022" />
+        <Youtube id="BQuRJJZ9lLM" title="AfterMovie 2022" />
       </SecondarySection>
       <PlanCite />
       <HomeMap />
-      <DefaultSection variant="primary-dark" className="home-speakers">
-        <Typography variant="h2">{t("pages.home.speakers.title")}</Typography>
-        <Speakers featuredOnly={true} />
-        <Stack justifyContent="center" alignItems="center" marginTop={8}>
-          <MyLink to="/speakers">
-            <Button variant="contained">
-              {t("pages.home.speakers.seeAll")}
-            </Button>
-          </MyLink>
-        </Stack>
-      </DefaultSection>
-      <PrimarySection>
-        <Typography variant="h2">{t("pages.home.tickets.name")}</Typography>
-        <Typography variant="h3">
-          {t("pages.home.tickets.description")}
-        </Typography>
-        <Tickets />
-      </PrimarySection>
+      {/*<DefaultSection variant="primary-dark" className="home-speakers">*/}
+      {/*  <Typography variant="h2">{t("pages.home.speakers.title")}</Typography>*/}
+      {/*  <Speakers featuredOnly={true} />*/}
+      {/*  <Stack justifyContent="center" alignItems="center" marginTop={8}>*/}
+      {/*    <MyLink to="/speakers">*/}
+      {/*      <Button variant="contained">*/}
+      {/*        {t("pages.home.speakers.seeAll")}*/}
+      {/*      </Button>*/}
+      {/*    </MyLink>*/}
+      {/*  </Stack>*/}
+      {/*</DefaultSection>*/}
+      {/*<PrimarySection>*/}
+      {/*  <Typography variant="h2">{t("pages.home.tickets.name")}</Typography>*/}
+      {/*  <Typography variant="h3">*/}
+      {/*    {t("pages.home.tickets.description")}*/}
+      {/*  </Typography>*/}
+      {/*  <Tickets />*/}
+      {/*</PrimarySection>*/}
       <TertiarySection slim>
         <Typography variant="h2">{t("pages.home.newsletter")}</Typography>
         <SubscribeNewsletter />
       </TertiarySection>
-      <Partners onlyPlatinium={true} />
+      {/*<Partners onlyPlatinium={true} />*/}
 
       <DevfestPhotos />
     </>
