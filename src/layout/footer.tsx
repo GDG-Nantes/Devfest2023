@@ -69,12 +69,12 @@ export const Footer: React.FC = () => {
   const partnersLinks: FooterLink[] = [
     {
       label: t("partnership-kit"),
-      url: "https://drive.google.com/drive/folders/1CnuhE2-hrxmFLx65ftHVYCRq89OOiDp_",
+      url: "https://drive.google.com/drive/folders/1QaFtbSN9e1N6K5fMELPEcNRr_t62a4iy",
     },
-    {
-      label: t("media-kit"),
-      url: "https://drive.google.com/drive/folders/1nbo3YwdxAh4_S0J4wEjO7RLvZ12UUTnY",
-    },
+    // {
+    //   label: t("media-kit"),
+    //   url: "https://drive.google.com/drive/folders/1nbo3YwdxAh4_S0J4wEjO7RLvZ12UUTnY",
+    // },
   ];
 
   const previousEditions: FooterLink[] = [
@@ -87,13 +87,12 @@ export const Footer: React.FC = () => {
       label: "Devfest Nantes 2021",
     },
     {
-      url: `https://devfest2020.gdgnantes.com`,
-      label: "Devfest Nantes 2020",
-      disabled: true,
-    },
-    {
       url: `https://devfest2019.gdgnantes.com`,
       label: "Devfest Nantes 2019",
+    },
+    {
+      url: `https://devfest2018.gdgnantes.com`,
+      label: "Devfest Nantes 2018",
     },
   ];
 

@@ -12,7 +12,7 @@ export const HomeJumbo = () => {
       <img
         className="logo-jumbo-home"
         alt="logo"
-        src="/images/logo-orange-transparent.svg"
+        src="/images/logo_transparent.svg"
         height="300"
         width="600"
       />
