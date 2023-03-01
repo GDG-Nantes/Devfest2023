@@ -1,8 +1,6 @@
-import { PhotoCamera, YouTube } from "@mui/icons-material";
-import { Button, IconButton, Stack, Typography } from "@mui/material";
+import { Button, Stack, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { MyLink } from "../../helpers/links";
 
 export const HomeJumbo = () => {
   const { t } = useTranslation("translation", {
@@ -23,17 +21,20 @@ export const HomeJumbo = () => {
         {t("date")}
       </Typography>
 
-      <Typography variant="subtitle1" textAlign="center">
-        Code, Dev, et... Action !
-      </Typography>
-      <Stack direction="row" spacing={3}>
-        <Button
-          color="secondary"
-          variant="contained"
-          aria-label={t("previous")}
-        >
-          {t("previous")}
-        </Button>
+      <Stack direction="column" spacing={2}>
+        <Typography variant="subtitle1" textAlign="center">
+          Code, Dev, et... Action !
+        </Typography>
+        <Stack direction="row" spacing={3} justifyContent={"center"}>
+          <Button
+            color="secondary"
+            variant="contained"
+            href="https://devfest2022.gdgnantes.com"
+            aria-label={t("previous")}
+          >
+            {t("previous")}
+          </Button>
+        </Stack>
       </Stack>
     </>
   );

@@ -62,10 +62,7 @@ const Layout: React.FC = ({ children }) => {
       <Helmet />
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Topbar
-          toggleDrawer={toggleDrawer}
-          logo="/images/logo_transparent.svg"
-        />
+        <Topbar toggleDrawer={toggleDrawer} logo="/images/logo-long-bleu.svg" />
 
         <BarMenu isOpen={isOpen} toggleDrawer={toggleDrawer} />
         <CustomMDXProvider>{children}</CustomMDXProvider>

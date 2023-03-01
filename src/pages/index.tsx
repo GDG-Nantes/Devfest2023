@@ -17,10 +17,6 @@ import {
   HomeMap,
 } from "../components/home";
 import { PlanCite } from "../components/home/plan";
-import { Tickets } from "../components/home/tickets";
-import { Partners } from "../components/partners";
-import { Speakers } from "../components/speakers/speakers";
-import { MyLink } from "../helpers/links";
 import Layout from "../layout";
 
 const HomeContent = () => {

@@ -1,7 +1,7 @@
 import { Button, Stack } from "@mui/material";
 import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage, getImage, ImageDataLike } from "gatsby-plugin-image";
-import React from "react";
+import React, { CSSProperties } from "react";
 import { useTranslation } from "react-i18next";
 import { MyLink } from "../../helpers/links";
 import { useResponsiveData } from "../../helpers/responsive";
@@ -81,21 +81,25 @@ const Album = () => {
       }}
     >
       <Picture
-        image={imageByName("macarons")}
+        image={imageByName("scaphandre")}
         gridColumn="1"
         gridRow="span 2"
       />
-      <Picture image={imageByName("gdg")} gridColumn="span 2" />
+      <Picture
+        image={imageByName("devices")}
+        gridColumn="span 2"
+        objectPosition={"top"}
+      />
       <Picture image={imageByName("buffet")} gridColumn="span 1" />
       <Picture
-        image={imageByName("ange")}
+        image={imageByName("pieuvre")}
         gridColumn="span 1"
         gridRow="span 2"
       />
-      <Picture image={imageByName("amphi")} gridColumn="span 2" />
-      <Picture image={imageByName("conf")} gridColumn="span 1" />
-      <Picture image={imageByName("qpuc_close")} gridColumn="span 1" />
-      <Picture image={imageByName("wescale")} gridColumn="span 1" />
+      <Picture image={imageByName("equipe-amphi")} gridColumn="span 2" />
+      <Picture image={imageByName("concert")} gridColumn="span 1" />
+      <Picture image={imageByName("800")} gridColumn="span 1" />
+      <Picture image={imageByName("stand")} gridColumn="span 1" />
       <ButtonTile gridColumn="span 3" />
     </div>
   ) : (
@@ -109,22 +113,26 @@ const Album = () => {
       }}
     >
       <Picture
-        image={imageByName("macarons")}
+        image={imageByName("scaphandre")}
         gridColumn="1"
         gridRow="span 2"
       />
-      <Picture image={imageByName("gdg")} gridColumn="span 2" />
-      <Picture image={imageByName("amphi")} gridColumn="span 2" />
+      <Picture image={imageByName("equipe-amphi")} gridColumn="span 2" />
+      <Picture
+        image={imageByName("devices")}
+        gridColumn="span 2"
+        objectPosition={"top"}
+      />
       <ButtonTile gridColumn="span 2" />
       <Picture image={imageByName("buffet")} gridColumn="span 1" />
       <Picture
-        image={imageByName("ange")}
+        image={imageByName("pieuvre")}
         gridColumn="span 1"
         gridRow="span 2"
       />
-      <Picture image={imageByName("conf")} gridColumn="span 2" />
-      <Picture image={imageByName("qpuc_close")} gridColumn="span 1" />
-      <Picture image={imageByName("wescale")} gridColumn="span 1" />
+      <Picture image={imageByName("800")} gridColumn="span 2" />
+      <Picture image={imageByName("concert")} gridColumn="span 1" />
+      <Picture image={imageByName("stand")} gridColumn="span 1" />
     </div>
   );
 };
@@ -137,8 +145,8 @@ const ButtonTile = ({ gridColumn }: { gridColumn: string }) => {
     <Stack style={{ gridColumn }} alignItems="center" justifyContent="center">
       <p>{t("p1")}</p>
       <p style={{ marginTop: 0 }}>{t("p2")}</p>
-      <MyLink to="https://photos.app.goo.gl/bEa1r4VVb5GLS4A77">
-        <Button variant="contained" color="primary" aria-label="Photos 2021">
+      <MyLink to="https://photos.app.goo.gl/zGn6FXECdRXH9D4f8">
+        <Button variant="contained" color="primary" aria-label="Photos 2022">
           {t("button")}
         </Button>
       </MyLink>
@@ -150,13 +158,14 @@ const Picture: React.FC<{
   image: ImageDataLike & { name: string };
   gridColumn?: string;
   gridRow?: string;
-}> = ({ image, gridColumn, gridRow }) => {
+  objectPosition?: CSSProperties["objectPosition"];
+}> = ({ image, gridColumn, gridRow, objectPosition }) => {
   return (
     <div style={{ gridColumn, gridRow }}>
       <GatsbyImage
         alt={image.name}
         image={getImage(image)}
-        objectPosition="center"
+        objectPosition={objectPosition || "center"}
         style={{ height: "100%", width: "100%" }}
       />
     </div>

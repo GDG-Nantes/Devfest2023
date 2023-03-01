@@ -63,14 +63,14 @@ const theme = createTheme({
           fontSize: "2rem",
           lineHeight: "1.2",
           margin: "3rem 0",
-          fontFamily: "RumbleBrave",
+          fontFamily: "Crimson Text",
           fontWeight: "normal",
         },
         h2: {
           fontSize: "1.7rem",
           lineHeight: "1.2",
           margin: "3rem 0",
-          fontFamily: "RumbleBrave",
+          fontFamily: "Crimson Text",
           fontWeight: "normal",
         },
         h3: {
