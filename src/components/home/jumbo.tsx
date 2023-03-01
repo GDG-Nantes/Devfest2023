@@ -12,9 +12,9 @@ export const HomeJumbo = () => {
       <img
         className="logo-jumbo-home"
         alt="logo"
-        src="/images/logo_transparent.svg"
+        src="/images/logo-orange-transparent.svg"
         height="300"
-        width="500"
+        width="600"
       />
 
       <Typography variant="h1" textAlign="center">
@@ -22,7 +22,11 @@ export const HomeJumbo = () => {
       </Typography>
 
       <Stack direction="column" spacing={2}>
-        <Typography variant="subtitle1" textAlign="center">
+        <Typography
+          variant="h2"
+          textAlign="center"
+          style={{ marginTop: "10px", marginBottom: "25px" }}
+        >
           Code, Dev, et... Action !
         </Typography>
         <Stack direction="row" spacing={3} justifyContent={"center"}>
