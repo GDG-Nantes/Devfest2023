@@ -74,6 +74,10 @@ export const Helmet: React.FC = () => {
   return (
     <ReactHelmet>
       <title>{title}</title>
+      <meta
+        httpEquiv="refresh"
+        content="0; url=https://devfest2022.gdgnantes.com"
+      />
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
