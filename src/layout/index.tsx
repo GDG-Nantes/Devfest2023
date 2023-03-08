@@ -46,6 +46,7 @@ const Layout: React.FC = ({ children }) => {
     console.log("forcedLanguage", forcedLanguage);
     console.log("navigator.language", navigator.language);
     console.log("pathname", pathname, /\/en(\/.*)?/.test(pathname));
+    console.log("window.location", window.location);
     if (!/\/en(\/.*)?/.test(pathname) && current !== navLocale) {
       const prefix = navLocale === "fr" ? "" : "/" + navLocale;
       console.log("redirect to", prefix + pathname);
