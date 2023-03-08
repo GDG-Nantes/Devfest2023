@@ -45,12 +45,13 @@ const Layout: React.FC = ({ children }) => {
     console.log("current", current);
     console.log("forcedLanguage", forcedLanguage);
     console.log("navigator.language", navigator.language);
+    console.log("pathname", pathname, /\/en(\/.*)?/.test(pathname));
     if (!/\/en(\/.*)?/.test(pathname) && current !== navLocale) {
       const prefix = navLocale === "fr" ? "" : "/" + navLocale;
       console.log("redirect to", prefix + pathname);
       window.location.href = prefix + pathname;
     }
-  }, []);
+  }, [pathname, locale]);
 
   const toggleDrawer = (open) => (event) => {
     if (
