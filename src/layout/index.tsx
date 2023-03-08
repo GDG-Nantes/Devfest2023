@@ -33,24 +33,24 @@ const Layout: React.FC = ({ children }) => {
   const { locale } = useLocalization();
   const { pathname } = useLocation();
 
-  // React.useEffect(() => {
-  //   const forcedLanguage = getForcedLanguage();
-  //   const current = locale.substring(0, 2).toLocaleLowerCase();
-  //   const navLocale =
-  //     forcedLanguage ||
-  //     (navigator.language.substring(0, 2).toLocaleLowerCase() !== "fr"
-  //       ? "en"
-  //       : "fr");
-  //   console.log("locale", locale);
-  //   console.log("current", current);
-  //   console.log("forcedLanguage", forcedLanguage);
-  //   console.log("navigator.language", navigator.language);
-  //   if (!/\/en(\/.*)?/.test(pathname) && current !== navLocale) {
-  //     const prefix = navLocale === "fr" ? "" : "/" + navLocale;
-  //     console.log("redirect to", prefix + pathname);
-  //     window.location.assign(prefix + pathname);
-  //   }
-  // });
+  React.useEffect(() => {
+    const forcedLanguage = getForcedLanguage();
+    const current = locale.substring(0, 2).toLocaleLowerCase();
+    const navLocale =
+      forcedLanguage ||
+      (navigator.language.substring(0, 2).toLocaleLowerCase() !== "fr"
+        ? "en"
+        : "fr");
+    console.log("locale", locale);
+    console.log("current", current);
+    console.log("forcedLanguage", forcedLanguage);
+    console.log("navigator.language", navigator.language);
+    if (!/\/en(\/.*)?/.test(pathname) && current !== navLocale) {
+      const prefix = navLocale === "fr" ? "" : "/" + navLocale;
+      console.log("redirect to", prefix + pathname);
+      window.location.assign(prefix + pathname);
+    }
+  }, []);
 
   const toggleDrawer = (open) => (event) => {
     if (
