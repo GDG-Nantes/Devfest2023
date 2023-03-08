@@ -47,10 +47,10 @@ const Layout: React.FC = ({ children }) => {
     console.log("navigator.language", navigator.language);
     console.log("pathname", pathname, /\/en(\/.*)?/.test(pathname));
     console.log("window.location", window.location);
-    if (!/\/en(\/.*)?/.test(pathname) && current !== navLocale) {
+    if (!/\/en(\/.*)?/.test(window.location.href) && current !== navLocale) {
       const prefix = navLocale === "fr" ? "" : "/" + navLocale;
-      console.log("redirect to", prefix + pathname);
-      window.location.href = prefix + pathname;
+      console.log("redirect to", prefix + window.location.href);
+      window.location.href = prefix + window.location.href;
     }
   }, [pathname, locale]);
 
