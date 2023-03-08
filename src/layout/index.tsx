@@ -41,8 +41,13 @@ const Layout: React.FC = ({ children }) => {
       (navigator.language.substring(0, 2).toLocaleLowerCase() !== "fr"
         ? "en"
         : "fr");
+    console.log("locale", locale);
+    console.log("current", current);
+    console.log("forcedLanguage", forcedLanguage);
+    console.log("navigator.language", navigator.language);
     if (!/\/en(\/.*)?/.test(pathname) && current !== navLocale) {
-      const prefix = navLocale == "/fr" ? "" : "/" + navLocale;
+      const prefix = navLocale === "fr" ? "" : "/" + navLocale;
+      console.log("redirect to", prefix + pathname);
       window.location.assign(prefix + pathname);
     }
   });
