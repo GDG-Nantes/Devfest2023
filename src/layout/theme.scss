@@ -13,7 +13,8 @@ body {
   --tertiary: #fcefb2;
   --tertiary-dark: #f9e075;
 
-  background-color: var(--primary-dark);
+  background-color: var(--primary-dark) !important;
+
   &:before {
     content: "";
     position: absolute;
@@ -58,30 +59,29 @@ a {
 }
 
 .bande-film-top {
-  padding-top: 20px;
+  margin-top: 25px;
 
   &::before {
     background-image: url("/images/bande-film.svg");
     content: "";
     height: 50px;
     width: 100%;
-    margin-top: -10px;
+    margin-top: -25px;
     background-repeat: repeat-x;
     position: absolute;
   }
 }
 
 .bande-film-bottom {
-  padding-bottom: 20px;
+  margin-bottom: 25px;
 
   &::after {
     background-image: url("/images/bande-film.svg");
     content: "";
     height: 50px;
     width: 100%;
-    margin-bottom: 10px;
     background-repeat: repeat-x;
     position: absolute;
-    bottom: 0;
+    bottom: -25px;
   }
 }
