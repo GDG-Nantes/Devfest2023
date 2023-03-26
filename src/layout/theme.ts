@@ -1,7 +1,8 @@
 import { createTheme } from "@mui/material";
 import "./theme.scss";
 
-const primary = "#1a213d";
+// const primary = "#1a213d";
+const primary = "#d14f34";
 const secondary = "#d14f34";
 // const primary = "#c14d32";
 // const secondary = "#36666a";
@@ -15,7 +16,8 @@ const theme = createTheme({
       main: secondary,
     },
     background: {
-      default: "#fff",
+      default: "transparent",
+      // default: "#fff",
     },
     text: {
       primary: "#fff",

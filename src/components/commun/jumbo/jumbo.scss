@@ -7,8 +7,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--primary);
-
+  background: transparent;
+  // background: var(--primary);
   .jumbo-content {
     display: flex;
     flex-direction: column;

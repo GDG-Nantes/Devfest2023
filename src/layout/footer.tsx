@@ -97,7 +97,7 @@ export const Footer: React.FC = () => {
   ];
 
   return (
-    <footer>
+    <footer className="bande-film-top">
       <Container className={"section"}>
         <Grid container rowSpacing={isMobileOrTablet ? 5 : 10}>
           <FooterItem title={t("follow")} size="half">
