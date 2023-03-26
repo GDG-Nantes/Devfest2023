@@ -8,8 +8,8 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "start": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
@@ -56,6 +56,7 @@
   "devDependencies": {
     "@types/mdx": "^2.0.1",
     "@types/mdx-js__react": "^1.5.5",
+    "@types/node": "^18.15.10",
     "@types/react-helmet": "^6.1.5",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
@@ -72,6 +73,7 @@
     "remark-preset-github": "^4.0.4",
     "remark-preset-lint-markdown-style-guide": "^5.1.2",
     "schema-dts": "^1.1.0",
-    "typescript": "^4.6.4"
+    "typescript": "^4.6.4",
+    "webpack-filter-warnings-plugin": "^1.2.1"
   }
 }

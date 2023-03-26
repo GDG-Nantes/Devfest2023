@@ -29,7 +29,8 @@ export const Hero: React.FC<{ background?: string; title: string }> = ({
   const style = backgroundImage
     ? { backgroundImage: `url(${backgroundImage})` }
     : {
-        background: `var(--primary)`,
+        background: `transparent`,
+        // background: `var(--primary)`,
       };
   return (
     <div className="hero" style={style}>

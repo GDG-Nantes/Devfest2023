@@ -28,26 +28,27 @@
     padding: 2rem 5vw;
   }
 
-  &.primary {
-    background-color: var(--primary);
-  }
-  &.primary-dark {
-    background-color: var(--primary-dark);
-  }
-  &.secondary {
-    background-color: var(--secondary);
-    color: white;
-  }
-  &.tertiary {
-    background-color: var(--tertiary);
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p {
-      color: var(--primary);
-    }
-  }
+  // background-color: transparent;
+  // &.primary {
+  //   background-color: var(--primary);
+  // }
+  // &.primary-dark {
+  //   background-color: var(--primary-dark);
+  // }
+  // &.secondary {
+  //   background-color: var(--secondary);
+  //   color: white;
+  // }
+  // &.tertiary {
+  //   background-color: var(--tertiary);
+  //   h1,
+  //   h2,
+  //   h3,
+  //   h4,
+  //   h5,
+  //   h6,
+  //   p {
+  //     color: var(--primary);
+  //   }
+  // }
 }
