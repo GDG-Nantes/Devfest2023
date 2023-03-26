@@ -3,7 +3,6 @@ import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import { Helmet as ReactHelmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
-import { Event, WithContext } from "schema-dts";
 import { MENU } from "../navbar-menu";
 
 export const Helmet: React.FC = () => {
@@ -89,6 +88,7 @@ export const Helmet: React.FC = () => {
       {/*<script type="application/ld+json">*/}
       {/*  {JSON.stringify(eventGoogleData)}*/}
       {/*</script>*/}
+      <script src="/scripts/redirect-language.js" />
     </ReactHelmet>
   );
 };
