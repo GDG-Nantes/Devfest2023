@@ -40,21 +40,6 @@ const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Helmet />
-      <script
-        dangerouslySetInnerHtml={`
-        const forcedLanguage = localStorage.getItem("forcedLanguage");
-        const current = /\\/en(\\/.*)?/.test(window.location.pathname) ? "en" : "fr";
-        const navLocale = forcedLanguage || (navigator.language.substring(0, 2).toLocaleLowerCase() !== "fr" ? "en" : "fr");
-        console.log("window.location.pathname", window.location.pathname);
-        console.log("current", current);
-        console.log("forcedLanguage", forcedLanguage);
-        console.log("navigator.language", navigator.language);
-        if ( !/\\/en(\\/.*)?/.test(window.location.pathname) && current !== navLocale) {
-          const prefix = navLocale === "fr" ? "" : "/" + navLocale;
-          console.log("redirect to", prefix + window.location.pathname);
-          window.location.pathname = prefix + window.location.pathname;
-        }`}
-      ></script>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Topbar toggleDrawer={toggleDrawer} logo="/images/logo-long-bleu.svg" />

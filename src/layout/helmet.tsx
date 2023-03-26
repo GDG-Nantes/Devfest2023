@@ -3,7 +3,6 @@ import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import { Helmet as ReactHelmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
-import { Event, WithContext } from "schema-dts";
 import { MENU } from "../navbar-menu";
 
 export const Helmet: React.FC = () => {
@@ -89,6 +88,21 @@ export const Helmet: React.FC = () => {
       {/*<script type="application/ld+json">*/}
       {/*  {JSON.stringify(eventGoogleData)}*/}
       {/*</script>*/}
+      <script
+        dangerouslySetInnerHtml={`
+        const forcedLanguage = localStorage.getItem("forcedLanguage");
+        const current = /\\/en(\\/.*)?/.test(window.location.pathname) ? "en" : "fr";
+        const navLocale = forcedLanguage || (navigator.language.substring(0, 2).toLocaleLowerCase() !== "fr" ? "en" : "fr");
+        console.log("window.location.pathname", window.location.pathname);
+        console.log("current", current);
+        console.log("forcedLanguage", forcedLanguage);
+        console.log("navigator.language", navigator.language);
+        if ( !/\\/en(\\/.*)?/.test(window.location.pathname) && current !== navLocale) {
+          const prefix = navLocale === "fr" ? "" : "/" + navLocale;
+          console.log("redirect to", prefix + window.location.pathname);
+          window.location.pathname = prefix + window.location.pathname;
+        }`}
+      ></script>
     </ReactHelmet>
   );
 };
