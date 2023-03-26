@@ -38,14 +38,6 @@ export const HomeJumbo = () => {
           >
             {t("previous")}
           </Button>
-          <Button
-            color="secondary"
-            variant="contained"
-            href="https://www.billetweb.fr/partenaire-devfest-nantes"
-            aria-label={t("previous")}
-          >
-            Devenir Sponsor
-          </Button>
         </Stack>
       </Stack>
     </>

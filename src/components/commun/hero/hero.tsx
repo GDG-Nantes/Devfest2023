@@ -4,11 +4,9 @@ import { getSrc } from "gatsby-plugin-image";
 import React, { useMemo } from "react";
 import "./hero.scss";
 
-export const Hero: React.FC<{ background?: string; title: string }> = ({
-  background,
-  title,
-  children,
-}) => {
+export const Hero: React.FC<
+  React.PropsWithChildren<{ background?: string; title: string }>
+> = ({ background, title, children }) => {
   const { allFile } = useStaticQuery(graphql`
     query {
       allFile(filter: { relativePath: { glob: "backgrounds/*" } }) {

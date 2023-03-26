@@ -148,11 +148,13 @@ export const Footer: React.FC = () => {
   );
 };
 
-const FooterItem: React.FC<{
-  title?: string;
-  links?: FooterLink[];
-  size?: "half" | "fourth" | "full";
-}> = ({ children, title, links, size = "fourth" }) => {
+const FooterItem: React.FC<
+  React.PropsWithChildren<{
+    title?: string;
+    links?: FooterLink[];
+    size?: "half" | "fourth" | "full";
+  }>
+> = ({ children, title, links, size = "fourth" }) => {
   const mediaSize: { xs?: number; sm?: number; lg?: number } =
     size == "half"
       ? { xs: 12, sm: 6 }

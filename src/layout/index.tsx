@@ -24,7 +24,7 @@ import "./layout.scss";
 import { CustomMDXProvider } from "./mdx";
 import theme from "./theme";
 
-const Layout: React.FC = ({ children }) => {
+const Layout: React.FC<React.PropsWithChildren> = ({ children }) => {
   const [isOpen, setDrawerOpen] = React.useState(false);
 
   const toggleDrawer = (open) => (event) => {

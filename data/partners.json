@@ -1,34 +1,24 @@
 {
   "platinium": [
     {
+      "title": "Apside",
+      "id": "apside",
+      "website": "https://www.apside.com/"
+    },
+    {
+      "title": "ASI",
+      "id": "asi",
+      "website": "https://www.asi.fr/"
+    },
+    {
+      "title": "Aubay",
+      "id": "aubay",
+      "website": "https://www.aubay.com/"
+    },
+    {
       "title": "Bouygues Telecom",
       "id": "bouygues-telecom",
       "website": "https://www.bouyguestelecom.fr/"
-    },
-    {
-      "title": "Capgemini",
-      "id": "capgemini",
-      "website": "https://www.capgemini.com/"
-    },
-    {
-      "title": "Conserto",
-      "id": "conserto",
-      "website": "https://conserto.pro/"
-    },
-    {
-      "title": "Microsoft",
-      "id": "microsoft",
-      "website": "https://www.microsoft.com/"
-    },
-    {
-      "title": "Onepoint",
-      "id": "onepoint",
-      "website": "https://www.groupeonepoint.com/"
-    },
-    {
-      "title": "OVH",
-      "id": "ovh",
-      "website": "https://www.ovhcloud.com/fr/"
     },
     {
       "title": "Proginov",
@@ -36,19 +26,14 @@
       "website": "https://www.proginov.com/"
     },
     {
-      "title": "Sercel",
-      "id": "sercel",
-      "website": "https://www.sercel.com/"
-    },
-    {
       "title": "SFEIR",
       "id": "sfeir",
       "website": "https://www.sfeir.com/"
     },
     {
-      "title": "Shopopop",
-      "id": "shopopop",
-      "website": "https://www.shopopop.com/"
+      "title": "Zenika",
+      "id": "zenika",
+      "website": "https://www.zenika.com/"
     },
     {
       "title": "Sopra Stéria",
@@ -56,36 +41,46 @@
       "website": "https://www.soprasteria.fr/"
     },
     {
-      "title": "Thales",
-      "id": "thales",
-      "website": "https://www.thalesgroup.com"
+      "title": "Wescale",
+      "id": "wescale",
+      "website": "https://www.wescale.fr/"
     },
     {
-      "title": "U GIE IRIS",
-      "id": "u-gie-iris",
+      "title": "U IRIS",
+      "id": "u-iris",
       "website": "https://ugieiris.fr/"
     },
     {
-      "title": "Valeuriad",
-      "id": "valeuriad",
-      "website": "https://www.valeuriad.fr/"
+      "title": "Onepoint",
+      "id": "onepoint",
+      "website": "https://www.groupeonepoint.com/"
     },
     {
-      "title": "Zenika",
-      "id": "zenika",
-      "website": "https://www.zenika.com/"
+      "title": "Ippon",
+      "id": "ippon",
+      "website": "https://fr.ippon.tech/"
+    },
+    {
+      "title": "Thales",
+      "id": "thales",
+      "website": "https://www.thalesgroup.com"
     }
   ],
   "gold": [
     {
-      "title": "Aubay",
-      "id": "aubay",
-      "website": "https://www.aubay.com/"
+      "title": "Capgemini",
+      "id": "capgemini",
+      "website": "https://www.capgemini.com/"
     },
     {
-      "title": "Audensiel",
-      "id": "audensiel",
-      "website": "https://www.audensiel.com/"
+      "title": "OVH",
+      "id": "ovh",
+      "website": "https://www.ovhcloud.com/fr/"
+    },
+    {
+      "title": "Shopopop",
+      "id": "shopopop",
+      "website": "https://www.shopopop.com/"
     },
     {
       "title": "Cat Amania",
@@ -93,9 +88,14 @@
       "website": "https://www.cat-amania.com/"
     },
     {
-      "title": "Creative",
-      "id": "creative",
-      "website": "https://www.groupe-creative.fr/"
+      "title": "Daveo",
+      "id": "daveo",
+      "website": "https://www.daveo.fr/"
+    },
+    {
+      "title": "Davidson",
+      "id": "davidson",
+      "website": "https://www.davidson.fr/"
     },
     {
       "title": "Delia Technologies",
@@ -103,24 +103,24 @@
       "website": "https://www.delia.tech/"
     },
     {
-      "title": "Eleven Labs",
-      "id": "eleven-labs",
-      "website": "https://eleven-labs.com/"
-    },
-    {
       "title": "Epitech",
       "id": "epitech",
       "website": "https://www.epitech.eu/"
     },
     {
-      "title": "Gatling",
-      "id": "gatling",
-      "website": "https://gatling.io/"
+      "title": "Elephant Technologies",
+      "id": "elephant-technologies",
+      "website": "https://www.elephant-technologies.fr/"
     },
     {
-      "title": "Infotel Conseil",
-      "id": "infotel-conseil",
-      "website": "https://www.infotel.com/"
+      "title": "Gens de Confiance",
+      "id": "gens-de-confiance",
+      "website": "https://gensdeconfiance.com/fr/"
+    },
+    {
+      "title": "Google",
+      "id": "google",
+      "website": "https://developers.google.com/"
     },
     {
       "title": "ISILOG",
@@ -128,24 +128,34 @@
       "website": "https://www.isilog.fr/"
     },
     {
+      "title": "Inetum",
+      "id": "inetum",
+      "website": "https://www.inetum.com/fr"
+    },
+    {
       "title": "Kaïbee",
       "id": "kaibee",
       "website": "https://kaibee.fr/"
     },
     {
-      "title": "Maisons Du Monde",
-      "id": "maisons-du-monde",
-      "website": "https://www.maisonsdumonde.com/"
-    },
-    {
-      "title": "Mapal OS",
-      "id": "mapal-os",
-      "website": "https://mapal-os.com/"
+      "title": "Lucca",
+      "id": "lucca",
+      "website": "https://www.lucca.fr/"
     },
     {
       "title": "Neosoft",
       "id": "neosoft",
       "website": "https://www.neo-soft.fr/"
+    },
+    {
+      "title": "Open",
+      "id": "open",
+      "website": "https://www.open.global/fr"
+    },
+    {
+      "title": "Orange Business",
+      "id": "orange-business",
+      "website": "https://www.orange-business.com/fr"
     },
     {
       "title": "RCA",
@@ -158,24 +168,29 @@
       "website": "https://shodo.io/"
     },
     {
-      "title": "SII",
+      "title": "SNCF Connect And Tech",
+      "id": "sncf",
+      "website": "https://jobs.connect-tech.sncf/"
+    },
+    {
+      "title": "Smart AdServer",
+      "id": "smart-adserver",
+      "website": "https://smartadserver.fr/"
+    },
+    {
+      "title": "Smartway",
+      "id": "smartway",
+      "website": "https://smartway.ai/"
+    },
+    {
+      "title": "SII Atlantique",
       "id": "sii",
-      "website": "https://sii-group.com/"
+      "website": "https://sii-group.com/fr-FR/sii-atlantique"
     },
     {
       "title": "Smile",
       "id": "smile",
       "website": "https://www.smile.eu/"
-    },
-    {
-      "title": "Talend",
-      "id": "talend",
-      "website": "https://www.talend.com/"
-    },
-    {
-      "title": "Voyage Privé",
-      "id": "voyage-prive",
-      "website": "https://www.voyage-prive.com/"
     },
     {
       "title": "Younup",
@@ -190,14 +205,14 @@
   ],
   "virtual": [
     {
-      "title": "The Fork",
-      "id": "thefork",
-      "website": "https://www.thefork.fr/"
+      "title": "Cegid",
+      "id": "cegid",
+      "website": "https://www.cegid.com/fr/"
     },
     {
-      "title": "OXiane Bretagne",
-      "id": "oxiane-bretagne",
-      "website": "https://www.oxiane.bzh/"
+      "title": "Positive Thinking Company",
+      "id": "positive-thinking-company",
+      "website": "https://positivethinking.tech/"
     },
     {
       "title": "Leboncoin",
@@ -205,14 +220,14 @@
       "website": "https://www.leboncoin.fr/"
     },
     {
-      "title": "ACCAB",
-      "id": "accab",
-      "website": "https://accab.fr/"
+      "title": "Eurofins",
+      "id": "eurofins",
+      "website": "https://www.eurofins.fr/"
     },
     {
-      "title": "Amaris",
-      "id": "amaris",
-      "website": "https://www.amaris.com/"
+      "title": "MobalB",
+      "id": "modalb",
+      "website": "https://www.modalbgroup.com/"
     }
   ]
 }

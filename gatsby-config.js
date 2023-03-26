@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://devfest.gdgnantes.com",
+    siteUrl: "https://devfest2023.gdgnantes.com",
     title: "Devfest Nantes 2023",
     image: "/images/social-share.jpg",
   },

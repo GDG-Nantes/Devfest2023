@@ -2,13 +2,15 @@ import classNames from "classnames";
 import React, { CSSProperties } from "react";
 import "./section.scss";
 
-export const DefaultSection: React.FC<{
-  variant?: "primary" | "primary-dark" | "secondary" | "tertiary";
-  slim?: boolean;
-  padding?: "normal" | "none" | "small";
-  style?: CSSProperties;
-  className?: string;
-}> = ({
+export const DefaultSection: React.FC<
+  React.PropsWithChildren<{
+    variant?: "primary" | "primary-dark" | "secondary" | "tertiary";
+    slim?: boolean;
+    padding?: "normal" | "none" | "small";
+    style?: CSSProperties;
+    className?: string;
+  }>
+> = ({
   children,
   variant = "primary",
   slim,
@@ -30,12 +32,14 @@ export const DefaultSection: React.FC<{
   </div>
 );
 
-type Section = React.FC<{
-  slim?: boolean;
-  padding?: "normal" | "none" | "small";
-  style?: CSSProperties;
-  className?: string;
-}>;
+type Section = React.FC<
+  React.PropsWithChildren<{
+    slim?: boolean;
+    padding?: "normal" | "none" | "small";
+    style?: CSSProperties;
+    className?: string;
+  }>
+>;
 
 export const SecondarySection: Section = ({ children, ...props }) => (
   <DefaultSection variant="secondary" {...props}>
