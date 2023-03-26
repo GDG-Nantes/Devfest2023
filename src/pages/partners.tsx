@@ -8,7 +8,7 @@ const PartnersPage = () => {
   const { t } = useTranslation("translation", { keyPrefix: "pages.partners" });
   return (
     <Layout>
-      <DefaultPage title={t("name")} noHero>
+      <DefaultPage title={t("name")}>
         <Partners />
       </DefaultPage>
     </Layout>

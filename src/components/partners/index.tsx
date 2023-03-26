@@ -75,8 +75,12 @@ export const Partners: React.FC<{
             <Typography
               variant="h2"
               align="center"
-              fontSize="40px"
-              style={{ marginBottom: "50px" }}
+              color="secondary"
+              style={{
+                marginBottom: "50px",
+                fontSize: "60px",
+                textTransform: "capitalize",
+              }}
             >
               {onlyPlatinium ? t("platinium-partners") : typePartner}
             </Typography>
