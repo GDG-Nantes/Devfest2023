@@ -36,15 +36,13 @@ export const mdxComponents = {
   ...components,
 };
 
-export const CustomMDXProvider: React.FC = ({ children }) => (
-  <MDXProvider components={mdxComponents}>{children}</MDXProvider>
-);
-
-const MDXPageLayout: React.FC<{ metadata?: PageConfig }> = ({
+export const CustomMDXProvider: React.FC<React.PropsWithChildren> = ({
   children,
-  metadata,
-  ...props
-}) => (
+}) => <MDXProvider components={mdxComponents}>{children}</MDXProvider>;
+
+const MDXPageLayout: React.FC<
+  React.PropsWithChildren<{ metadata?: PageConfig }>
+> = ({ children, metadata, ...props }) => (
   <Layout>
     <DefaultPage {...metadata} {...props}>
       {children}

@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "generate": "json2ts -i json_schemas/*.json -o json_schemas/interfaces/",
+    "generate": "json2ts -i 'json_schemas/*.json' -o json_schemas/interfaces/",
     "postinstall": "npm run generate"
   },
   "dependencies": {

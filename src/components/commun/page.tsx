@@ -11,7 +11,7 @@ export type PageConfig = {
   noHero?: boolean;
 };
 
-export const DefaultPage: React.FC<PageConfig> = ({
+export const DefaultPage: React.FC<React.PropsWithChildren<PageConfig>> = ({
   children,
   title,
   jumbo: JumboContent,
