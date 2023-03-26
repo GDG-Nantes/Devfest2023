@@ -12,12 +12,9 @@ import {
   Toolbar,
 } from "@mui/material";
 import { Box } from "@mui/system";
-import { useLocation } from "@gatsbyjs/reach-router";
-import { graphql, useStaticQuery } from "gatsby";
-import { useLocalization } from "gatsby-theme-i18n";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { getForcedLanguage, ToggleLanguage } from "../helpers/i18n";
+import { ToggleLanguage } from "../helpers/i18n";
 import { MyLink } from "../helpers/links";
 import { MENU } from "../navbar-menu";
 import "./accessibility.scss";
@@ -43,8 +40,8 @@ const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Helmet />
-      <script>
-        {`
+      <script
+        dangerouslySetInnerHtml={`
         const forcedLanguage = localStorage.getItem("forcedLanguage");
         const current = /\\/en(\\/.*)?/.test(window.location.pathname) ? "en" : "fr";
         const navLocale = forcedLanguage || (navigator.language.substring(0, 2).toLocaleLowerCase() !== "fr" ? "en" : "fr");
@@ -57,7 +54,7 @@ const Layout: React.FC = ({ children }) => {
           console.log("redirect to", prefix + window.location.pathname);
           window.location.pathname = prefix + window.location.pathname;
         }`}
-      </script>
+      ></script>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Topbar toggleDrawer={toggleDrawer} logo="/images/logo-long-bleu.svg" />
