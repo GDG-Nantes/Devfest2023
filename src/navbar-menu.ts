@@ -35,7 +35,7 @@ export const MENU: Array<MenuItem> = [
   // },
   {
     label: "📣 CFP",
-    link: "https://conference-hall.io/organizer/event/z5FSBfmwJSUWb4UO9hD4",
+    link: "https://conference-hall.io/public/event/z5FSBfmwJSUWb4UO9hD4",
   },
   // {
   //   label: "Tickets",

@@ -38,6 +38,14 @@ export const HomeJumbo = () => {
           >
             {t("previous")}
           </Button>
+          <Button
+            color="secondary"
+            variant="contained"
+            href="https://conference-hall.io/public/event/z5FSBfmwJSUWb4UO9hD4"
+            aria-label={t("cfp")}
+          >
+            {t("cfp")}
+          </Button>
         </Stack>
       </Stack>
     </>
