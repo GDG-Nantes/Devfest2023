@@ -5,16 +5,18 @@
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: transparent;
+  position: relative;
   // background: var(--primary);
   .jumbo-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-height: 75vh;
-    max-width: 100%;
+    height: 90%;
+    width: 100%;
   }
 }

@@ -9,44 +9,42 @@ export const HomeJumbo = () => {
 
   return (
     <>
-      <img
-        className="logo-jumbo-home"
-        alt="logo"
-        src="/images/logo_transparent.svg"
-        height="300"
-        width="600"
-      />
+      <div className="logo-jumbo-home">
+        <img
+          alt="logo"
+          src="/images/logo_transparent.svg"
+          height="300"
+          width="600"
+        />
+      </div>
 
       <Typography variant="h1" textAlign="center">
         {t("date")}
       </Typography>
-
-      <Stack direction="column" spacing={2}>
-        <Typography
-          variant="h2"
-          textAlign="center"
-          style={{ marginTop: "10px", marginBottom: "25px" }}
+      <Typography
+        variant="h2"
+        textAlign="center"
+        style={{ marginTop: "10px", marginBottom: "25px" }}
+      >
+        Code, Dev, et... Action !
+      </Typography>
+      <Stack direction="row" spacing={3} justifyContent={"center"}>
+        <Button
+          color="secondary"
+          variant="contained"
+          href="https://devfest2022.gdgnantes.com"
+          aria-label={t("previous")}
         >
-          Code, Dev, et... Action !
-        </Typography>
-        <Stack direction="row" spacing={3} justifyContent={"center"}>
-          <Button
-            color="secondary"
-            variant="contained"
-            href="https://devfest2022.gdgnantes.com"
-            aria-label={t("previous")}
-          >
-            {t("previous")}
-          </Button>
-          <Button
-            color="secondary"
-            variant="contained"
-            href="https://conference-hall.io/public/event/z5FSBfmwJSUWb4UO9hD4"
-            aria-label={t("cfp")}
-          >
-            {t("cfp")}
-          </Button>
-        </Stack>
+          {t("previous")}
+        </Button>
+        <Button
+          color="secondary"
+          variant="contained"
+          href="https://conference-hall.io/public/event/z5FSBfmwJSUWb4UO9hD4"
+          aria-label={t("cfp")}
+        >
+          {t("cfp")}
+        </Button>
       </Stack>
     </>
   );
