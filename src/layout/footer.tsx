@@ -134,12 +134,12 @@ export const Footer: React.FC = () => {
           <FooterItem size="full">
             <div>
               <img
-                src="/images/logo_transparent.svg"
+                src="/images/logo-long-orange.svg"
                 alt="logo devfest"
                 height="50"
                 width="150"
               />
-              <p>{t("organizers")}</p>
+              <p style={{ marginTop: "5px" }}>{t("organizers")}</p>
             </div>
           </FooterItem>
         </Grid>

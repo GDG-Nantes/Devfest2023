@@ -42,7 +42,10 @@ const Layout: React.FC<React.PropsWithChildren> = ({ children }) => {
       <Helmet />
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Topbar toggleDrawer={toggleDrawer} logo="/images/logo-long-bleu.svg" />
+        <Topbar
+          toggleDrawer={toggleDrawer}
+          logo="/images/logo-long-bleu-blanc.svg"
+        />
 
         <BarMenu isOpen={isOpen} toggleDrawer={toggleDrawer} />
         <CustomMDXProvider>{children}</CustomMDXProvider>
@@ -112,7 +115,11 @@ const BarMenu: React.FC<{
     >
       <List>
         <ListItemButton
-          style={{ height: "50px", justifyContent: "end", marginRight: "20px" }}
+          style={{
+            height: "50px",
+            justifyContent: "end",
+            marginRight: "20px",
+          }}
         >
           <IconButton aria-label="close menu">
             <CloseRounded />
