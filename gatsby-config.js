@@ -39,16 +39,16 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "static/images/favicon.jpg",
+        icon: "static/images/maskable_icon.png",
         icon_options: {
           purpose: `any maskable`,
         },
         name: `Devfest Nantes 2023`,
         short_name: `Devfest Nantes`,
         start_url: `/`,
-        background_color: `#ffedbf`,
-        theme_color: `#ffedbf`,
-        display: `minimal-ui`,
+        background_color: `#0e1324`,
+        theme_color: `#22263f`,
+        display: `standalone`,
         description: `Informations générales sur le Devfest Nantes`,
         lang: `fr`,
         localize: [
