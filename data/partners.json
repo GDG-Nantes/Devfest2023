@@ -21,6 +21,11 @@
       "website": "https://www.bouyguestelecom.fr/"
     },
     {
+      "title": "BPCE Solutions Informatiques",
+      "id": "bpce",
+      "website": "https://www.bpce-si.fr/"
+    },
+    {
       "title": "Proginov",
       "id": "proginov",
       "website": "https://www.proginov.com/"
@@ -210,9 +215,9 @@
       "website": "https://www.cegid.com/fr/"
     },
     {
-      "title": "Positive Thinking Company",
-      "id": "positive-thinking-company",
-      "website": "https://positivethinking.tech/"
+      "title": "Amaris",
+      "id": "amaris",
+      "website": "https://www.amaris.com/"
     },
     {
       "title": "Leboncoin",

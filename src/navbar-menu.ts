@@ -15,11 +15,11 @@ export const MENU: Array<MenuItem> = [
   // },
   {
     label: "team",
-    link: "/team",
+    link: "/team/",
   },
   {
     label: "partners",
-    link: "/partners",
+    link: "/partners/",
   },
   // {
   //   label: "blog",
