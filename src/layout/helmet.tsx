@@ -79,7 +79,7 @@ export const Helmet: React.FC = () => {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={helmet.site.siteMetadata.siteUrl} />
-      <meta property="og:image" content={socialImage} />
+      <meta name="image" property="og:image" content={socialImage} />
       <meta property="og:site_name" content={helmet.site.siteMetadata.title} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content={socialImage} />
