@@ -115,4 +115,5 @@ module.exports = {
     //   },
     // },
   ],
+  trailingSlash: "never",
 };

@@ -8,7 +8,7 @@ import { MENU } from "../navbar-menu";
 
 export const Helmet: React.FC = () => {
   const { t } = useTranslation();
-  const { pathname } = useLocation();
+  const { pathname, href } = useLocation();
 
   const helmet = useStaticQuery(graphql`
     query {
@@ -85,6 +85,8 @@ export const Helmet: React.FC = () => {
       <meta name="twitter:image" content={socialImage} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
+
+      <link rel="canonical" href={href.replace(/\/$/, "")} />
 
       <script type="application/ld+json">
         {JSON.stringify(eventGoogleData)}
