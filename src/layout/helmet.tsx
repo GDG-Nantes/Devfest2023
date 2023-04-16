@@ -86,8 +86,6 @@ export const Helmet: React.FC = () => {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
 
-      {/*<link rel="canonical" href={href.replace(/\/$/, "")} />*/}
-
       <script type="application/ld+json">
         {JSON.stringify(eventGoogleData)}
       </script>

@@ -15,8 +15,6 @@ handlers:
     static_files: \1
     upload: (.*)
     secure: always
-    http_headers:
-      cache-control: no-store
 
     # The rest are folders
   - url: /(.*)/

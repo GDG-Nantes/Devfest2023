@@ -11,6 +11,12 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-graphql-config",
     {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://devfest2023.gdgnantes.com`,
+      },
+    },
+    {
       resolve: `gatsby-theme-i18n`,
       options: {
         defaultLang: `fr`,
@@ -67,7 +73,7 @@ module.exports = {
         ],
       },
     },
-    // "gatsby-plugin-offline",
+    "gatsby-plugin-offline",
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -115,5 +121,5 @@ module.exports = {
     //   },
     // },
   ],
-  trailingSlash: "never",
+  trailingSlash: "always",
 };
