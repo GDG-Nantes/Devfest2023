@@ -34,11 +34,11 @@ export const MENU: Array<MenuItem> = [
   //   link: "/jobs",
   // },
   {
+    label: "Tickets",
+    link: "https://www.billetweb.fr/devfest-Nantes",
+  },
+  {
     label: "📣 CFP",
     link: "https://conference-hall.io/public/event/z5FSBfmwJSUWb4UO9hD4",
   },
-  // {
-  //   label: "Tickets",
-  //   link: "https://www.billetweb.fr/devfest-Nantes",
-  // },
 ];
