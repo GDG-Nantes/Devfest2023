@@ -28,23 +28,43 @@ export const HomeJumbo = () => {
       >
         Code, Dev, et... Action !
       </Typography>
-      <Stack direction="row" spacing={3} justifyContent={"center"}>
-        <Button
-          color="secondary"
-          variant="contained"
-          href="https://devfest2022.gdgnantes.com"
-          aria-label={t("previous")}
-        >
-          {t("previous")}
-        </Button>
-        <Button
-          color="secondary"
-          variant="contained"
-          href="https://conference-hall.io/public/event/z5FSBfmwJSUWb4UO9hD4"
-          aria-label={t("cfp")}
-        >
-          {t("cfp")}
-        </Button>
+      <Stack direction="column" spacing={3}>
+        <Stack direction="row" spacing={3} justifyContent={"center"}>
+          <Button
+            color="secondary"
+            variant="contained"
+            href="https://devfest2022.gdgnantes.com"
+            aria-label={t("previous")}
+          >
+            {t("previous")}
+          </Button>
+          <Button
+            color="secondary"
+            variant="contained"
+            href="https://conference-hall.io/public/event/z5FSBfmwJSUWb4UO9hD4"
+            aria-label={t("cfp")}
+          >
+            {t("cfp")}
+          </Button>
+        </Stack>
+        <Stack direction="row" spacing={3} justifyContent={"center"}>
+          <Button
+            color="secondary"
+            variant="contained"
+            href="https://www.billetweb.fr/partenaire-devfest-nantes"
+            aria-label="Devenir Sponsor"
+          >
+            Devenir Sponsor
+          </Button>
+          <Button
+            color="secondary"
+            variant="contained"
+            href="https://www.billetweb.fr/devfest-nantes"
+            aria-label="Billetterie"
+          >
+            Billetterie
+          </Button>
+        </Stack>
       </Stack>
     </>
   );
