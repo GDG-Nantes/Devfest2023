@@ -23,13 +23,13 @@ const HomeContent = () => {
   const { t } = useTranslation("translation");
   return (
     <>
-      <SecondarySection>
+      <PrimarySection>
         <Typography variant="h1">{t("pages.home.what-is")}</Typography>
         <Typography variant="body1">{t("site.description")}</Typography>
         <Typography variant="body1">{t("site.theme")}</Typography>
         <DevfestNumbers />
         <Youtube id="BQuRJJZ9lLM" title="AfterMovie 2022" />
-      </SecondarySection>
+      </PrimarySection>
       <PlanCite />
       <HomeMap />
       {/*<DefaultSection variant="primary-dark" className="home-speakers">*/}
