@@ -1,10 +1,8 @@
 import { AccessibilityNew } from "@mui/icons-material";
-import { Grid, Stack, Typography } from "@mui/material";
-import { t } from "i18next";
+import { Grid, IconButton, Stack, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { MyLink } from "../../helpers/links";
-import { IconButton } from "gatsby-theme-material-ui";
 
 export const DevfestNumbers = () => {
   const { t } = useTranslation("translation", {
@@ -36,7 +34,7 @@ export const DevfestNumbers = () => {
       <Grid item minWidth={100} xs={6} sm={6} md={4} lg={2}>
         <MyLink to="/our-values">
           <Stack textAlign="center" alignItems="center">
-            <IconButton aria-label="people icon">            
+            <IconButton aria-label="people icon" component="label">            
               <AccessibilityNew sx={{ fontSize: 60 }}></AccessibilityNew>
             </IconButton>
             <p>{t("our-values")}</p>
