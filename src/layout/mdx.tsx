@@ -29,7 +29,7 @@ export const mdxComponents = {
   h6: ({ children }) => <Typography variant="h6">{children}</Typography>,
   p: ({ children }) => <Typography>{children}</Typography>,
   a: ({ href, children, ...props }) => (
-    <MyLink to={href} {...props}>
+    <MyLink className="md-link" to={href} {...props}>
       {children}
     </MyLink>
   ),
