@@ -31,6 +31,11 @@
       "website": "https://www.proginov.com/"
     },
     {
+      "title": "Google",
+      "id": "google",
+      "website": "https://developers.google.com/"
+    },
+    {
       "title": "SFEIR",
       "id": "sfeir",
       "website": "https://www.sfeir.com/"
@@ -121,11 +126,6 @@
       "title": "Gens de Confiance",
       "id": "gens-de-confiance",
       "website": "https://gensdeconfiance.com/fr/"
-    },
-    {
-      "title": "Google",
-      "id": "google",
-      "website": "https://developers.google.com/"
     },
     {
       "title": "ISILOG",
@@ -233,6 +233,13 @@
       "title": "MobalB",
       "id": "modalb",
       "website": "https://www.modalbgroup.com/"
+    }
+  ],
+  "partners": [
+    {
+      "title": "Nantes Metropole",
+      "id": "nantes-metropole",
+      "website": "https://metropole.nantes.fr"
     }
   ]
 }

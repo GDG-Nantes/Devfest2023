@@ -49,7 +49,11 @@
     },
     "partners": {
       "name": "Partners",
-      "platinium-partners": "Platinium partners"
+      "platinium-partners": "Platinium partners",
+      "platinium":"Platinium",
+      "gold":"Gold",
+      "virtual":"Virtual",
+      "partners": "Our partners"
     },
     "speakers": {
       "name": "Speakers"

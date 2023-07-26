@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import classNames from "classnames";
 import { graphql, useStaticQuery } from "gatsby";
-import { GatsbyImage, getImage, IGatsbyImageData } from "gatsby-plugin-image";
+import { GatsbyImage, IGatsbyImageData, getImage } from "gatsby-plugin-image";
 import React, { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import partners from "../../../data/partners.json";
@@ -68,6 +68,7 @@ export const Partners: React.FC<{
           platinium: { height: "175px", width: "300px" },
           gold: { height: "120px", width: "200px" },
           virtual: { height: "120px", width: "200px" },
+          partners: { height: "120px", width: "200px" },
         };
 
         return (
@@ -82,7 +83,7 @@ export const Partners: React.FC<{
                 textTransform: "capitalize",
               }}
             >
-              {onlyPlatinium ? t("platinium-partners") : typePartner}
+              {onlyPlatinium ? t("platinium-partners") : t(typePartner)}
             </Typography>
             <Grid
               className={classNames("partners", typePartner)}

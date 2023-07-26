@@ -49,7 +49,11 @@
     },
     "partners": {
       "name": "Partenaires",
-      "platinium-partners": "Nos Sponsors Platinium"
+      "platinium-partners": "Nos Sponsors Platinium",
+      "platinium":"Platinium",
+      "gold":"Gold",
+      "virtual":"Virtual",
+      "partners": "Nos partenaires"
     },
     "blog": {
       "name": "Blog"
