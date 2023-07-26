@@ -28,7 +28,7 @@ const HomeContent = () => {
         <Typography variant="body1">{t("site.description")}</Typography>
         <Typography variant="body1">{t("site.theme")}</Typography>
         <DevfestNumbers />
-        <Youtube id="BQuRJJZ9lLM" title="AfterMovie 2022" />
+        <Youtube id="33KLYe7ywkY" title="Teaser 2023" />
       </PrimarySection>
       <PlanCite />
       <HomeMap />
