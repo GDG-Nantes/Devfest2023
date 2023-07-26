@@ -1,6 +1,7 @@
 import { Button, Stack, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { MyLink } from "../../helpers/links";
 
 export const HomeJumbo = () => {
   const { t } = useTranslation("translation", {
@@ -63,7 +64,7 @@ export const HomeJumbo = () => {
             aria-label="Billetterie"
           >
             Billetterie
-          </Button>
+          </Button>       
         </Stack>
       </Stack>
     </>

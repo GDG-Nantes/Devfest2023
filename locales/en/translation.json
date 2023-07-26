@@ -19,7 +19,8 @@
         "days": "Days",
         "sessions": "Sessions",
         "tracks": "Tracks",
-        "speakers": "Speakers"
+        "speakers": "Speakers",
+        "our-values":"Our values"
       },
       "tickets": {
         "name": "Tickets",
