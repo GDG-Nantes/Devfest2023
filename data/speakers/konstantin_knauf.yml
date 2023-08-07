@@ -1,0 +1,12 @@
+---
+key: konstantin_knauf
+name: Konstantin Knauf
+feature: true
+company: Confluent
+companyLogo: /images/partners/confluent.png
+city: Darmstadt, GermanyA
+photoUrl: https://i.ibb.co/sP5RJn6/Konstantin-Knauf.jpg
+socials:
+  twitter: https://mobile.twitter.com/snntrable
+bio: |-
+  Konstantin is a member of the Apache Flink PMC and Group Product Manager in the Stream Processing & Analytics team at Confluent. He joined the company early this year as part of the acquisition of Immerok which he had co-founded with a group of long-term Apache Flink community members earlier last year. Formerly, as Head of Product at Ververica, Konstantin supported multiple teams working on Apache Flink in both discovery as well as delivery. Before that he was leading the pre-sales team at Ververica, helping their clients as well as the Open Source Community to get the most out of Apache Flink.

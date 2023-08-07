@@ -1,0 +1,20 @@
+---
+key: lazy_hydrate__never_hydrate__resumable_js___les_astuces_des_frameworks_pour_reduire_le_total_blocking_time
+title: 'Lazy Hydrate, Never Hydrate, Resumable JS : les astuces des frameworks pour réduire le Total Blocking Time'
+language: French
+talkType: quickie
+tags:
+  - web
+complexity: Advanced
+speakers:
+  - martin_guillier
+slot: day-1-quickie-2
+room: Titan
+abstract: |-
+  Le Total Blocking Time est la métrique qui pèse le plus dans votre score Lighthouse, avec 30% de la note finale. Que vous soyez curieux de comprendre ce qui se cache derrière cet indicateur ou que vous vous soyez déjà cassé les dents à essayer de l’optimiser, ce talk est pour vous !
+
+  Le rendu Server-Side Rendering (SSR) de frameworks front comme React ou Vue permet d’afficher une page HTML pré-construite. Cela optimise le Largest Contentful Paint et le Cumulative Layout Shift. Cependant, une fois cette première étape d’affichage réalisée, il reste à rendre le site dynamique : c’est la phase d’hydratation. Cette phase instancie l’ensemble des composants de la page avec leurs données et tous les listeners associés.
+
+  Comment mesurer l’impact de cette phase sur le Total Blocking Time ? Est-ce que l’hydratation est la seule source de blocking time ? Comment mettre concrètement en pratique la recommandation d’alléger le thread principal ? Quelle est la réponse à cette lourde phase d’hydratation proposée par les framework front les plus récents comme Astro ou Qwik ?
+
+  Je vous propose de répondre à ces questions au travers d’exemples concrets tirés de 6 mois d’accompagnement d’un site e-commerce à grande fréquentation (top 10 français), avec comme résultat une amélioration de 25% de leur TBT et 20 points de gagnés sur leur score de performance Lighthouse.

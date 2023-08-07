@@ -1,6 +1,5 @@
 import * as fs from "fs";
 import yaml from "js-yaml";
-import rimraf from "rimraf";
 import { Speaker } from "../json_schemas/interfaces/schema_speakers";
 import data from "./export.json";
 import { normalize, writeFile } from "./helpers";
@@ -10,11 +9,11 @@ const dumpOptions: yaml.DumpOptions = { lineWidth: -1 };
 const outDirSpeakers = "../data/speakers";
 const outDirSessions = "../data/sessions";
 
-rimraf.sync(outDirSpeakers);
-fs.mkdirSync(outDirSpeakers);
+// rimraf.sync(outDirSpeakers);
+// fs.mkdirSync(outDirSpeakers);
 
-rimraf.sync(outDirSessions);
-fs.mkdirSync(outDirSessions);
+// rimraf.sync(outDirSessions);
+// fs.mkdirSync(outDirSessions);
 
 transformerSpeakers();
 transformerSessions();
@@ -41,7 +40,9 @@ function transformerSpeakers() {
         .replace("https://twitter.com/", "")
         .replace("@", "");
     }
+    //@ts-ignore
     if (speaker.github) {
+      //@ts-ignore
       yamlData.socials.github = speaker.github.replace(
         "https://github.com/",
         ""
