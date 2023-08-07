@@ -120,7 +120,7 @@ function getCategory(category: string) {
     },
     {
       key: "mobile_iot",
-      name: "📱 Mobile & IoT",
+      name: "📱 Mobile",
       id: "dfa320e4-1f9b-53ee-8c98-3ef48ba81013",
     },
     {

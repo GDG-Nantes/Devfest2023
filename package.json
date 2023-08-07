@@ -11,7 +11,7 @@
     "develop": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve -H 0.0.0.0",
     "clean": "gatsby clean",
     "generate": "json2ts -i 'json_schemas/*.json' -o json_schemas/interfaces/",
     "postinstall": "npm run generate"

@@ -1,8 +1,8 @@
 import { createTheme } from "@mui/material";
 import "./theme.scss";
 
-// const primary = "#1a213d";
-const primary = "#d14f34";
+const primary = "#1a213d";
+// const primary = "#d14f34";
 const secondary = "#d14f34";
 // const primary = "#c14d32";
 // const secondary = "#36666a";
@@ -10,7 +10,7 @@ const secondary = "#d14f34";
 const theme = createTheme({
   palette: {
     primary: {
-      main: primary,
+      main: secondary,
     },
     secondary: {
       main: secondary,
@@ -35,6 +35,18 @@ const theme = createTheme({
     },
   },
   components: {
+    MuiChip: {
+      styleOverrides: {
+        colorPrimary: {
+          color: primary,
+          borderColor: primary
+        },
+        colorSecondary: {
+          color: "white",
+          borderColor: "white"
+        },
+      }
+    },
     MuiButton: {
       styleOverrides: {
         containedSecondary: {
