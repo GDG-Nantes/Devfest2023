@@ -1,0 +1,16 @@
+---
+key: it_s_a__testing__trap____common_end_to_end_pitfalls_and_how_to_solve_them
+title: It's a (testing) trap! - Common end-to-end pitfalls and how to solve them
+language: English
+talkType: conference
+tags:
+  - web
+complexity: Beginner
+speakers:
+  - ramona_schwering
+slot: day-2-conference-4
+room: Jules Verne
+abstract: |
+  “It’s a trap” - a call or feeling we all might be familiar with, not only when it comes to Star Wars. It signalizes a sudden moment of noticing imminent danger. This situation is an excellent allegory for an unpleasant realization in testing. Imagine having the best intentions regarding testing but still ending up with tests failing to deliver any value. Tests who are feeling like a pain to deal with?
+
+  When writing frontend tests, there are lots of pitfalls on the way. In sum, they can lead to lousy maintainability, slow execution time, and - in the worst-case - tests you cannot trust. But it doesn’t have to be that way. In this session, I will talk about developers’ common mistakes (including mine) in tests using Jest and Cypress, at least from my experience. And, of course, how to avoid them using best practices. Testing doesn’t need to be painful, after all.

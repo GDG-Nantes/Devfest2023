@@ -1,0 +1,20 @@
+---
+key: towards_a__carbon_aware__cloud_
+title: Towards a 'carbon-aware' cloud.
+language: English
+talkType: quickie
+tags:
+  - cloud_devops
+complexity: Beginner
+speakers:
+  - olivier_bierlaire
+slot: day-1-quickie-1
+room: Jules Verne
+abstract: |-
+  The cloud holds a dirty secret: it generates as much greenhouse gas emissions as entire countries like France or the United Kingdom ([IEA, 2021](https://www.iea.org/reports/data-centres-and-data-transmission-networks)). But there is hope! Infra & Cloud teams have the power to mitigate this issue. By simply choosing the right cloud region on platforms like GCP, Azure, or AWS, emissions can be reduced by a factor of 10 or even 20.
+
+  In this talk, we will explore the regulatory landscape and financial incentives driving organizations to tackle their cloud's carbon footprint. I will show practical techniques to measure and estimate emissions using observability tools, with live data. Then, I will talk about concrete strategies to minimize your infrastructure's carbon impact.
+
+  I will introduce the concept of a "carbon-aware" infrastructure that dynamically self-adjusts according to its own emission levels. Explore how to intelligently schedule resource-intensive tasks, targeting regions with low-carbon intensity or delaying them until better weather conditions. Eventually, I will show how we can shrink or move an infrastructure where electricity is "greener," automatically.
+
+  By transforming your cloud into a carbon-aware infrastructure, you can make a huge environmental impact while keeping good performance.

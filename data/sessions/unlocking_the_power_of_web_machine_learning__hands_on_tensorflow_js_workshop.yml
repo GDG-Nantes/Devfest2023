@@ -1,0 +1,13 @@
+---
+key: unlocking_the_power_of_web_machine_learning__hands_on_tensorflow_js_workshop
+title: 'Unlocking the power of Web Machine Learning: Hands-on TensorFlow.js workshop'
+language: English
+talkType: codelab
+tags:
+  - bigdata_ai
+complexity: Intermediate
+speakers:
+  - patty_o_callaghan
+slot: day-2-codelab-2
+room: L'Atelier
+abstract: 'Join me for a Hands-on workshop on TensorFlow.js, the most popular framework for Web Machine Learning. You will learn how to create two smart webcam applications: one that recognizes common objects and another that detects human emotions in real-time. Gain practical skills in object recognition and emotion analysis while unlocking the potential of web-based Machine Learning. Don''t miss this opportunity to dive into the exciting world of TensorFlow.js and build intelligent web experiences.'

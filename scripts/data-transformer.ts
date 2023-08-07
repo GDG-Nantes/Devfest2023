@@ -21,10 +21,10 @@ transformerSessions();
 
 function transformerSpeakers() {
   const promises = data.speakers.map((speaker) => {
-    const normalizedName = normalize(speaker.displayName);
+    const normalizedName = normalize(speaker.displayName || 'x-undefined');
     const yamlData: Speaker = {
       key: normalizedName,
-      name: speaker.displayName,
+      name: speaker.displayName || 'x-undefined',
       feature: false,
       company: speaker.company || undefined,
       companyLogo:
@@ -142,7 +142,7 @@ function getCategory(category: string) {
 
   return [categories.find((c) => c.id == category)?.key];
 }
-function getComplexity(level: string) {
+function getComplexity(level: string | undefined) {
   return level === "beginner"
     ? "Beginner"
     : level === "advanced"
@@ -152,7 +152,7 @@ function getComplexity(level: string) {
 function getSpeakers(speakers: string[]) {
   return speakers
     .map((speaker) =>
-      normalize(data.speakers.find((s) => s.uid === speaker)?.displayName)
+      normalize(data.speakers.find((s) => s.uid === speaker)?.displayName || 'x-undefined')
     )
     .sort((a: string, b: string) => a.localeCompare(b));
 }

@@ -1,0 +1,25 @@
+---
+key: workshop_sur_l_integration_a_l_ere_du_cloud_avec_camel_quarkus
+title: Workshop sur l'Intégration à l'ère du cloud avec Camel Quarkus
+language: French
+talkType: codelab
+tags:
+  - cloud_devops
+complexity: Intermediate
+speakers:
+  - alexandre_gallice
+  - kevin_dubois
+slot: day-1-codelab-1
+room: Hangar
+abstract: |-
+  Dans un univers informatique dont l'expansion ne cesse d'accélérer, le besoin de faire communiquer des systèmes disparates se renforce jour après jour.
+  Développé en Java, le projet Open Source [Apache Camel](https://camel.apache.org/) fournit avec ses 350 connecteurs une réponse prouvée à ce besoin toujours croissant d'intégration entre systèmes.
+
+  Mais à l'ère du cloud, des projets comme [Quarkus](https://quarkus.io/) change complètement la donne. Simplicité de développement, démarrage d'une JVM en quelques milli-secondes, faible consommation mémoire... Comment Camel peut-il profiter de ces nouveaux avantages ? C'est tout l'objet du projet [Camel Quarkus](https://camel.apache.org/camel-quarkus/latest/) que nous aimerions faire découvrir lors de cette présentation.
+
+  Dans ce workshop, nous souhaitons aborder certaines notions importantes de Quarkus et Camel:
+  + Le DEV mode de Quarkus
+  + Le mode JVM de Quarkus
+  + Les routes de Camel Quarkus
+  + Les composants de Camel Quarkus
+  + Les Enterprise Integration Pattern de Camel Quarkus

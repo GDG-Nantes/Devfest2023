@@ -1,0 +1,21 @@
+---
+key: we_re_not_doing_design_systems_properly_and_that_s_okay
+title: We’re Not doing Design Systems Properly and That’s Okay
+language: French
+talkType: conference
+tags:
+  - web
+complexity: Intermediate
+speakers:
+  - morgane_peng
+slot: day-1-conference-5
+room: Titan
+abstract: |-
+  How do you ‘do’ Design Systems? Expectations are so high nowadays. Implement Design Tokens. Have a dedicated Design System team. Get a Design System manager. Wait, does your Design System even have a name?
+
+  There isn’t one way to do Design Systems. Ours ticks none of these boxes, yet today, it allows us to build from the simplest to the most complex financial tools, and design systematically across our services. In this session, we’ll share the lessons we learned on prioritising impacts over grip.
+
+  Takeaways:
+  - Understand that there’s no one way to do Design Systems
+  - How to adapt for adoption
+  - How to use the Design System mindset for large-scale pattern-based thinking

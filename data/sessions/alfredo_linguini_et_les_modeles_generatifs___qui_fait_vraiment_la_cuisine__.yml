@@ -1,0 +1,24 @@
+---
+key: alfredo_linguini_et_les_modeles_generatifs___qui_fait_vraiment_la_cuisine__
+title: 'Alfredo Linguini et les Modèles Génératifs : Qui Fait Vraiment la Cuisine ?'
+language: French
+talkType: conference
+tags:
+  - bigdata_ai
+complexity: Advanced
+speakers:
+  - yann_carbonne
+slot: day-2-conference-5
+room: Tour de Bretagne
+abstract: |-
+  Comme Alfredo Linguini dans le film Ratatouille, qui a su créer des plats délicieux en confiant le contrôle de sa cuisine à un rat doué nommé Rémy, nous examinons comment les modèles de langue génératifs agissent comme notre "Rémy" personnel, aidant à concocter du contenu de qualité.
+
+  Nous débuterons par une vue d'ensemble des IA génératives textuelles, en mettant en évidence les différences entre les modèles pré-entraînés et les modèles de fondation. À l'image de Linguini se familiarisant avec les complexités d'une cuisine professionnelle, nous approfondirons les concepts clés des IA génératives, leur fonctionnement et leur application pratique.
+
+  Ensuite, nous explorerons l'art du "Prompt Design" avec un accent particulier sur la fiabilité. Comment, tout comme Linguini, pouvons-nous diriger nos "Rémy" IA pour optimiser leur potentiel tout en garantissant leur fiabilité ? Nous discuterons des stratégies pour améliorer les réponses des modèles, et aborderons les mesures de sécurité nécessaires pour assurer que notre "cuisine" IA reste sûre et fiable.
+
+  Tel un plat signature de Gusteau's, nous présenterons une démonstration sur un cas d'usage concret implémenté en entreprise. Cette démo donnera un aperçu de la manière dont les IA génératives peuvent être déployées dans le monde réel et créer de la valeur pour les organisations.
+
+  Enfin, nous vous préparerons votre doggy bag : des astuces pour les développeurs, des réflexions sur les échecs et les succès dans l'adoption de ces technologies, une discussion sur la stratégie Make or Buy et un éclairage sur l'approche open source. Nous partagerons des anecdotes, des leçons apprises et des conseils pour naviguer dans le monde de l'IA générative.
+
+  Rejoignez-nous pour cette aventure culinaire dans le monde des IA génératives et découvrons ensemble "qui fait vraiment la cuisine" dans le monde technologique d'aujourd'hui

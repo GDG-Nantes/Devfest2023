@@ -1,0 +1,26 @@
+---
+key: spring_framework_6_0
+title: Spring Framework 6.0
+language: French
+talkType: conference
+tags:
+  - languages
+complexity: Intermediate
+speakers:
+  - stephane_nicoll
+slot: day-2-conference-1
+room: Titan
+abstract: |-
+  Spring Framework 6.0
+
+  La nouvelle génération de Spring Framework est disponible !
+
+  Spring Framework 6.0 amène de nouveaux pré-requis qui permettent à l'écosystème Spring d'aller de l'avant: Java 17, Jakarta EE 9+. C'est la fondation pour Spring Boot 3.0 et le commencement de nouveaux thèmes majeurs, tels que AOT/Native et Observability.
+
+  Pendant cette présentation, Stéphane couvrira les thèmes majeurs de cette nouvelle release:
+
+  * La nouvelle baseline avec Java 17 et Jakarta EE 9.
+  * Le support AOT qui permet de compiler vos applications Spring en natif avec GraalVM.
+  * L'amélioration de l'observabilité, et ce que cela signifie pour les fonctionnalités de base telles que RestTemplate, contrôleurs web, etc.
+  * Le support de clients par interface pour HTTP et d'autres transports.
+  * Le support de problem details (RFC 7807).

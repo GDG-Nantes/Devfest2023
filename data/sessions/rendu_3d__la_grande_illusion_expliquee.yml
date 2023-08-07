@@ -1,0 +1,18 @@
+---
+key: rendu_3d__la_grande_illusion_expliquee
+title: Rendu 3D, la grande illusion expliquée
+language: French
+talkType: quickie
+tags:
+  - discovery
+complexity: Beginner
+speakers:
+  - thomas_guibert
+slot: day-2-quickie-2
+room: Titan
+abstract: |
+  Dans les jeux vidéo, le cinéma, l’industrie, la médecine ou encore l’urbanisme, la 3D est partout. Nous l’utilisons aujourd’hui pour nous divertir, apprendre, simuler les prochaines  catastrophes ou encore le fonctionnement de la voiture du futur. Demain, nous l’utiliserons pour explorer de nouvelles façons de communiquer, de construire et de créer. 
+
+  Mais comment fonctionne ce rendu 3D qui donne vie à ces univers virtuels ? Quel lien y-a-t- il entre notre vision et notre carte graphique ? Sur un écran, qui n’est qu’une grille de pixels, la 3D existe-t-elle vraiment ? 
+
+  Pour répondre à ces questions, nous allons voir les différentes étapes nécessaires qu’un ordinateur doit accomplir pour tromper notre cerveau. Grâce à une explication pas à pas, nous pourrons comprendre le fonctionnement de cette grande illusion.

@@ -1,0 +1,17 @@
+---
+key: mlops___une_ci_cd_pour_des_ia_fiables
+title: 'MLOps : une CI/CD pour des IA fiables'
+language: French
+talkType: conference
+tags:
+  - bigdata_ai
+complexity: Intermediate
+speakers:
+  - ingrid_fiquet
+  - milan_foglia
+slot: day-1-conference-2
+room: Tour de Bretagne
+abstract: |-
+  Comment garantir que les résultats d'une IA soient dénués de biais ? Comment suivre le cycle de vie des modèles d'IA ? Comment rendre intelligibles les prédictions d'une IA ?
+
+  Nous vous invitons, au travers d'une démo concrète de mise en place de pipelines au sein d'une chaîne MLops (le DevOps appliqué au Machine Learning), à découvrir des socles technologiques complets pour industrialiser la construction et le déploiement d'IA fiables.

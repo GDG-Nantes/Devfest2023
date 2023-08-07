@@ -1,0 +1,43 @@
+---
+key: towards_modern_development_of_cloud_applications
+title: Towards Modern Development of Cloud Applications
+language: English
+talkType: conference
+tags:
+  - cloud_devops
+complexity: Intermediate
+speakers:
+  - robert_grandl
+slot: day-2-conference-1
+room: Belem
+abstract: |-
+  [Service Weaver](https://serviceweaver.dev/) is a programming framework that makes it easy to write, deploy, and manage high-performance distributed applications in Go. Service Weaver improves application latency by up to 15x and reduces cloud costs by up to 9x compared to a typical deployment in the cloud using microservices.
+
+  # Programming Model
+  The developer writes the application like it’s a traditional, single-process Go executable that runs on the local machine, that is modularized into logically distinct components. The runtime will take care of cloud configurations and integration with the cloud provider (e.g., breaks down the components into a set of connected microservices, monitoring, tracing, logging).
+
+  ## Benefits of this programming model
+  * The developers can focus solely on writing their application code (e.g., don’t have to setup networking endpoints, to create network stubs, to do service discovery);
+  * The developers can modularize their code without paying the performance overhead caused by over-splitting into microservices;
+  * The developer can change the network topology of their application easily and dynamically;
+  * It enables the runtime to provide optimized runtime solutions and enable new usecases;
+  * It enables the runtime to run the same application binary in any cloud environment.
+
+  # Runtime
+  Manages the execution of an application (e.g., colocate components, assign them to OS processes, replication, resource management, authentication, etc.).
+
+  Provides different plugins that enable to run the same application binary in any distributed environment. Out of the box, Service Weaver supports three runtime plugins:
+
+  * Local runtime, which runs the application as a set of OS processes on the local machine;
+  * SSH runtime, which runs the application across a set of machines using SSH;
+  * GKE runtime, which runs the application as Pods on GKE;
+  * Kube runtime, which runs the application on vanilla Kubernetes.
+  * Easy to write new plugins for AWS, Azure, other clouds.
+
+  ## What runtime enables
+
+  * Birds-eye view into the app - leads to smarter scaling, placement, co-location decisions;
+  * Because all components run at the same version - it enables the implementation of highly-efficient serialization and transport protocols;
+  * Provides affinity based routing embedded in the application itself - easy to create stateful applications and route requests to different component replicas based on load information;
+  * Same testing, profiling, debugging experience on the local machine as in the cloud;
+  * mTLS support with zero config.

@@ -1,0 +1,18 @@
+---
+key: festival_du_cinema_du_devfest__application_de_selection_des_films_nomines__vote_par_un_jury_et_remise_des_prix
+title: 'Festival du Cinéma du DevFest: Application de sélection des films nominés, vote par un jury et remise des prix'
+language: French
+talkType: codelab
+tags:
+  - web
+complexity: Intermediate
+speakers:
+  - adrien_lasselle
+  - bertrand_presles
+  - vincent_colas
+slot: day-2-codelab-1
+room: L'Atelier
+abstract: |-
+  Le Festival du Cinéma du DevFest a une renommée internationale et récompense les meilleures œuvres cinématographiques de la communauté des développeurs. Les organisateurs du festival ont émis le souhait de moderniser le processus de récompense en utilisant la technologie des NFT. Votre mission, si vous l'acceptez, est de réaliser cette application en permettant aux organisateurs de sélectionner les films nominés, de définir les membres du jury, d'organiser des votes par le jury et de remettre les prix aux lauréats.
+
+  Au cours de cet atelier, vous apprendrez à concevoir et à développer une application décentralisée (dApp) sur la blockchain en utilisant des NFT, et vous acquerrez des compétences en matière de développement de smart contracts et de gestion des transactions sur la blockchain Polygon. Pour la réalisation de l'application, les frameworks ReactJS, Web3.js, Ganache et HardHat, ainsi que les langages Javascript et Solidity seront utilisés.

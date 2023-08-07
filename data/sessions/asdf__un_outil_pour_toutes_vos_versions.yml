@@ -1,0 +1,26 @@
+---
+key: asdf__un_outil_pour_toutes_vos_versions
+title: asdf, un outil pour toutes vos versions
+language: French
+talkType: quickie
+tags:
+  - languages
+complexity: Beginner
+speakers:
+  - sylvain_metayer
+slot: day-1-quickie-3
+room: Tour de Bretagne
+abstract: |
+  Revenons quelques années en arrière...
+
+  - Aout 2020, sortie de Terraform 0.13, votre nouveau projet saute dessus et l'utilise!
+
+  - Juin 2021, sortie de Terraform 1.0, pile au moment de déployer cette nouvelle infra, c'est parfait ! Pour votre ancien projet par contre, c'est un breaking change, il va falloir installer tfenv pour gérer les 2 versions..
+
+  - Avril 2022, sortie de NodeJS 18, parfait pour démarrer votre side-project ! Dommage pour votre ancienne librairie JS, bloqué en NodeJS 14, il va falloir installer nvm pour gérer les 2 versions, plus de temps pour faire la mise à jour..
+
+  Fatigué de devoir installer 50 outils différents pour changer de version de node/java/terraform/... ? 
+
+  Vous aimeriez trouver un outil pour gérer de la même façon toutes les versions de vos outils, voir créer vos propres plugin pour gérer les versions de votre nouvel outil ? 
+
+  Venez à la rencontre d'asdf et voyons comment il pourra vous aider au quotidien !

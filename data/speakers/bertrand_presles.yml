@@ -1,0 +1,18 @@
+---
+key: bertrand_presles
+name: Bertrand Presles
+feature: false
+company: Younup / Blockchain & Société
+companyLogo: /images/partners/younup___blockchain___societe.png
+city: Nantes, France
+photoUrl: https://avatars1.githubusercontent.com/u/220623?v=4
+socials:
+  twitter: bpresles
+  github: bpresles
+bio: |-
+  Bertrand travaille depuis plus de 19 ans dans le monde du web et du mobile en tant que développeur, lead développeur et architecte.
+
+  Il a travaillé sur diverses technologies incluant le PHP (Zend, Drupal, Symfony, Magento, ...), Java EE (Spring, Struts), Javascript (AngularJS, Angular, ReactJS, NestJS, NextJS, Typescript), frameworks mobile (iOS native, Android native, IONIC), framework blockchain (Truffle, Hardhat, Solidity, web3.js, ethers.js)
+  Il étudie et travaille également sur les technologies de la Blockchain et de l'intelligence artificielle (IA) sur son temps libre.
+
+  En tant que speaker, Bertrand a participé à la fois à des événements internes (au sein des entreprises dans lesquelles il a travaillé) et externes (Meetups, DevFest Nantes, Blockchain & Société).

@@ -1,0 +1,12 @@
+---
+key: stephane_nicoll
+name: Stéphane Nicoll
+feature: false
+company: VMware
+companyLogo: /images/partners/vmware.png
+city: Liège, Belgium
+photoUrl: https://avatars0.githubusercontent.com/u/490484?v=4
+socials:
+  twitter: snicoll
+  github: snicoll
+bio: Stéphane has 20 years of experience in software engineering with a strong focus on API development on the JVM. After having spent more than a decade developing large scale Java enterprise applications in the geospatial, financial, or logistics sectors, he joins the core Spring Framework development team in 2014. Stéphane is now working on Spring Boot and is the lead of start.spring.io, a service that helps millions of users start their next applications.

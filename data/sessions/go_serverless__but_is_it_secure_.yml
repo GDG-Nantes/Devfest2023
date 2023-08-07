@@ -1,0 +1,26 @@
+---
+key: go_serverless__but_is_it_secure_
+title: Go Serverless! But is it secure?
+language: English
+talkType: conference
+tags:
+  - security
+complexity: Intermediate
+speakers:
+  - natalie_godec
+slot: day-2-conference-3
+room: Jules Verne
+abstract: |-
+  I am a big advocate of serverless products instead of "traditional" ones. Cloud Run instead of GKE, Fargate instead of EKS, Pub/Sub instead of Kafka and Aurora instead of RDS. You get lower costs, less infra to manage, no need to worry about networking... But what about security? Can you really make sure that your serverless workloads (or data) are safe? 
+
+  In this talk, we will go through several serverless offerings in the areas of data & compute, and look at their vulnerabilities and security options. We'll cover topics like:
+
+  - How serverless architecture changes the attack surface
+  - Vulnerabilities in serverless platforms and services
+  - Best practices for securing serverless workloads
+
+  By the end of this talk, you'll be able to:
+
+  - Understand the security risks of serverless computing
+  - Implement best practices for securing your serverless workloads
+  - Sleep soundly knowing that your serverless applications are secure

@@ -1,0 +1,24 @@
+---
+key: expand_your_view_of_your_application_performance_with_opentelemetry
+title: Expand your view of your application performance with OpenTelemetry
+language: French
+talkType: conference
+tags:
+  - cloud_devops
+complexity: Intermediate
+speakers:
+  - damien_raude_morvan
+slot: day-1-conference-5
+room: Tour de Bretagne
+abstract: |-
+  **FRENCH TALK**
+
+  OpenTelemetry is a powerful open-source **observability framework** that provides a unified way to collect, process, and export telemetry data from distributed systems. In this talk, we will explore the capabilities of OpenTelemetry and demonstrate how it can be used to gain deep insights into the performance and behavior of complex applications.
+
+  During the **live demonstration**, we will showcase how OpenTelemetry can be used to instrument a sample application and collect metrics, traces, and logs. We will explore the different components of OpenTelemetry, including the SDKs, the collector, and the exporters, and demonstrate how they work together to provide a comprehensive view of application performance.
+
+  We will also showcase how OpenTelemetry can be integrated with other observability tools, such as **Jaeger**, **Prometheus**, **Uptrace** and **Elastic APM**.
+
+  Throughout the talk, we will provide tips and best practices for using OpenTelemetry effectively, including how to choose the right instrumentation and how to configure the collector and exporters for optimal performance.
+
+  By the end of this talk, attendees will have a deep understanding of the capabilities of OpenTelemetry and how it can be used to gain insights into complex applications. They will also be equipped with the knowledge necessary to start using OpenTelemetry in their own applications and take advantage of its powerful observability capabilities.

@@ -1,0 +1,13 @@
+---
+key: mon_experience_avec_rust___pourquoi_c_est_un_game_changer__
+title: Mon Expérience avec Rust ! Pourquoi c'est un Game Changer ?
+language: French
+talkType: quickie
+tags:
+  - languages
+complexity: Beginner
+speakers:
+  - ayoub_alouane
+slot: day-2-quickie-2
+room: Jules Verne
+abstract: Dans ce Quickie, je vais essayer de parler de mon expérience en tant que développeur débutant en Rust. J'ai une formation Java et j'apprends maintenant Rust, et j'ai découvert beaucoup de concepts qui m'ont appris comment je devrais penser à la performance avant de commencer à coder, Ownership et Borrowing sont les concepts qui m'ont aidé à vraiment comprendre comment le stack et le heap fonctionnent ensemble. Je vais essayer de montrer quelques benchmarks entre Rust et d'autres langages afin de montrer son impact sur la performance.

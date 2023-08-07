@@ -1,0 +1,13 @@
+---
+key: sous_le_capot_des_navigateurs_web
+title: Sous le capot des navigateurs web
+language: French
+talkType: conference
+tags:
+  - web
+complexity: Intermediate
+speakers:
+  - anthony_le_goas
+slot: day-2-conference-1
+room: Tour de Bretagne
+abstract: Hey ! Dis moi, tu sais comment ça fonctionne un navigateur web toi ? Le moteur de rendu, concrètement, il fait quoi ? Ça doit être sacrément compliqué de tout dessiner à l'écran non ? Allez, regardons ça ensemble !

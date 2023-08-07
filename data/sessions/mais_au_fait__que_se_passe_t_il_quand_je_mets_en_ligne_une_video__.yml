@@ -1,0 +1,23 @@
+---
+key: mais_au_fait__que_se_passe_t_il_quand_je_mets_en_ligne_une_video__
+title: Mais au fait, que se passe-t-il quand je mets en ligne une vidéo ?
+language: French
+talkType: conference
+tags:
+  - web
+complexity: Beginner
+speakers:
+  - antoine_wacheux
+slot: day-1-conference-5
+room: Belem
+abstract: |-
+  Pour proposer une expérience optimale de streaming vidéo, mettre un fichier `.mp4` sur un serveur web ne suffit pas.
+
+  Dans ce talk nous aborderons les grands challenges du streaming vidéo et les solutions techniques actuelles avec des exemples visuels et vulgarisés.
+
+  Vous découvrirez:
+  - comment fonctionne un codec
+  - la chaine Over The Top (OTT)
+  - les différences entre le live et la VOD
+  - comment la qualité de la vidéo se dégrade à cause d'une connexion lente
+  - comment fonctionne la diffusion live à faible latence

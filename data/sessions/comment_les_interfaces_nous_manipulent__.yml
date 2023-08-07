@@ -1,0 +1,15 @@
+---
+key: comment_les_interfaces_nous_manipulent__
+title: Comment les interfaces nous manipulent !
+language: French
+talkType: quickie
+tags:
+  - ux_ui
+complexity: Beginner
+speakers:
+  - flora_brochier
+slot: day-2-quickie-1
+room: Jules Verne
+abstract: |
+  L'avènement du numérique a fait de l’attention une ressource première et rare placée au cœur des modèles économiques des plateformes sociales ou de divertissement. À côté de cela, le nombre de design trompeur (ou dark pattern) a explosé en utilisant nos failles et nos biais. 
+  Faisons la lumière sur ces mécanismes trompeurs, leurs conséquences et les bonnes pratiques que nous, professionnels du numérique, pouvons mettre en place. 

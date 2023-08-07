@@ -1,0 +1,13 @@
+---
+key: alexandre_gallice
+name: Alexandre Gallice
+feature: false
+company: Red Hat
+companyLogo: /images/partners/red_hat.png
+photoUrl: https://avatars.githubusercontent.com/u/22151349?v=4
+socials:
+  twitter: alexgallice
+  github: aldettinger
+bio: |
+  Alexandre is an open source enthusiasm, member of the [Apache Camel](https://camel.apache.org/) Project Management Committee.\
+  After experiences in domains like handwriting recognition and health analysis, he is currently working as a Senior Software Engineer at Red Hat.

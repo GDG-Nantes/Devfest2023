@@ -1,0 +1,16 @@
+---
+key: anthony_le_goas
+name: Anthony Le Goas
+feature: false
+company: Zenika
+companyLogo: /images/partners/zenika.png
+city: Brest, France
+photoUrl: https://pbs.twimg.com/profile_images/1450531662232793091/SWqZfLTp_400x400.jpg
+socials:
+  twitter: anthony_legoas
+  github: '@anthonylegoas'
+bio: |-
+  Dév. web & directeur @Zenika Brest / Co-organisateur Svelte Society France + BrestJS + UX Design Brest.
+
+  Passionné par le web et son optimisation. 
+  Contributeur SvelteJS.

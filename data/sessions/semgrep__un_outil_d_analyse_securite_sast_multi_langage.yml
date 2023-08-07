@@ -1,0 +1,17 @@
+---
+key: semgrep__un_outil_d_analyse_securite_sast_multi_langage
+title: Semgrep, un outil d'analyse sécurité SAST multi-langage
+language: French
+talkType: codelab
+tags:
+  - security
+complexity: Beginner
+speakers:
+  - sebastien_gioria
+slot: day-2-codelab-1
+room: Hangar
+abstract: |-
+  L'analyse de code sécurité est une obligation pour tout déploiement d'application actuellement. Il existe de nombreux outils commerciaux et peu d'outil OpenSource réellement pertinent. 
+  Semgrep est un outil open-source, utilisé par exemple par Gitlab dans l'offre Ultimate, très pertinent car il va vous permettre d'analyse 'presque' tout type de langage (de Kotlin au C), de manière simple et rapide. 
+
+  Nous verrons dans cette session comment écrire des règles basiques simples pour Java, TypeScript, .NET  et comment l'intégrer rapidement dans une chaine de sécurité DevSecOPS
