@@ -8,7 +8,7 @@ import { Schedule } from "../../components/schedule";
 import { MyLink } from "../../helpers/links";
 import Layout from "../../layout";
 
-export const SchedulePage: React.FC<{ day?: 1 | 2 }> = ({ day }) => {
+export const SchedulePage: React.FC<{ day?: 1 | 2 }> = ({ day = 1 }) => {
   const { t } = useTranslation("translation", { keyPrefix: "pages.schedule" });
 
   React.useEffect(() => {
@@ -31,7 +31,7 @@ export const SchedulePage: React.FC<{ day?: 1 | 2 }> = ({ day }) => {
             <MyLink to="/schedule/1">
               <Button
                 variant="contained"
-                color="primary"
+                color={"primary"}
                 className={classNames(
                   "button-schedule",
                   "day1",
@@ -44,7 +44,7 @@ export const SchedulePage: React.FC<{ day?: 1 | 2 }> = ({ day }) => {
             <MyLink to="/schedule/2">
               <Button
                 variant="contained"
-                color="primary"
+                color={"primary"}
                 className={classNames(
                   "button-schedule",
                   "day2",

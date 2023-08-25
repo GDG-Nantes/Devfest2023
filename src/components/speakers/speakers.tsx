@@ -26,6 +26,9 @@ export const Speakers: React.FC<{ featuredOnly?: boolean }> = ({
             socials {
               twitter
               github
+              linkedin
+              website
+              instagram
             }
           }
         }

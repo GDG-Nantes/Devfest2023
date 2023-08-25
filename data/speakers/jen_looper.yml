@@ -1,7 +1,7 @@
 ---
 key: jen_looper
 name: Jen Looper
-feature: false
+feature: true
 company: AWS
 companyLogo: /images/partners/aws.png
 city: Boston, MA, USA
@@ -9,4 +9,18 @@ photoUrl: https://user-images.githubusercontent.com/1450004/222968856-68a9cc0e-0
 socials:
   twitter: jenlooper
   github: jlooper
-bio: https://gist.github.com/jlooper/5726761c634e87068521b53df34aaa27
+  linkedin: jenlooper
+  website: http://www.jenlooper.com
+bio: |-
+  Jen Looper is the Head of Academic Advocacy at AWS with over 22 years' experience as a web and mobile developer, specializing in creating cross-platform mobile and web apps. A published author, Jen has written Computer Science for Kids [https://cs4kids.club](https://cs4kids.club), a textbook aligned to CSTA standards for grades 6-8, as well as the forthcoming The Illustrated AWS Cloud [https://illustratedaws.cloud](https://illustratedaws.cloud), both published by Wiley. She's a multilingual multiculturalist with a passion for web technologies, applied machine learning and discovering new things every day. With a PhD in medieval French literature, Jen's area of focus is curriculum development and the application of sound pedagogy to technical topics. Visit Jen's personal site at [https://www.jenlooper.com](https://www.jenlooper.com).
+
+  Pronouns: She/Her
+
+  Quote:
+
+  Learn something new every day. Even if you never use it, you expanded your horizon a little bit more!
+
+  Managerial Philosophy:
+
+  On our team, all ships rise together. I'll help you fill your sails!
+

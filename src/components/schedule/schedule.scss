@@ -163,11 +163,9 @@
     &:hover {
       color: inherit;
     }
-  }
-  &.day1 {
     background-color: var(--primary);
   }
-  &.day2 {
+  &.current {
     background-color: var(--secondary);
   }
 }

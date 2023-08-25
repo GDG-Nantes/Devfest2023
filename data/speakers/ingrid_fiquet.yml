@@ -5,5 +5,8 @@ feature: false
 company: Sopra Steria Next
 companyLogo: /images/partners/sopra_steria_next.png
 photoUrl: https://lh3.googleusercontent.com/a/AAcHTtdZewtml1tNaeKeteDtT2CxByXlEXTv9GLtQkY2hA=s192-c-rg-br100
-socials: {}
-bio: "En tant que Data Engineer\_au sein\_du groupe Sopra Steria, je me suis spécialisée dans l’accompagnement à la mise en place\_d’écosystème\_d'outillage\_DataScience, à travers la construction de socles technologiques MLops et de pipelines complètes permettant de respecter les standards pour une IA de confiance. \_\n\nhttps://www.linkedin.com/in/ingrid-fiquet/\n\nhttps://www.confiance.ai/portrait-dingrid-fiquet-responsable-fiche-action-trustworthy-environment/"
+socials: 
+  linkedin: ingrid-fiquet
+bio: En tant que Data Engineer au sein du groupe Sopra Steria, je me suis spécialisée dans l’accompagnement à la mise en place d’écosystème d'outillage DataScience, à travers la construction de socles technologiques MLops et de pipelines complètes permettant de respecter les standards pour une IA de confiance.  
+
+  [https://www.confiance.ai/portrait-dingrid-fiquet-responsable-fiche-action-trustworthy-environment/](https://www.confiance.ai/portrait-dingrid-fiquet-responsable-fiche-action-trustworthy-environment/)

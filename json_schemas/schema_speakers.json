@@ -46,6 +46,12 @@
         },
         "github": {
           "type": "string"
+        },
+        "instagram": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string"
         }
       }
     }

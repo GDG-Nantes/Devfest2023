@@ -3,15 +3,14 @@ import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import { Session } from "../../../json_schemas/interfaces/schema_sessions";
 import {
-  Social,
-  Speaker,
+  Speaker
 } from "../../../json_schemas/interfaces/schema_speakers";
 import { MyLink } from "../../helpers/links";
 import Layout from "../../layout";
 import { Markdown } from "../commun/markdown";
 import { DefaultPage } from "../commun/page";
 import { SecondarySection, TertiarySection } from "../commun/section/section";
-import { SocialLink } from "../commun/socials/socials";
+import { SocialLink, SocialWithLogin } from "../commun/socials/socials";
 import { AvatarSpeaker, Tags } from "../schedule/common";
 
 export type PartialSession = Pick<
@@ -43,7 +42,7 @@ const SpeakerPageTemplate: React.FC<{ pageContext: { speaker: Speaker } }> = ({
   return (
     <Layout>
       <DefaultPage title={speaker.name} noHero={true}>
-        <TertiarySection>
+        <TertiarySection slim>
           <Stack spacing={5}>
             <Stack spacing={5} direction="column" alignItems="center">
               <AvatarSpeaker speaker={speaker} size="large" />
@@ -63,14 +62,18 @@ const SpeakerPageTemplate: React.FC<{ pageContext: { speaker: Speaker } }> = ({
                 </Typography>
               )}
               <Stack direction="row" spacing={2}>
-                {Object.entries(speaker.socials || {}).map(([media, login]) => (
-                  <SocialLink
-                    key={media}
-                    login={login}
-                    type={media as keyof Social}
-                    withLogin
-                  />
-                ))}
+                {Object.entries(speaker.socials || {}).map(([media, login]) =>
+                  media == "website" ? (
+                    <SocialLink key={media} url={login} type={"website"} withLogin/>
+                  ) : (
+                    <SocialLink
+                      key={media}
+                      login={login}
+                      type={media as SocialWithLogin}
+                      withLogin
+                    />
+                  )
+                )}
               </Stack>
             </Stack>
             <Stack spacing={1}>
@@ -80,7 +83,7 @@ const SpeakerPageTemplate: React.FC<{ pageContext: { speaker: Speaker } }> = ({
             </Stack>
           </Stack>
         </TertiarySection>
-        <SecondarySection>
+        <SecondarySection slim>
           <Markdown content={speaker.bio} />
         </SecondarySection>
       </DefaultPage>
