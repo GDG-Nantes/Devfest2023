@@ -2,6 +2,9 @@
 key: milan_foglia
 name: Milan Foglia
 feature: false
+city: Paris, France
+company: Sopra Steria
 photoUrl: https://lh3.googleusercontent.com/a/AAcHTtcSuLzPt-hhUP2JqftlcsHfqR7Wtp2Grk4gKKIv0g=s96-c
-socials: {}
+socials: 
+  linkedin: milan-foglia-3790101b0
 bio: 'ML Engineer spécialisé dans le domaine de la computer vision, Je mène des projets IA end to end au sein de pipelines MLOPS avec la volonté de déployer des algorithmes explicables et interprétables répondant avec confiance à des problèmes réels. '

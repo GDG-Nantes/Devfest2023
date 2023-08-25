@@ -1,6 +1,12 @@
 ---
-key: hila_f
-name: Hila F
+key: hila_fish
+name: Hila Fish
 feature: true
 photoUrl: https://lh3.googleusercontent.com/a/AAcHTtd7O9dKMKsL5PHu6VIXmJTfCbFxK8nXCkWycZcABg=s96-c
-socials: {}
+company: Wix.com
+city: Tel Aviv, Israël
+socials: 
+  twitter: Hilafish1
+  linkedin: hila-fish
+bio: |-
+  Senior DevOps Engineer at Wix.com | Public Speaker | AWS Community Builder | Hashicorp Ambassador

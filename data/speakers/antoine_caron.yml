@@ -3,8 +3,9 @@ key: antoine_caron
 name: Antoine CARON
 feature: false
 city: Lyon, France
+company: Bedrock Streaming
 photoUrl: https://avatars0.githubusercontent.com/u/6263857?v=4
 socials:
   twitter: Slashgear_
-  github: '@Slashgear'
+  github: Slashgear
 bio: Voici Antoine Caron, un développeur frontend passionné qui essaie de faire du code de qualité tout en s'amusant. Il a une expertise solide en développement Web, React et frontend, et a travaillé chez M6web/Bedrock Streaming depuis 2017 en tant que Lead Frontend Developer. Il a enseigné également à Polytech Lyon. Très impliqué dans les communauté open source mais également les communautés locales, Antoine a repris avec quelques amis les rênes du Meetup LyonJS depuis un an.
