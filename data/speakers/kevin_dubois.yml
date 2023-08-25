@@ -1,0 +1,15 @@
+---
+key: kevin_dubois
+name: Kevin Dubois
+feature: false
+company: Red Hat
+companyLogo: /images/partners/red_hat.png
+city: Brussels, Belgium
+photoUrl: https://lh3.googleusercontent.com/a/AEdFTp7YHiZYC4AAyCoqBQod3q5WDu4p1rYDFRim961q=s96-c
+socials:
+  twitter: kevindubois
+  github: kdubois
+bio: |
+  Kevin is a software engineer and developer advocate at Red Hat who is on a mission to supercharge developer joy and productivity using Open Source as the guiding light. He is a frequent conference speaker, talking mostly about Java, Quarkus and Cloud Native Development & Deployment practices. 
+  Kevin previously worked as a (Lead) Software Engineer at a variety of organizations ranging from small startups to large US enterprises and even the Belgian public sector. 
+  In his free time you can find Kevin somewhere in the wild hiking, gravel biking, snowboarding down mountains or packrafting (up and) down WW rivers.

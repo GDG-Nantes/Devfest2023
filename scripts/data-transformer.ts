@@ -1,6 +1,5 @@
 import * as fs from "fs";
 import yaml from "js-yaml";
-import rimraf from "rimraf";
 import { Speaker } from "../json_schemas/interfaces/schema_speakers";
 import data from "./export.json";
 import { normalize, writeFile } from "./helpers";
@@ -10,21 +9,21 @@ const dumpOptions: yaml.DumpOptions = { lineWidth: -1 };
 const outDirSpeakers = "../data/speakers";
 const outDirSessions = "../data/sessions";
 
-rimraf.sync(outDirSpeakers);
-fs.mkdirSync(outDirSpeakers);
+// rimraf.sync(outDirSpeakers);
+// fs.mkdirSync(outDirSpeakers);
 
-rimraf.sync(outDirSessions);
-fs.mkdirSync(outDirSessions);
+// rimraf.sync(outDirSessions);
+// fs.mkdirSync(outDirSessions);
 
 transformerSpeakers();
 transformerSessions();
 
 function transformerSpeakers() {
   const promises = data.speakers.map((speaker) => {
-    const normalizedName = normalize(speaker.displayName);
+    const normalizedName = normalize(speaker.displayName || 'x-undefined');
     const yamlData: Speaker = {
       key: normalizedName,
-      name: speaker.displayName,
+      name: speaker.displayName || 'x-undefined',
       feature: false,
       company: speaker.company || undefined,
       companyLogo:
@@ -41,7 +40,9 @@ function transformerSpeakers() {
         .replace("https://twitter.com/", "")
         .replace("@", "");
     }
+    //@ts-ignore
     if (speaker.github) {
+      //@ts-ignore
       yamlData.socials.github = speaker.github.replace(
         "https://github.com/",
         ""
@@ -120,7 +121,7 @@ function getCategory(category: string) {
     },
     {
       key: "mobile_iot",
-      name: "📱 Mobile & IoT",
+      name: "📱 Mobile",
       id: "dfa320e4-1f9b-53ee-8c98-3ef48ba81013",
     },
     {
@@ -142,7 +143,7 @@ function getCategory(category: string) {
 
   return [categories.find((c) => c.id == category)?.key];
 }
-function getComplexity(level: string) {
+function getComplexity(level: string | undefined) {
   return level === "beginner"
     ? "Beginner"
     : level === "advanced"
@@ -152,7 +153,7 @@ function getComplexity(level: string) {
 function getSpeakers(speakers: string[]) {
   return speakers
     .map((speaker) =>
-      normalize(data.speakers.find((s) => s.uid === speaker)?.displayName)
+      normalize(data.speakers.find((s) => s.uid === speaker)?.displayName || 'x-undefined')
     )
     .sort((a: string, b: string) => a.localeCompare(b));
 }

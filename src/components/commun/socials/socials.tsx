@@ -1,6 +1,7 @@
 import {
   Facebook,
   GitHub,
+  Instagram,
   Language,
   LinkedIn,
   Twitter,
@@ -10,9 +11,11 @@ import { Button, IconButton } from "@mui/material";
 import React from "react";
 import { MyLink } from "../../../helpers/links";
 
+export type SocialWithLogin = "linkedin" | "github" | "twitter" | "youtube" | "facebook" | "instagram"
+
 export type SocialData =
   | {
-      type: "linkedin" | "github" | "twitter" | "youtube" | "facebook";
+      type: SocialWithLogin;
       login: string;
     }
   | { type: "website"; url: string };
@@ -47,6 +50,9 @@ export const SocialLink: React.FC<
   } else if (social.type === "facebook") {
     icon = <Facebook />;
     url = `https://facebook.com/${social.login}`;
+  } else if (social.type === "instagram") {
+    icon = <Instagram />;
+    url = `https://www.instagram.com/${social.login}`;
   } else if (social.type === "website") {
     icon = <Language />;
     url = social.url;
@@ -57,7 +63,7 @@ export const SocialLink: React.FC<
       {withLogin ? (
         <Button
           variant="text"
-          sx={{ color: "var(--primary-dark)" }}
+          sx={{ color: "var(--tertiary)" }}
           size="small"
           startIcon={
             <IconButton aria-label={social.type} color="inherit">
@@ -65,7 +71,8 @@ export const SocialLink: React.FC<
             </IconButton>
           }
         >
-          {(social.type == "github" || social.type == "twitter") && social.login}
+          {social.type != "website" && social.login}
+          {social.type == "website" && "Website"}
         </Button>
       ) : (
         <IconButton aria-label={social.type}>{icon}</IconButton>

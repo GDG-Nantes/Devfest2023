@@ -1,0 +1,22 @@
+---
+key: angular_signals___how_do_they_work__
+title: 'Angular Signals : how do they work ?'
+language: French
+talkType: quickie
+tags:
+  - web
+complexity: Intermediate
+speakers:
+  - benjamin_legrand
+slot: day-2-quickie-1
+room: Titan
+abstract: |-
+  On était tranquille là à faire de la réactivité avec RxJS dans nos applications angular,
+
+  Et voilà que la core team nous sort une nouvelle primitive pour ça : `signal()`.
+
+  C'est quoi la réactivité d'abord ? C'est quoi un signal ? 
+
+  Est ce que vous devez absolument les utiliser au lieu d'RxJS ? ( spoiler: non )
+
+  Bref, comment ça marche les signals en angular ? ( quoi, on dit des signaux ? )

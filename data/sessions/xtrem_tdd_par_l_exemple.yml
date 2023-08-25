@@ -1,0 +1,30 @@
+---
+key: xtrem_tdd_par_l_exemple
+title: Xtrem TDD par l'exemple
+language: French
+talkType: codelab
+tags:
+  - discovery
+complexity: Intermediate
+speakers:
+  - guillaume_faas
+  - yoan_thirion
+slot: day-1-codelab-3
+room: L'Atelier
+abstract: |-
+  Xtrem T.D.D c'est : 
+  - 1 base de connaissance permettant de comprendre des pratiques craft de développement
+  - 1 code kata permettant de mettre en pratique pas moins de 13 de ces pratiques
+  - 1 escape game à base de cartes permettant de faciliter le code kata
+  le tout en Open Source.
+
+  Durant, cet atelier nous vous proposons de découvrir certaines de ces pratiques qui nous ont sauvé la vie (tout du moins celle de notre code) des centaines de fois: 
+  - le mutation testing
+  - l'utilisation de monades plutôt que d'exceptions
+  - l'immutabilité
+
+  Vous les expérimenterez par vous-mêmes dans un environnement sûr (pas du code de production et sans jugement) dans le langage de votre choix (java, C#, scala).
+
+  Vous ressortirez de cette session avec de nouveaux réflexes et l'envie de mettre en pratique ces découvertes au plus vite.
+
+  ![Xtrem TDD explained](https://github.com/les-tontons-crafters/xtrem-tdd-money-kata/blob/main/docs/img/xtrem-tdd.png?raw=true)

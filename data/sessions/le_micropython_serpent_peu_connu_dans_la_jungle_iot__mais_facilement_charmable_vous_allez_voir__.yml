@@ -1,0 +1,17 @@
+---
+key: le_micropython_serpent_peu_connu_dans_la_jungle_iot__mais_facilement_charmable_vous_allez_voir__
+title: Le micropython serpent peu connu dans la jungle IOT, mais facilement charmable vous allez voir !
+language: French
+talkType: quickie
+tags:
+  - mobile_iot
+complexity: Beginner
+speakers:
+  - baptiste_candalh
+  - guillaume_hourdier
+slot: day-2-quickie-2
+room: Tour de Bretagne
+abstract: |-
+  "Programmer une carte électronique, c'est dur " on entend souvent cette phrase, mais à quel point cela est-il vrai ? Aujourd'hui, les objets connectés font partie de notre quotidien et certains d'entre nous souhaitent peut-être se lancer dans la conception d'un système électronique, mais estiment qu'ils n'ont pas les connaissances et/ou que l'acquisition des connaissances nécessaires serait trop ardue.
+
+  C'est là que le Python premier langage de l'index TIOBE en juin 2023 et l'un des seuls langages connus par l'ensemble de la communauté de développeurs rentre en scène ! Effectivement, il existe maintenant un portage de celui-ci pour microcontrôleur appelé Micropython ! Ce talk a pour but de vous en faire sa présentation de vous montrer un petit projet réalise à l'aide de celui-ci et nous l'espérons vous donner envie de vous y intéressez !

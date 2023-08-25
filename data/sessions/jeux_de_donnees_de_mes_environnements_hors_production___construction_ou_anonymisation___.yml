@@ -1,0 +1,19 @@
+---
+key: jeux_de_donnees_de_mes_environnements_hors_production___construction_ou_anonymisation___
+title: 'Jeux de données de mes environnements hors production : construction ou anonymisation ? '
+language: French
+talkType: quickie
+tags:
+  - cloud_devops
+complexity: Beginner
+speakers:
+  - alexis_legros
+  - tjarriault
+slot: day-1-quickie-1
+room: Tour de Bretagne
+abstract: |-
+  A chaque fois, que nous devons déployer une plate forme, nous nous posons l'éternelle question : quels jeux de données nous allons utiliser pour valider les développements sur les environnements hors production, et surtout comment allons nous générer ces jeux de données.
+
+  Dans cette présentation, nous explorerons les différentes techniques d'anonymisation des données disponibles dans GCP et nous mettrons en avant l'utilisation de deux outils clés : GCP DLP et Dataflow. Nous discuterons des avantages et des limitations de chaque méthode, et nous présenterons des cas d'utilisation pratiques pour l'anonymisation des données dans des scénarios réels.
+
+  Dans le cadre de la présentation, nous ferons une introduction à l'anonymisation des données et son importance dans la conformité aux réglementations, puis nous rentrerons dans le concret en mettant en scene "GCP Data Loss Prevention (DLP)" pour l'anonymisation des données sensibles et "GCP Dataflow" pour générer dynamiquement des données synthétiques et anonymisées. 

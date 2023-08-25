@@ -1,0 +1,23 @@
+---
+key: et_si_l_ia_etait_la_solution_pour_comprendre_la_langue_des_signes__
+title: Et si l'IA était la solution pour comprendre la langue des signes ?
+language: French
+talkType: conference
+tags:
+  - bigdata_ai
+complexity: Intermediate
+speakers:
+  - elea_petton
+slot: day-1-conference-4
+room: Titan
+abstract: |-
+  Dans le domaine de l'Intelligence Artificielle, nous parlons souvent de Computer Vision et d'Object Detection, mais au final que signifient ces termes et surtout comment peuvent-ils nous aider dans la vie courante ?
+
+  Durant ce talk nous allons tout d'abord tenter de comprendre la place qu'occupe l'IA dans le vaste domaine de la santé. Nous montrerons ensuite l'importance de la donnée et nous développerons une app capable de détecter et d'interpréter la langue des signes.
+
+  Ce talk montrera comment il est possible de traiter la donnée avec du traitement d'image pour enrichir ses données d'entraînement.
+
+  La seconde étape consistera à entraîner un modèle de détection d'objets à reconnaître les différents signes de l'alphabet ASL (American Sign Language) au travers d'un notebook Jupyter. .
+
+  Une fois le  modèle construit et entrainé quoi de mieux que de créer ensemble une application ? Cette dernière sera basée sur les technologiques Cloud et container et nous verrons comment créer et déployer un tel outil.
+  Bien sûr, pour finalement, permettre à quiconque de comprendre la langue des signes avec une détection en temps réel et une transcription écrite, puis orale.

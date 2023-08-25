@@ -1,0 +1,30 @@
+---
+key: rendu_front__action___decouvrez_les_differents_modes_de_rendu_avec_next_js
+title: Rendu front, action ! Découvrez les différents modes de rendu avec Next.js
+language: French
+talkType: codelab
+tags:
+  - web
+complexity: Beginner
+speakers:
+  - clementine_robert
+  - olivier_thierry
+  - ryan_baloji
+slot: day-2-codelab-2
+room: Les Machines
+abstract: |-
+  Next.js est aujourd'hui le meta framework React le plus populaire et est recommandé par la core team React pour le développement d'applications web. 
+
+  Dans ce codelab nous nous intéresserons aux différents modes de rendu proposés par Next.js : 
+  * rendu côté client (CSR),
+  * rendu côté serveur (SSR),
+  * génération de sites statiques (SSG),
+  * regénération statique incrémentale (ISR),
+  * React Server Components (RSC),
+  * etc... 
+
+  Vous développerez une application web qui permettra aux cinéphiles de planifier leurs prochaines sorties cinémas. Vous vous appuierez sur une API publique et découvrirez quelques fonctionnalités intéressantes de Next.js.
+
+  À la fin de ce codelab vous aurez ainsi une vision plus claire du focntionnement de ces différents modes de rendu, de leurs atouts et de leurs limites. Et nous espérons que cela vous aidera à choisir le bon mode de rendu en fonction de vos besoins.
+
+  Pour suivre ce codelab, il est préférable d'avoir des connaissances de bases de React. Mais les différents modes de rendu utilisés sont également disponibles sur la majorité des autres écosystèmes Javascript.

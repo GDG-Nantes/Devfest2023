@@ -1,0 +1,19 @@
+---
+key: 30_index_sur_une_table_pg_de_6to___defis_et_solutions
+title: '30 index sur une table PG de 6To : défis et solutions'
+language: French
+talkType: conference
+tags:
+  - web
+complexity: Intermediate
+speakers:
+  - flora_briand
+slot: day-2-conference-3
+room: Belem
+abstract: |-
+  Au cours du temps, nos bases de données grossissent. Viennent alors les problématiques de performance. Une solution classique consiste à rajouter des index. Ceux-ci jouent effectivement un rôle crucial sur les performances, mais ils peuvent également être contre-productifs. Les pièges classiques : ajouter un index à chaque nouvelle requête, mal les définir ou les laisser vieillir sans s'en occuper.
+
+  Chez Doctolib nous avons une BDD Postgres de 30To, avec des pics quotidiens de 250k requêtes par seconde. La plus grosse table fait 6To, elle a 30 index.
+
+  Alors comment nous sommes-nous outillés pour améliorer l'usage de nos index et réduire leur nombre ?
+  Nous parlerons de représentativité de tests, de pièges SQL, de write-amplification, de benchmark d'index, et des défis que notre équipe a rencontrés pendant quelques mois.

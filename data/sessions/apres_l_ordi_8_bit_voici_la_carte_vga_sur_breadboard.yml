@@ -1,0 +1,16 @@
+---
+key: apres_l_ordi_8_bit_voici_la_carte_vga_sur_breadboard
+title: Après l'ordi 8 bit voici la carte VGA sur breadboard
+language: French
+talkType: conference
+tags:
+  - mobile_iot
+complexity: Intermediate
+speakers:
+  - olivier_huber
+slot: day-1-conference-2
+room: Titan
+abstract: |-
+  Vous avez aimé le show sur l'ordinateur 8 bit au DevFest 2022 ?
+  Voici maintenant sa carte graphique VGA toujours from scratch et toujours sur breadboard et avec encore plus de fun ;)
+  Préparez-vous à une fanfare 🎺 de pixels 👾

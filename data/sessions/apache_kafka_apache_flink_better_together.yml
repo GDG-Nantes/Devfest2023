@@ -1,0 +1,20 @@
+---
+key: apache_kafka_apache_flink_better_together
+title: 'Apache Kafka & Apache Flink - Better Together'
+language: English
+talkType: conference
+tags:
+  - languages
+complexity: Intermediate
+speakers:
+  - konstantin_knauf
+slot: day-2-conference-2
+room: Jules Verne
+abstract: |-
+  Over the last years, businesses have been under a lot of pressure to provide a superior customer experience: smarter, more personalised, more engaging. For this, companies need to leverage an ever-growing amount of real-time data coming from various sources.
+
+  In this context, data streaming has become a key driver of digital transformation across various industries from banking and manufacturing to online gaming and e-commerce. Apache Kafka has been at the forefront of this development and emerged as the de facto standard for reading, writing, and sharing streams across an organization.
+
+  Once these streams are reliable, governed and secured in a platform like Confluent Cloud the next step is to process them, to build applications on them and to derive insights. This is where Apache Flink comes in. Apache Flinks is a powerful stream processing framework that enables developers to address the full range of stream processing use cases: from offline analytics to real-time data pipelines to event-driven applications.
+
+  In this talk, I will briefly introduce Apache Kafka and Apache Flink and we’ll explore their role in making streaming the default for modern data architectures. Then, we’ll showcase - by example -  how these two technologies become more than the sum of their parts when they are powering a cloud-native streaming platform like Confluent Cloud.

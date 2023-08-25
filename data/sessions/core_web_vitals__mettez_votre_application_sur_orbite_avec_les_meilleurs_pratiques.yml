@@ -1,0 +1,25 @@
+---
+key: core_web_vitals__mettez_votre_application_sur_orbite_avec_les_meilleurs_pratiques
+title: 'Core Web Vitals: Mettez votre application sur orbite avec les meilleurs pratiques'
+language: French
+talkType: conference
+tags:
+  - ux_ui
+complexity: Intermediate
+speakers:
+  - nicolas_frizzarin
+slot: day-2-conference-2
+room: Titan
+abstract: |-
+  Lorsque l'on développe une application web il est primordial de respecter un certain niveau d'exigence sur l'UX. Cette pratique permet de satisfaire l'utilistateur mais également de s'assurer qu'il prenne plaisir à utiliser notre application.
+
+  En 2020, Google annonce vouloir intégrer l'année suivante, dans ses outils de performances et de métriques, trois nouveaux signaux permettant de caractériser et de mesurer cette expérience utilisateur.
+
+  Ces signaux sont regroupés sous le nom de Core Web Vitals et sont les suivants:
+  - LCP (Largest Contentful Paint)
+  - CLS (Cumule Layout Shift)
+  - FID (First Input Delay)
+
+  Mais que signifient  concrètement ces métriques ? Comment les déboguer et les optimiser et ainsi rendre notre application agréable à utiliser ?
+
+  A travers ce talk, je répondrai à ces questions et présenterai également un quatrième signal encore en cours d'expériementation: INP (Interaction to Next Point)

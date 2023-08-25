@@ -1,0 +1,36 @@
+---
+key: construisez_une_data_platform_cloud_native_sur_google_cloud
+title: Construisez une Data Platform Cloud Native sur Google Cloud
+language: French
+talkType: codelab
+tags:
+  - bigdata_ai
+complexity: Intermediate
+speakers:
+  - clement_bosc
+  - fabien_portes
+  - matthieu_grandrie
+slot: day-1-codelab-2
+room: L'Atelier
+abstract: |-
+  Construisons ensemble une Data Platform Cloud Native! Elle sera serverless et mettra à profit les services data de Google Cloud.
+
+  Au cours de cet atelier, vous apprendrez à déployer des ressources sur GCP, à coder un micro-service d'ingestion en Python déployé dans une Cloud Function, à nettoyer les données brutes avec du SQL et à présenter un tableau de bord avec Looker Studio.
+
+  C'est un tour d'horizon complet pour préparer la migration de votre Data Analytics vers le Cloud !
+
+  ## Au programme
+
+  * Introduction & présentation des objectifs du workshop
+  * Présentation des concepts du Cloud Google et des plateformes de données
+  * Création de votre premier bucket de stockage et tables BigQuery
+  * Conception d’une Cloud Function qui automatise le chargement de nouvelles données dans BigQuery en mode event-driven
+  * Transformation des données en SQL dans BigQuery (approche ELT)
+  * Réalisation d’un dashboard avec Looker Studio pour visualiser les données
+
+  ## Pré-Requis
+
+  * Avoir quelques bases en SQL et Python (ou autre langage de votre choix : Go, Node, Java…)
+  * Venir avec un ordinateur avec la CLI gcloud (https://cloud.google.com/sdk/docs/install ) installée, on va mettre les mains dans le cambouis 🧑‍🔧
+  * Avoir un compte Google, vous pouvez en créer un sans adresse Gmail ici. Nous vous fournirons des crédits et un projet Google Cloud.
+  * Avoir envie d’apprendre !

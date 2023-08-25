@@ -1,0 +1,22 @@
+---
+key: les_meilleurs_outils_de_dev_sont_il_dans_le_cloud_
+title: Les meilleurs outils de dev sont-il dans le Cloud?
+language: French
+talkType: conference
+tags:
+  - cloud_devops
+complexity: Beginner
+speakers:
+  - alexis_moussine_pouchkine
+slot: day-1-conference-5
+room: Jules Verne
+abstract: |-
+  Si le problème du "Works on my machine" a été réglé par Docker, alors pourquoi passe-t-on encore plusieurs heures et parfois plusieurs jours à configurer son poste de développement?
+
+  Dans cette session nous allons passer en revue les différentes options désormais offertes aux développeurs, depuis l'installation d'un environnement complet sur un poste de travail, au développement SSH pur et dur, en passant par les IDE full Web, et enfin aux environnements partagés entre une partie locale et une partie serveur. 
+
+  On pourra ainsi comparer les bénéfices de ces différentes solutions en fonction des contraintes de développement d'une équipe donnée (sa taille, le type de projet, les technos utilisées, ...).
+
+  Quelque soit le langage de programmation que vous utilisez, que vous fassiez du front web ou du back cloud, vous vous devez d'avoir les meilleurs outils pour concilier productivité et travail en équipe.
+
+  Alors, GitPod, Cloud9, Eclipse Theia, VS Code Remote Dev via SSH, ou JetBrains Gateway?

@@ -1,0 +1,18 @@
+---
+key: bullet_train__code_le_jeu_inspire_du_film_avec_flutter_et_flame
+title: 'Bullet train: code le jeu inspiré du film avec Flutter et Flame'
+language: French
+talkType: codelab
+tags:
+  - mobile_iot
+complexity: Beginner
+speakers:
+  - adrien_body
+  - emmanuel_lefebvre_dibon
+  - jocelyn_griselle
+slot: day-2-codelab-2
+room: Hangar
+abstract: |-
+  Nous ferons un premier arrêt à Dart-la-jolie pour découvrir ce language de programmation moderne mais peu répandu. Un petit stop à Flutter-en-Retz pour découvrir les fondations du framework, nous passerons par Flame-sur-Erdre pour créer un jeu 2D puis nous nous arrêterons à Crossplatform-sur-mer pour admirer le rendu web, iOS, Android et meme desktop !
+
+  Ce talk est destiné à tous ceux qui veulent mettre les mains dans Flutter une première fois pour découvrir les possibilités qu'il offre ! Ouvert à tous les développeurs pratiquant au moins un autre language de programmation.

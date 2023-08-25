@@ -1,0 +1,18 @@
+---
+key: design_system_en_pilote_automatique___du_design_a_la_production
+title: 'Design System en pilote automatique : du design à la production'
+language: French
+talkType: quickie
+tags:
+  - ux_ui
+complexity: Beginner
+speakers:
+  - lauriane_anthony
+slot: day-1-quickie-2
+room: Jules Verne
+abstract: |
+  Du designer au développeur, quelques intégrations suffisent à simplifier le quotidien de tous pour garder un design system synchronisé avec le design, avoir une unicité de couleurs entre les applications web/mobiles ou encore faciliter un changement de marque.
+
+  Dans cette présentation, nous explorerons la mise en place d'un flux de travail qui automatise le partage des design tokens depuis Figma, jusqu'à leur utilisation finale dans des applications web et mobiles via un design system. 
+  
+  Sans entrer dans les détails techniques, nous parcourrons étape par étape ce processus d’automatisation qui pourra vous donner des idées et des inspirations pour automatiser le flux de travail de votre design system.

@@ -1,0 +1,15 @@
+---
+key: programmation_concurrent_et_asynchrone___le_point_en_java_21
+title: 'Programmation Concurrent et Asynchrone : le point en Java 21'
+language: French
+talkType: conference
+tags:
+  - languages
+complexity: Intermediate
+speakers:
+  - jose_paumard
+slot: day-1-conference-2
+room: Jules Verne
+abstract: |-
+  Le projet Loom nous apporte les threads virtuels en Java 21, ainsi que deux API en version preview: la programmation concurrente structurée, qui propose un nouveau modèle de programmation asynchrone et les scoped values, nouveau modèle de variables thread-local. 
+  Cette présentation fait le bilan de ces fonctionnalités, des gains que les threads virtuels apportent et des nouveaux patterns qu'ils autorisent. Ces nouveaux patterns améliorent les performances, rendent possible l'écriture de tests unitaires et vous permettent de profiler vos applications asynchrones.

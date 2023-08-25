@@ -1,0 +1,22 @@
+---
+key: breaking_up_long_tasks
+title: Breaking up long tasks
+language: English
+talkType: conference
+tags:
+  - web
+complexity: Intermediate
+speakers:
+  - nishu_goel
+slot: day-1-conference-2
+room: Belem
+abstract: |-
+  Certain tasks on a user interaction can be blocking, giving the user a broken experience, and resulting in a low INP metric score.
+
+  Some ways to optimise the INP value of your page could be:
+
+  - keeping tasks small and dedicated to what they should do.
+  - using Chrome’s scheduler API to schedule tasks for browser
+  - yield important tasks to the main thread
+
+  The talk dives deeper into ways of improving the potentially next CWV, "Interaction to Next paint" of a page.

@@ -1,0 +1,19 @@
+---
+key: voyage_au_coeur_d_appwrite___le_backend_open_source_qui_challenge_firebase___
+title: 'Voyage au coeur d''Appwrite : le backend open-source qui challenge Firebase 🧳'
+language: French
+talkType: codelab
+tags:
+  - web
+complexity: Beginner
+speakers:
+  - lucas_audart
+  - mickael_alves
+slot: day-1-codelab-3
+room: Hangar
+abstract: |-
+  Bienvenue à bord du grand voyage, destination : l'univers du backend open-source ! Êtes vous prêts pour cette aventure au cœur d'Appwrite, la solution qui défie le géant déjà bien connu Firebase ? 🛫
+
+  Au cours de cette aventure, vous découvrirez les fondamentaux d'Appwrite, de la mise en place de l'environnement à l'exploration de fonctionnalités plus avancées. Nous parcourrons ensemble les différents services de base qui font d'Appwrite l'outil indispensable pour tout développeur à la recherche d'un backend facile à utiliser et performant 🚀
+
+  Prenez votre courage à deux mains et embarquez avec nous pour une expérience inoubliable au cœur de l'écosystème Appwrite ! 👨🏼‍✈️

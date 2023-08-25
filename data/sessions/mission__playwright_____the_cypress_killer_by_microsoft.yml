@@ -1,0 +1,18 @@
+---
+key: mission__playwright_____the_cypress_killer_by_microsoft
+title: 'Mission: Playwright 🎭, the Cypress killer by Microsoft'
+language: French
+talkType: codelab
+tags:
+  - web
+complexity: Beginner
+speakers:
+  - mathieu_mure
+slot: day-1-codelab-1
+room: Les Machines
+abstract: |-
+  L'heure est grave, en tant qu'agent du CYPRESS, qui s'est imposé ces dernières années en tant que leader incontournable des tests E2E, vous êtes maintenant challengés par Microsoft lui-même avec Playwright!
+
+  Proposant les mêmes services, il résout également tous les problèmes rencontrés par Cypress, comme: le test multi pages ou multi onglets la restriction d'iframe ou de third-parties, vous pouvez utilisez votre application tel quelle support des 3 navigateurs majeurs (chromium, firefox et webkit) support de l'API d'assertion de jest et plus récemment l'API de sélection de testing-library native typescript et async/await support
+
+  Votre mission est donc simple: Espionnez ce nouvel outil pour vous faire une idée de la dangerosité qu'il apporte à Cypress et trouver les codes d'accès des secrets de Microsoft...

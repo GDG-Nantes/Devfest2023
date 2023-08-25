@@ -1,0 +1,15 @@
+---
+key: damien_raude_morvan
+name: Damien Raude-Morvan
+feature: false
+company: Decathlon
+companyLogo: /images/partners/decathlon.png
+city: Nantes, France
+photoUrl: https://pbs.twimg.com/profile_images/467414584169484289/ZhWfTENW_normal.jpeg
+socials:
+  twitter: drazzib
+  github: drazzib
+bio: |-
+  Damien RAUDE-MORVAN est _Staff Software Engineer_ au sein de la business unit **X-Commerce** de **Decathlon Digital**.
+  Il est présent dans l'écosystème numérique nantais depuis 15 ans avec des rôles d'architecte logiciel, de formateur,
+  et de responsable R&D.  Il est également contributeur différents communautés Open Source (Apache, Debian).
