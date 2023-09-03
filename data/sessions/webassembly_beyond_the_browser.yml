@@ -8,7 +8,7 @@ tags:
 complexity: Beginner
 speakers:
   - mete_atamel
-slot: day-2-conference-5
+slot: day-1-conference-1
 room: Titan
 abstract: |-
   WebAssembly (Wasm) allows you to compile code written in over 40 programming languages and run it in a secure and performant way in web browsers. The WebAssembly System Interface (WASI) has expanded the capabilities of Wasm by enabling it to run outside the web browser, such as server-side applications, edge computing, and cloud microservices. Docker has also recently announced support for Wasm, allowing it to be used as a lightweight alternative to Linux and Windows containers.
