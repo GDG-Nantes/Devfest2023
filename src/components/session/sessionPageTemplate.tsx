@@ -10,7 +10,6 @@ import { Speaker } from "../../../json_schemas/interfaces/schema_speakers";
 import { MyLink } from "../../helpers/links";
 import Layout from "../../layout";
 import { Flag } from "../commun/flags";
-import { CompanyLogo } from "../commun/images";
 import { Markdown } from "../commun/markdown";
 import { DefaultPage } from "../commun/page";
 import { SecondarySection, TertiarySection } from "../commun/section/section";
@@ -170,11 +169,9 @@ const SpeakerCard: React.FC<{ speakerKey }> = ({ speakerKey }) => {
             <Typography variant="h4" color="inherit" style={{ color: "white" }}>
               {speaker.name}
             </Typography>
-            <span style={{ color: "var(--tertiary-darker)" }}>
-              {speaker.city}
-            </span>
+            <span style={{ color: "var(--tertiary-darker)", marginBottom: '0' }}>{speaker.company}</span>
+            <span style={{ color: "var(--tertiary-darker)", marginTop: '0' }}>{speaker.city}</span>
           </Stack>
-          <CompanyLogo logo={speaker.companyLogo} company={speaker.company} />
         </Stack>
       </Card>
     </MyLink>

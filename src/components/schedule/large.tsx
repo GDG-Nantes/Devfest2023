@@ -17,7 +17,6 @@ export const LargeSchedule: React.FC<{
   const hoursSlots = hoursStart.map(
     (start) => allHoursSlots.find((slot) => slot.start === start) as Slot
   );
-  console.log(hoursSlots.map((slot) => slot.start));
 
   const sessionsByHours: { [k: string]: Array<PartialSession> } = {};
   const fixedSlotsByHours: { [k: string]: Array<Slot> } = {};

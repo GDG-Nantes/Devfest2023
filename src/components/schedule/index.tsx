@@ -2,7 +2,6 @@ import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import { slots } from "../../../data/slots.json";
 import { Slot } from "../../../json_schemas/interfaces/schema_slots";
-import { useResponsiveData } from "../../helpers/responsive";
 import { PartialSession } from "./common";
 import { LargeSchedule } from "./large";
 import { MobileSchedule } from "./mobile";
@@ -46,19 +45,18 @@ export const Schedule: React.FC<{ day: 1 | 2 }> = ({ day }) => {
     ["opening", "lunch", "break", "keynote", "party"].includes(s.type)
   );
 
-  const { isMobileOrTablet } = useResponsiveData();
-
-  return isMobileOrTablet ? (
-    <MobileSchedule
-      sessions={sessions}
-      allHoursSlots={allHoursSlots}
-      fixedSlots={fixedSlots}
-    />
-  ) : (
-    <LargeSchedule
-      sessions={sessions}
-      allHoursSlots={allHoursSlots}
-      fixedSlots={fixedSlots}
-    />
+  return (
+    <>
+      <MobileSchedule
+        sessions={sessions}
+        allHoursSlots={allHoursSlots}
+        fixedSlots={fixedSlots}
+      />
+      <LargeSchedule
+        sessions={sessions}
+        allHoursSlots={allHoursSlots}
+        fixedSlots={fixedSlots}
+      />
+    </>
   );
 };

@@ -5,6 +5,10 @@
   grid-gap: 10px;
   width: 100%;
   z-index: 1;
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .header-days {
@@ -129,6 +133,11 @@
 }
 
 .mobile-schedule {
+
+  @media screen and (min-width: 600px) {
+    display: none;
+  }
+
   .hour {
     width: 100%;
     height: 30px;
