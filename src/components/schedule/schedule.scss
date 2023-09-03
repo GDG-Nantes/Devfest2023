@@ -6,8 +6,8 @@
   width: 100%;
   z-index: 1;
 
-  @media screen and (max-width: 600px) {
-    display: none;
+  @media (max-width: 960px) {
+    display: none !important;
   }
 }
 
@@ -134,8 +134,8 @@
 
 .mobile-schedule {
 
-  @media screen and (min-width: 600px) {
-    display: none;
+  @media (min-width: 960px) {
+    display: none !important;
   }
 
   .hour {
