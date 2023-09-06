@@ -2,8 +2,17 @@
 key: vincent_colas
 name: Vincent Colas
 feature: false
-company: Younup
+company: Younup / Blockchain & Société
 companyLogo: /images/partners/younup.png
 city: Nantes, France
 photoUrl: https://i.ibb.co/cQN3v8N/vincent-colas.png
-socials: {}
+socials:
+  twitter: vinc_dev
+  github: vinc-developer
+  linkedin: colas-vincent
+bio: |-
+  Je suis nantais et développeur Full-Stack spécialisé dans le développement web et logiciels. Je développe principalement avec Java (Spring boot) et Javascript (Angular, Typescript, Express.js).
+
+  De nature curieux et avec une grande soif d’apprendre, j’ai commencé à m’autoformer à la blockchain, notamment en apprenant le langage Solidity et les frameworks blockchain Truffle, Hardhat, Ethers.js.
+
+  Je suis également membre de l’association Blockchain & Société.
