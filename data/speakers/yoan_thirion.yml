@@ -2,20 +2,21 @@
 key: yoan_thirion
 name: Yoan Thirion
 feature: false
-company: yoan-thirion
-companyLogo: /images/partners/yoan_thirion.png
-city: Luxembourg
-photoUrl: https://lh6.googleusercontent.com/-fFK15b40Woc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfmU_ppH5o4woN_ThmnwCJTpFQ9Hg/mo/photo.jpg
+company: Pyxis Suisse
+companyLogo: https://pyxis-suisse.ch/wp-content/uploads/2022/02/logo.png
+city: Genève
+photoUrl: https://pyxis-suisse.ch/wp-content/uploads/2023/05/Yoan-T.png
 socials:
   twitter: yot88
   github: ythirion
+  linkedin: yoanthirion
 bio: |-
   J’ai été bercé par le développement de logiciels pendant une quinzaine d’années.
-   Mes diverses expériences m’ont permis de comprendre que le système d’exploitation actuel des organisations ne fonctionne plus. 
+  Mes diverses expériences m’ont permis de comprendre que le système d’exploitation actuel des organisations ne fonctionne plus. 
 
   Il tue la motivation des individus, leur potentiel de créativité et d’innovation.
   Après avoir ouvert les yeux, je me suis demandé comment faire les choses différemment. 
   C’est de là que me vient ma passion pour l’agilité et les organisations libérées. 
 
-  Afin de pouvoir diffuser cette passion et essayer d’avoir un impact je suis devenu coach agile technique.
-  J'interviens aussi bien pour aider les équipes sur le volet ingénieurie logicielle (pratiques XP par exemple) que sur le volet process.
+  Afin de pouvoir diffuser cette passion et essayer d’avoir un impact je suis devenu coach agile.
+  J'interviens aussi bien pour aider les équipes sur le volet ingénieurie logicielle (pratiques XP par exemple) que sur le volet "process".
