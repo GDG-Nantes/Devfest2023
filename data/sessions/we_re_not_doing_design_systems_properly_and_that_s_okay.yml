@@ -1,6 +1,6 @@
 ---
 key: we_re_not_doing_design_systems_properly_and_that_s_okay
-title: We’re Not doing Design Systems Properly and That’s Okay
+title: Dogmes et Design Systems, comment faire autrement
 language: French
 talkType: conference
 tags:
@@ -11,11 +11,8 @@ speakers:
 slot: day-1-conference-5
 room: Titan
 abstract: |-
-  How do you ‘do’ Design Systems? Expectations are so high nowadays. Implement Design Tokens. Have a dedicated Design System team. Get a Design System manager. Wait, does your Design System even have a name?
+  Comment se lancer dans la création et la maintenance d’un Design System ? Aujourd’hui les injonctions sont multiples et fusent de toute part : il faut mettre en place des tokens, il faut avoir une équipe dédiée, il faut embaucher un manager dédié, il faut trouver un nom sympa, il faut, il faut…
 
-  There isn’t one way to do Design Systems. Ours ticks none of these boxes, yet today, it allows us to build from the simplest to the most complex financial tools, and design systematically across our services. In this session, we’ll share the lessons we learned on prioritising impacts over grip.
+  Or, il existe rarement une seule façon de faire dans la vie et encore moins en entreprise. Notre Design System ne coche aucune de ces cases. Pourtant il vient de souffler ses 9 bougies, nous permet de concevoir des expériences produit des plus simples aux plus complexes, et d’adopter une pensée plus systémique sur l’ensemble de nos services.
 
-  Takeaways:
-  - Understand that there’s no one way to do Design Systems
-  - How to adapt for adoption
-  - How to use the Design System mindset for large-scale pattern-based thinking
+  Dans cette conférence, nous vous invitons à prendre un recul critique sur le sujet des Design Systems et partagerons les leçons tirées de ces années d'expérimentations et de pragmatisme. Nous parlerons également d'adoption, de gouvernance, et de la diffusion cet état d'esprit en entreprise pour établir des patterns à grande échelle.
