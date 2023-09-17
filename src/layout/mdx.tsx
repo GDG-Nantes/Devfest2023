@@ -23,7 +23,7 @@ export const mdxComponents = {
   // Map HTML element tag to React component
   h1: ({ children }) => <Typography variant="h1">{children}</Typography>,
   h2: ({ children }) => <Typography variant="h2">{children}</Typography>,
-  h3: ({ children }) => <Typography variant="h3">{children}</Typography>,
+  h3: ({ children }) => <Typography variant="h3" style={{margin: '30px 0 15px 0', color:"var(--tertiary)"}}>{children}</Typography>,
   h4: ({ children }) => <Typography variant="h4">{children}</Typography>,
   h5: ({ children }) => <Typography variant="h5">{children}</Typography>,
   h6: ({ children }) => <Typography variant="h6">{children}</Typography>,
