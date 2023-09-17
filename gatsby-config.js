@@ -34,12 +34,12 @@ module.exports = {
       },
     },
 
-    {
-      resolve: "gatsby-plugin-google-gtag",
-      options: {
-        trackingIds: ["G-D66NP8CLV0"],
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-google-gtag",
+    //   options: {
+    //     trackingIds: ["G-D66NP8CLV0"],
+    //   },
+    // },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     {
