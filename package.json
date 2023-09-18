@@ -14,7 +14,8 @@
     "serve": "gatsby serve -H 0.0.0.0",
     "clean": "gatsby clean",
     "generate": "json2ts -i json_schemas/*.json -o json_schemas/interfaces/",
-    "postinstall": "npm run generate"
+    "postinstall": "npm run generate",
+    "postbuild": "cp public/sitemap/sitemap-0.xml public/sitemap/sitemap-old.xml && sed -i 's/devfest2023.gdgnantes/devfest.gdgnantes/g' public/sitemap/sitemap-old.xml"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
