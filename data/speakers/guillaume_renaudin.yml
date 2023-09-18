@@ -3,7 +3,15 @@ key: guillaume_renaudin
 name: Guillaume Renaudin
 feature: false
 city: Nantes, France
-photoUrl: https://avatars.githubusercontent.com/u/4942330?v=4
+company: Zenika
+companyLogo: /images/partners/zenika.png
+photoUrl: https://lh3.googleusercontent.com/a/ACg8ocIpwp7fqdYxqlmHNCHGZe2YmfBrwxAvJSoVHwTkqphM7g=s576-c-no
 socials:
   twitter: rguillome
-  github: rguillome/
+  github: rguillome
+  linkedin: rguillome
+bio: |-
+  Lead practice Data chez Zenika, ça fait 18 ans que j'arpente les SI des entreprises pour apporter mes services de développeur, d'architecte et de data ingénieur. 
+  J'aime particulièrement voir grandir et mûrir leurs projets. 
+  L'IA et la data sont des domaines dans lesquels je peux exprimer toutes mes capacités et envies.
+
