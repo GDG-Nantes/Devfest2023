@@ -1,0 +1,23 @@
+---
+key: devenez_l_elu_et_maitrisez_la_matrice_aws
+title: Devenez l’Élu et maitrisez la Matrice AWS 🦸‍♂️
+language: French
+talkType: conference
+tags:
+  - cloud_devops
+complexity: Beginner
+speakers:
+  - arthur_guyader
+  - guillaume_membre
+slot: day-2-conference-4
+room: Belem
+abstract: |
+  Entrez, suivez le lapin blanc 🐰 et venez découvrir les étapes qui nous ont permis de vaincre l’Agent Smith 🕵️🕵️ !
+  
+  À bord du Nebuchadnezzar 🚀, vous aurez un aperçu des préconisations AWS pour mettre en œuvre une architecture multi-comptes et une ségrégation forte de la couche réseau.
+  
+  En suivant le Maître des Clés 🗝️, il vous expliquera comment ouvrir les portes de la Matrice grâce au SSO.
+  
+  Quant à l'Oracle 🔮, elle vous prédira un avenir incertain sur les coûts.
+  
+  Quelle pilule choisirez-vous ? 💊 Prenez la bleue, l'histoire s'arrête là. Vous vous réveillez dans votre lit, et vous continuez de suivre naïvement les recommandations AWS. Prenez la rouge, vous restez au Pays des Merveilles et nous vous montrons jusqu'où l’optimisation peut aller.
