@@ -1,0 +1,11 @@
+---
+key: keynote
+title: 'Keynote'
+language: French
+talkType: conference
+tags:
+  - discovery
+speakers:
+  - alexandre_saudinos
+slot: day-1-keynote-open
+room: Jules Verne

@@ -42,7 +42,7 @@ export const Schedule: React.FC<{ day: 1 | 2 }> = ({ day }) => {
     .filter((s) => s.key.startsWith("day-" + day)) //
     .filter((s) => s.type !== "codelab");
   const fixedSlots: Slot[] = allHoursSlots.filter((s) =>
-    ["opening", "lunch", "break", "keynote", "party"].includes(s.type)
+    ["opening", "lunch", "break", "party"].includes(s.type)
   );
 
   return (

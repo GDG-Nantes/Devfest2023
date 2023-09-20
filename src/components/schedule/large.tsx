@@ -133,7 +133,7 @@ const SessionInfo: React.FC<{ session: PartialSession }> = ({ session }) => {
       <span className="sr-only">Salle {session.room}</span>
       <div className="session-info-bottom">
         <Stack direction="row" alignItems="center" spacing={1}>
-          <Tags tags={session.tags}/>
+          {session.tags && <Tags tags={session.tags}/>}
           <Flag lang={session.language} size="tiny" />
         </Stack>
         <Speakers speakers={session.speakers} />

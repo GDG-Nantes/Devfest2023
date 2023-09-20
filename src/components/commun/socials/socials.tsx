@@ -71,7 +71,7 @@ export const SocialLink: React.FC<
             </IconButton>
           }
         >
-          {social.type != "website" && social.login}
+          {social.type != "website" && social.type != "linkedin" && social.login}
           {social.type == "website" && "Website"}
         </Button>
       ) : (

@@ -80,7 +80,7 @@ const SessionInfo: React.FC<{ session: PartialSession }> = ({ session }) => {
     >
       <span className="session-title">{session.title}</span>
       <Stack spacing={2} alignItems="center" direction="row">
-        <Tags tags={session.tags} />
+        {session.tags && <Tags tags={session.tags}/>}
         <Flag lang={session.language} size="small" />
         <span>{session.room}</span>
       </Stack>
