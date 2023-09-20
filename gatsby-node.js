@@ -40,7 +40,7 @@ exports.onCreatePage = ({ page, actions }) => {
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
   // Query for markdown nodes to use in creating pages.
-  
+
   // A ajouter
   // openfeedbackId
   // cancelled
@@ -62,6 +62,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               language
               complexity
               abstract
+              openfeedbackId
             }
           }
         }
