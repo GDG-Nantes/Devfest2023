@@ -12,7 +12,7 @@
     {
       "key": "day-1-keynote-open",
       "start": "09:00",
-      "type": "keynote",
+      "type": "conference",
       "display": {
         "row": 2,
         "size": 2
