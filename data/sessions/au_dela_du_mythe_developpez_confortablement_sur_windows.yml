@@ -1,0 +1,19 @@
+---
+key: au_dela_du_mythe_developpez_confortablement_sur_windows
+openfeedbackId: featureflagswithopenfeatureenablingfastermorecollaborativedevelo
+title: 'Au delà du mythe, développez confortablement sur Windows'
+language: French
+talkType: quickie
+tags:
+  - discovery
+complexity: Beginner
+speakers:
+  - sebastien_oddo
+slot: day-2-quickie-1
+room: Tour de Bretagne
+abstract: |-
+  Etre bien outillé quand on dev, c’est la clé de l’efficacité et de la motivation ! Venez donc voir comment améliorer votre confort de développement sous Windows..
+  
+  Si vous croyez qu’un environnement de développement agréable n’est réservé qu’à Linux ou Mac, vous apprendrez qu’il y a largement de quoi se faire plaisir sous Windows également, et sans douleur. En un quart d’heure, venez découvrir différents outils et configurations qui vont vous faciliter le quotidien par leur design attractif ou leur simplicité !
+  
+  On va parler Terminal, Git, VSCode… Et quelques autres outils ultra pratiques comme PowerToys. Vous découvrirez forcément des perles !
