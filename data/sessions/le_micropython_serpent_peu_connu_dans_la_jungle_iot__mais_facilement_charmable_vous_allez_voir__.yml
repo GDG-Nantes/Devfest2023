@@ -5,7 +5,7 @@ title: Le micropython serpent peu connu dans la jungle IOT, mais facilement char
 language: French
 talkType: quickie
 tags:
-  - mobile_iot
+  - iot_hardware
 complexity: Beginner
 speakers:
   - baptiste_candalh

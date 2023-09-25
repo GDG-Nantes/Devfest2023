@@ -1,7 +1,7 @@
 import {
   Brush,
   Cloud,
-  Code,
+  Code, Computer, DeveloperBoard,
   Language,
   Lightbulb,
   PhoneAndroid,
@@ -34,8 +34,12 @@ export const rooms: Rooms[] = [
 ];
 
 const tagLabels = {
-  mobile_iot: {
-    label: "Mobile & IoT",
+  iot_hardware: {
+    label: "IoT & Hardware",
+    icon: <DeveloperBoard />,
+  },
+  mobile: {
+    label: "Mobile",
     icon: <PhoneAndroid />,
   },
   web: {
