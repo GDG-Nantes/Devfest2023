@@ -1,12 +1,15 @@
 runtime: python27
 api_version: 1
 threadsafe: true
-default_expiration: "100d"
 handlers:
   - url: /
     static_files: index.html
     upload: index.html
     secure: always
+    http_headers:
+      cache-control: no-store
+
+  - url: /manifest.webmanifest
     http_headers:
       cache-control: no-store
 
