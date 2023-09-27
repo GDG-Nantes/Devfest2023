@@ -9,10 +9,6 @@ handlers:
     http_headers:
       cache-control: no-store
 
-  - url: /manifest.webmanifest
-    http_headers:
-      cache-control: no-store
-
     # All files with extensions are considered static
   - url: /(.+\..+)
     static_files: \1
