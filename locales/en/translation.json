@@ -12,7 +12,9 @@
         "cfp": "Become speaker",
         "previous": "2022 Edition",
         "generate-ticket": "Edit my ticket",
-        "bring-ecocup": "Don't forget your own eco-cup and bag !"
+        "bring-ecocup": "Don't forget your own eco-cup and bag !",
+        "resend-tickets": "Resend my tickets",
+        "get-app": "Get the App"
       },
       "newsletter": "Get notified about conference updates",
       "numbers": {
@@ -21,7 +23,7 @@
         "sessions": "Sessions",
         "tracks": "Tracks",
         "speakers": "Speakers",
-        "our-values":"Our values"
+        "our-values": "Our values"
       },
       "tickets": {
         "name": "Tickets",
@@ -52,9 +54,9 @@
     "partners": {
       "name": "Partners",
       "platinium-partners": "Platinium partners",
-      "platinium":"Platinium",
-      "gold":"Gold",
-      "virtual":"Virtual",
+      "platinium": "Platinium",
+      "gold": "Gold",
+      "virtual": "Virtual",
       "partners": "Our partners"
     },
     "speakers": {
@@ -98,9 +100,15 @@
       "lunch": "Lunch",
       "party": "After Party"
     },
-    "team": { "name": "Team" },
-    "code-of-conduct": { "name": "Code of conduct" },
-    "legal-mentions": { "name": "Legal Mentions" }
+    "team": {
+      "name": "Team"
+    },
+    "code-of-conduct": {
+      "name": "Code of conduct"
+    },
+    "legal-mentions": {
+      "name": "Legal Mentions"
+    }
   },
   "404": {
     "main": "You seem lost...",

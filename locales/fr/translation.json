@@ -12,7 +12,9 @@
         "cfp": "Devenir speaker",
         "previous": "Édition 2022",
         "generate-ticket": "Générer mon billet",
-        "bring-ecocup": "N'oubliez pas vos propres eco-cups et sac !"
+        "bring-ecocup": "N'oubliez pas vos propres eco-cups et sac !",
+        "resend-tickets": "Renvoyer mes billets",
+        "get-app": "Appli mobile"
       },
       "newsletter": "Soyez notifié des dernières informations !",
       "numbers": {
@@ -21,7 +23,7 @@
         "sessions": "Conférences",
         "tracks": "Tracks",
         "speakers": "Speakers",
-        "our-values":"Nos valeurs"
+        "our-values": "Nos valeurs"
       },
       "tickets": {
         "name": "Tickets",
@@ -52,9 +54,9 @@
     "partners": {
       "name": "Partenaires",
       "platinium-partners": "Nos Sponsors Platinium",
-      "platinium":"Platinium",
-      "gold":"Gold",
-      "virtual":"Virtual",
+      "platinium": "Platinium",
+      "gold": "Gold",
+      "virtual": "Virtual",
       "partners": "Nos partenaires"
     },
     "blog": {
@@ -98,9 +100,15 @@
       "lunch": "Déjeuner",
       "party": "After Party"
     },
-    "team": { "name": "L'Équipe" },
-    "code-of-conduct": { "name": "Code de conduite" },
-    "legal-mentions": { "name": "Mentions Légales" }
+    "team": {
+      "name": "L'Équipe"
+    },
+    "code-of-conduct": {
+      "name": "Code de conduite"
+    },
+    "legal-mentions": {
+      "name": "Mentions Légales"
+    }
   },
   "sessions": {
     "cancelled": "Annulé"
