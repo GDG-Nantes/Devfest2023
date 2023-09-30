@@ -21,10 +21,10 @@ export const MENU: Array<MenuItem> = [
     label: "partners",
     link: "/partners/",
   },
-  // {
-  //   label: "blog",
-  //   link: "/blog",
-  // },
+  {
+    label: "blog",
+    link: "/blog",
+  },
   // {
   //   label: "menu",
   //   link: "/menu",

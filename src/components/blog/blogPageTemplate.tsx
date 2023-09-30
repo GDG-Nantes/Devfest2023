@@ -39,11 +39,14 @@ const BlogPageTemplate: React.FC<{ pageContext: { blog: Blog } }> = ({
             backgroundImage: `url(${backgroundSrc})`,
           }}
         >
-          <Typography variant="h1" color="primary">
+          <Typography className={"blog-hero-title"} variant="h1" color="primary">
             {blog.title}
           </Typography>
         </TertiarySection>
         <DefaultSection variant="primary-dark" className="blog-section">
+          <Typography className={"blog-content-title"} variant="h1" color="primary">
+            {blog.title}
+          </Typography>
           <Markdown content={blog.content} />
         </DefaultSection>
       </DefaultPage>

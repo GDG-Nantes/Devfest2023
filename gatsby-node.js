@@ -136,20 +136,20 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     });
   });
 
-  // // Blogs
-  // const blogPageTemplate = path.resolve(
-  //   "src/components/blog/blogPageTemplate.tsx"
-  // );
-  // data.allBlogsYaml.edges.forEach(({ node: blog }) => {
-  //   const path = "blog/" + blog.key;
-  //   createPage({
-  //     path,
-  //     component: blogPageTemplate,
-  //     context: {
-  //       blog,
-  //     },
-  //   });
-  // });
+  // Blogs
+  const blogPageTemplate = path.resolve(
+    "src/components/blog/blogPageTemplate.tsx"
+  );
+  data.allBlogsYaml.edges.forEach(({ node: blog }) => {
+    const path = "blog/" + blog.key;
+    createPage({
+      path,
+      component: blogPageTemplate,
+      context: {
+        blog,
+      },
+    });
+  });
 };
 
 exports.onCreateWebpackConfig = ({ actions }) => {

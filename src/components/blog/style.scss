@@ -8,11 +8,22 @@
 
   @media (max-width: 960px) {
     height: 250px;
+    .blog-hero-title{
+      visibility: hidden;
+    }
+    .blog-content-title {
+      visibility: visible;
+      display: block;
+    }
   }
 
   h1 {
     margin-bottom: 50px;
   }
+}
+.blog-content-title {
+  visibility: hidden;
+  display: none;
 }
 
 .two-line-text {
