@@ -29,10 +29,10 @@ export const MENU: Array<MenuItem> = [
   //   label: "menu",
   //   link: "/menu",
   // },
-  // {
-  //   label: "jobs",
-  //   link: "/jobs",
-  // },
+  {
+    label: "jobs",
+    link: "/jobs",
+  },
   // {
   //   label: "Tickets",
   //   link: "https://www.billetweb.fr/devfest-Nantes",
