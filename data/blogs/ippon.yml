@@ -4,6 +4,12 @@ key: ippon
 image: ippon
 date: 2023-09-28
 content: |-
-  Sébastien Napoleon, AWS Community Builder and Cloud and DevOps enthusiast : 
+  Et si je vous disais qu'un VPN ne servait plus à rien
   
-  [https://blog.ippon.fr/2023/01/23/et-si-je-vous-disais-quun-vpn-ne-servait-plus-a-rien/](https://blog.ippon.fr/2023/01/23/et-si-je-vous-disais-quun-vpn-ne-servait-plus-a-rien/) 
+  Commençons par une mise en situation. C’est un lundi matin, on commence la semaine en se connectant à notre VPN. On peut ensuite accéder à nos mails, les salons Teams, se connecter à la console AWS, etc. Un lundi matin banal, me direz-vous ? Une heure passe, et plus de connexion. “Mince, j’ai dû être déconnecté du VPN…” , je suis sûr que cette phrase résonne dans vos oreilles.
+  
+  Eh oui, le VPN, cet outil que quasiment tout le monde utilise. Et si je vous disais qu’il ne servait plus à rien sur AWS ? Imaginez un monde où l’on peut se connecter de façon sécurisée à nos applications sans passer par un client lourd ? Imaginez si, en plus de ça, on appliquait le principe du zero trust ? Ce n’est pas tout, encore plus loin, si l’on pouvait mettre des restrictions sur le type de support depuis lequel on se connecte, depuis la zone géographique ?"
+  
+  Vous souhaitez lire la suite ?
+  
+  RDV ici : [https://blog.ippon.fr/2023/01/23/et-si-je-vous-disais-quun-vpn-ne-servait-plus-a-rien/](https://blog.ippon.fr/2023/01/23/et-si-je-vous-disais-quun-vpn-ne-servait-plus-a-rien/)
