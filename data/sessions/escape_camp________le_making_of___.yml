@@ -18,4 +18,4 @@ abstract: |
 
   Un seul objectif, s'amuser en codant un escape game qui démontre des concepts souvent méconnus ou sous-utilisés dans les applications aujourd'hui.
 
-  _Prérequis :_ un IDE pour coder en Kotlin, IntelliJ Community Edition de préférence, Postman ou autre pour tester votre l'api Rest
+  _Prérequis : un IDE pour coder en Kotlin, IntelliJ Community Edition de préférence, un environnement Docker nécessaire pour la base de données, Postman ou autre pour tester votre l'api Rest et un client PostgresSQL
