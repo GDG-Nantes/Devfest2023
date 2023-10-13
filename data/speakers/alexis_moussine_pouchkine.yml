@@ -2,7 +2,10 @@
 key: alexis_moussine_pouchkine
 name: Alexis Moussine-Pouchkine
 feature: false
-photoUrl: https://lh4.googleusercontent.com/-lhM21yfjURo/AAAAAAAAAAI/AAAAAAAAU44/ZvWlMXFvwpc/photo.jpg
+photoUrl: https://avatars.githubusercontent.com/u/1085096?v=4
 company: Google
 city: Paris, France
-socials: {}
+socials:
+  twitter: alexismp
+  linkedin: alexism1
+bio: Google Cloud EMEA DevRel Lead
