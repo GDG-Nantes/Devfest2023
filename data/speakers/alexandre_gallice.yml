@@ -4,7 +4,7 @@ name: Alexandre Gallice
 feature: false
 company: Red Hat
 companyLogo: /images/partners/red_hat.png
-photoUrl: https://github.com/aldettinger/events/blob/main/photo/id.png
+photoUrl: https://github.com/aldettinger/events/blob/main/photo/id.png?raw=true
 city: Nantes, France
 socials:
   twitter: alexgallice
