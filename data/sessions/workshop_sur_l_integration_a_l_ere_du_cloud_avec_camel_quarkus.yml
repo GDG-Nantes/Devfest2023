@@ -24,3 +24,11 @@ abstract: |-
   + Les routes de Camel Quarkus
   + Les composants de Camel Quarkus
   + Les Enterprise Integration Pattern de Camel Quarkus
+  
+  IMPORTANT:
+  Il est très fortement conseillé d'exécuter la [section prérequise](https://github.com/aldettinger/camel-quarkus-workshop#prerequisites-for-the-workshop) avant la conférence depuis votre maison/bureau:
+  https://github.com/aldettinger/camel-quarkus-workshop#prerequisites-for-the-workshop
+  
+  En effet, plus de 2 Gib de téléchargement sont nécessaires afin de rapatrier les outils, les sources, les dépendances maven et les images docker.
+  Télécharger autant de données avec une seule connexion Wi-Fi partagée entre 30 personnes peut s'avérer être une mauvaise expérience.
+  Apporter un câble RJ45 et/ou un téléphone portable avec un bon forfait data peuvent également être de bonnes idées.
