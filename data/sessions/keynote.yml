@@ -1,10 +1,11 @@
 ---
 key: keynote
-title: 'Keynote'
+title: 'Écrans LED et moteurs 3D temps réel : révolution dans le cinéma !'
 language: French
 talkType: conference
 tags:
   - discovery
+complexity: Beginner
 speakers:
   - alexandre_saudinos
 slot: day-1-keynote-open
