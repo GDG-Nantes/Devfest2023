@@ -1,7 +1,7 @@
 ---
 key: pourquoi_et_comment_organiser_une_app_en_libs_avec_nx__
 openfeedbackId: pourquoietcommentorganiseruneappenlibsavecnx
-title: Pourquoi et comment organiser une app en libs avec Nx ?
+title: Finies les apps, pensez libs avec Nx !
 language: French
 talkType: conference
 tags:
@@ -12,8 +12,6 @@ speakers:
 slot: day-2-conference-2
 room: Belem
 abstract: |
-  Qui a dit monorepo ? Bien que Nx soit la principale alternative “human readable” à Bazel pour organiser un monorepo, parmi d’autres qualités, Nx est avant tout outil permettant de découper aisément nos applications en libs. Cela dit, à quelles fins céderions-nous à une telle tentation ? Par simple esthétisme, ou bien plus ?
+  Qui a dit monorepo ? Bien que Nx soit la principale alternative “human readable” à Bazel pour organiser un monorepo, Nx est aussi un outil permettant de découper aisément nos applications en libs. Cela dit, à quelles fins céderions-nous à une telle tentation ? Par simple esthétisme, ou bien plus ?
 
-  Est-ce que Nx nous permettrait de nous focaliser plus sur notre code et moins sur le setup des outils de build, lint et test ? Réussirait-il vraiment à nous faire gagner du temps de build / lint / test / etc… ? Nous simplifierait-il notre migration progressive vers de nouveaux outils ? Qu’en est-il de la “Separation of Concerns” de nos différents “Layers” (ui / core / infra / etc…) ou de nos différents “Domains” ? Et finalement et surtout, comment devrions-nous découper nos libs dans ce cas ?
-
-  Donnons-nous rendez-vous à ce talk pour observer par vous même les gains que peut vous apporter l’adoption de Nx, le chemin d’adoption et finalement les “tradeoffs” de la découpe de vos workspaces en monorepo / polyrepo.
+  Donnons-nous rendez-vous à ce talk pour que vous puissiez observer par vous même les gains que peut vous apporter Nx, dès demain au travers d’une adoption progressive.
