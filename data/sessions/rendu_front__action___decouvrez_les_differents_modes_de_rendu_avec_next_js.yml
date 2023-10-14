@@ -29,3 +29,5 @@ abstract: |-
   À la fin de ce codelab vous aurez ainsi une vision plus claire du focntionnement de ces différents modes de rendu, de leurs atouts et de leurs limites. Et nous espérons que cela vous aidera à choisir le bon mode de rendu en fonction de vos besoins.
 
   Pour suivre ce codelab, il est préférable d'avoir des connaissances de bases de React. Mais les différents modes de rendu utilisés sont également disponibles sur la majorité des autres écosystèmes Javascript.
+
+  Prérequis : Node.js version 18 minimum, Git et un éditeur type VSCode
