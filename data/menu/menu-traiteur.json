@@ -1,0 +1,546 @@
+{
+  "Jeudi": [
+    {
+      "titreFR": "Ateliers",
+      "titreEN": "Cookery demonstrations",
+      "plats": [
+        {
+          "titreFR": "Œuf Parfait et piperade de légumes",
+          "titreEN": "Œuf Parfait et piperade de légumes",
+          "allergenes": ["vegetarien", "oeufs"]
+        },
+        {
+          "titreFR": "Tartare de poissons servi sur sucrine Dorade-kiwi, Saumon et mangue",
+          "titreEN": "Fish tartar : seam bream & kiwi, salmon & mango",
+          "allergenes": ["poissons"]
+        }
+      ]
+    },
+    {
+      "titreFR": "Pièces salées froides végétariennes",
+      "titreEN": "Vegetarian Cold savoury bites",
+      "plats": [
+        {
+          "titreFR": "Quinoa et crème acidulée au houmous",
+          "titreEN": "Quinoa with Sangria and houmous sour cream",
+          "allergenes": ["vegetarien", "soja", "sesame", "sulfites"]
+        },
+        {
+          "titreFR": "Sushi et bouton de champignons",
+          "titreEN": "Sushi and mushroom",
+          "allergenes": ["vegetarien"]
+        },
+        {
+          "titreFR": "Croustille végan aux légumes",
+          "titreEN": "Vegan crispy and vegetables",
+          "allergenes": ["vegetarien", "sesame"]
+        },
+        {
+          "titreFR": "Mini sandwich sans gluten, crème avocat et crudités",
+          "titreEN": "Sandwich bread free of gluten with avocado & vegetables",
+          "allergenes": ["vegetarien"]
+        },
+        {
+          "titreFR": "Galettes de légumes et salicornes",
+          "titreEN": "Vegetarian buckwheat galettes with sea beans and vegetables ",
+          "allergenes": ["vegetarien", "gluten"]
+        },
+        {
+          "titreFR": "Salade de quinoa, féta, pousse d'épinards et perles de grenade",
+          "titreEN": "Salad with quinoa, spinach, feta and pearl of pomegranate",
+          "allergenes": ["vegetarien", "lactose", "sulfites"]
+        }
+      ]
+    },
+    {
+      "titreFR": "Pièces salées froides Tentation",
+      "titreEN": "Cold savoury bites",
+      "plats": [
+        {
+          "titreFR": "Croustille crème de noix et chèvre",
+          "titreEN": "Nut cream and goat cheese crispy",
+          "allergenes": ["gluten","vegetarien", "oeufs", "lactose", "fruits-a-coques"]
+        },
+        {
+          "titreFR": "Croustille vegan aux légumes et saumon",
+          "titreEN": "Salmon crispy",
+          "allergenes": ["gluten","poissons", "sesame"]
+        },
+        {
+          "titreFR": "Rouleau de crabe et curry",
+          "titreEN": "Crab and curry in puff pastry",
+          "allergenes": ["gluten", "crustaces", "oeufs","soja", "lactose", "sesame", "sulfites"]
+        },
+        {
+          "titreFR": "Polenta et saumon fumé câpre à queue",
+          "titreEN": "Polenta and salmon with caper",
+          "allergenes": ["poissons", "lactose"]
+        },
+        {
+          "titreFR": "Volaille au saté pistache, oignons grelot et miel",
+          "titreEN": "Chicken with pistachio satay, spring oinions and honey",
+          "allergenes": ["soja", "fruits-a-coques"]
+        },
+        {
+          "titreFR": "Sablé parmesan, crème légère au basilic et perle de poivron",
+          "titreEN": "Parmesan shortbread with basilic cream and pepper pearl",
+          "allergenes": ["gluten","vegetarien", "lactose"]
+        }
+      ]
+    },
+    {
+      "titreFR": "Pièces lunch",
+      "titreEN": "Finger Lunch",
+      "plats": [
+        {
+          "titreFR": "Wrap pastrami, houmous au citron",
+          "titreEN": "Pastrami and houmous with citrus wrap",
+          "allergenes": ["gluten","vegetarien","oeufs", "lactose", "moutarde", "sesame"]
+        },
+        {
+          "titreFR": "Pain polaire saumon et crème Raifort",
+          "titreEN": "Swedish bread with salmon and horseradish cream",
+          "allergenes": ["gluten", "poissons", "lactose"]
+        },
+        {
+          "titreFR": "Bagnat de veau vitello tonnato parmesan",
+          "titreEN": "Vienna bread with Vitello (tuna) veal and parmesan",
+          "allergenes": ["gluten","oeufs", "poissons", "lactose", "moutarde"]
+        },
+        {
+          "titreFR": "Croque Monsieur noisette",
+          "titreEN": "Croque Monsieur with almond",
+          "allergenes": ["gluten", "lactose", "fruits-a-coques"]
+        }
+      ]
+    },
+    {
+      "titreFR": "Minis plats chaud",
+      "titreEN": "Hot dishes",
+      "plats": [
+        {
+          "titreFR": "Parmentier de canard",
+          "titreEN": "Duck and mashed ",
+          "allergenes": ["gluten", "lactose"]
+        },
+        {
+          "titreFR": "Dos de merlu crumble de parmesan, purée de patate douce",
+          "titreEN": "Hake with parmesan crumble, sweet potato purée",
+          "allergenes": ["gluten", "poissons", "lactose", "celeri"]
+        },
+        {
+          "titreFR": "Falafel à la sauce Sechouan à la tomate, riz basilic",
+          "titreEN": "Falafel à la sauce Sechouan à la tomate, riz basilic",
+          "allergenes": ["vegetarien", "soja", "sulfites"]
+        }
+      ]
+    },
+    {
+      "titreFR": "Douceurs sucrées",
+      "titreEN": "Sweet desserts",
+      "plats": [
+        {
+          "titreFR": "Bar à yaourts lait de vache",
+          "titreEN": "Yoghourt - cow's milk",
+          "allergenes": ["vegetarien", "lactose"]
+        },
+        {
+          "titreFR": "Yaourt au soja",
+          "titreEN": "Soya yoghourt",
+          "allergenes": ["vegetarien", "soja"]
+        },
+        {
+          "titreFR": "Fruits frais/ coulis de fruits",
+          "titreEN": "Fresh fruits and purée ",
+          "allergenes": ["vegetarien"]
+        },
+        {
+          "titreFR": "Muesli",
+          "titreEN": "Muesli",
+          "allergenes": ["vegetarien", "gluten", "fruits-a-coques"]
+        },
+        {
+          "titreFR": "Palet chocolat sur sablé sarrasin",
+          "titreEN": "Buckwheat shortbread and chocolate",
+          "allergenes": ["vegetarien", "lactose"]
+        },
+        {
+          "titreFR": "Coques snickers",
+          "titreEN": "Snickers chocolate",
+          "allergenes": ["vegetarien", "arachides", "soja", "lactose"]
+        },
+        {
+          "titreFR": "Acidulé passion coco",
+          "titreEN": "Passion fruits and coconut cake",
+          "allergenes": ["vegetarien","gluten", "oeufs", "lactose"]
+        },
+        {
+          "titreFR": "Tarte poire amandine",
+          "titreEN": "Pear and almond tart ",
+          "allergenes": ["vegetarien","gluten", "oeufs", "lactose", "fruits-a-coques"]
+        },
+        {
+          "titreFR": "Brochettes de fruits",
+          "titreEN": "Seasonal fruit skewers",
+          "allergenes": ["vegetarien"]
+        },
+        {
+          "titreFR": "Cylindres de macarons",
+          "titreEN": "Macaroons",
+          "allergenes": ["vegetarien", "oeufs", "lactose", "fruits-a-coques"]
+        }
+      ]
+    }
+  ],
+  "Vendredi": [
+    {
+      "titreFR": "Ateliers",
+      "titreEN": "Cookery demonstrations",
+      "plats": [
+        {
+          "titreFR": "Pain Pita volaille aux épices crème de tomate et légumes",
+          "titreEN": "Pita Bread demonstration: spicy chicken, tomato cream and vegetables",
+          "allergenes": [
+            "gluten",
+            "lactose"
+          ]
+        },
+        {
+          "titreFR": "Velouté de potiron au lait de coco et citronnelle",
+          "titreEN": "Pumpkin soup with coconut milk and lemongrass",
+          "allergenes": [
+            "vegetarien"
+          ]
+        },
+        {
+          "titreFR": "Crème de champignons",
+          "titreEN": "Mushrooms soup ",
+          "allergenes": [
+            "lactose"
+          ]
+        },
+        {
+          "titreFR": "Topping chorizo",
+          "titreEN": "Topping Chorizo",
+          "allergenes": []
+        },
+        {
+          "titreFR": "Topping croûtons",
+          "titreEN": "Topping crusty bread",
+          "allergenes": [
+            "gluten",
+            "vegetarien",
+            "arachides",
+            "fruits-a-coques"
+          ]
+        },
+        {
+          "titreFR": "Topping châtaignes ",
+          "titreEN": "Topping chestnut",
+          "allergenes": [
+            "vegetarien"
+          ]
+        },
+        {
+          "titreFR": "Topping oignons frits",
+          "titreEN": "Topping Deep fried onion",
+          "allergenes": [
+            "vegetarien"
+          ]
+        },
+        {
+          "titreFR": "Topping Emmental",
+          "titreEN": "Topping Emmental cheese",
+          "allergenes": [
+            "vegetarien",
+            "lactose"
+          ]
+        }
+      ]
+    },
+    {
+      "titreFR": "Pièces salées froides végétarienne",
+      "titreEN": "Vegetarian Cold savoury bites",
+      "plats": [
+        {
+          "titreFR": "Le tout carotte",
+          "titreEN": "Candied carrot with orange and ginger",
+          "allergenes": [
+            "vegetarien",
+            "lactose",
+            "celeri"
+          ]
+        },
+        {
+          "titreFR": "Polenta lait végétal et bouton de champignons",
+          "titreEN": "Polenta with vegetal milk and mushroom",
+          "allergenes": [
+            "vegetarien"
+          ]
+        },
+        {
+          "titreFR": "Rouleau de légumes et sauce Thaï",
+          "titreEN": "Vegetable spring roll",
+          "allergenes": [
+            "vegetarien",
+            "gluten",
+            "oeufs",
+            "soja",
+            "lactose",
+            "sesame",
+            "sulfites"
+          ]
+        },
+        {
+          "titreFR": "Pain sans gluten, houmous et légumes confits",
+          "titreEN": "Sandwich bread free of gluten, houmous and candided vegetables",
+          "allergenes": [
+            "vegetarien"
+          ]
+        },
+        {
+          "titreFR": "Crackers betterave et compotée de légumes",
+          "titreEN": "Beetroot crackers with vegetable compote",
+          "allergenes": [
+            "vegetarien"
+          ]
+        }
+      ]
+    },
+    {
+      "titreFR": "Pièces salées froides Tentation",
+      "titreEN": "Cold savoury bites",
+      "plats": [
+        {
+          "titreFR": "Comté pomme caramélisées et noix",
+          "titreEN": "Comté cheese, apple and nuts",
+          "allergenes": [
+            "vegetarien",
+            "lactose",
+            "fruits-a-coques",
+            "sulfites"
+          ]
+        },
+        {
+          "titreFR": "Crouton d'œuf de caille et lard grillé",
+          "titreEN": "Crouton with quail egg and grilled bacon",
+          "allergenes": [
+            "gluten",
+            "oeufs"
+          ]
+        },
+        {
+          "titreFR": "Tartare de bœuf et frit frit de pomme de terre",
+          "titreEN": "Mini beef tartare pie",
+          "allergenes": [
+            "gluten",
+            "oeufs",
+            "lactose",
+            "sulfites"
+          ]
+        },
+        {
+          "titreFR": "Rillette de cabillaud comme un club, caviar avruga",
+          "titreEN": "Mini club sandwich with cod rillettes and smoked herring roe",
+          "allergenes": [
+            "gluten",
+            "poissons",
+            "lactose"
+          ]
+        },
+        {
+          "titreFR": "Filet de caille sur pain d'épices et figues",
+          "titreEN": "Quail filet and fig on gingerbread",
+          "allergenes": [
+            "gluten",
+            "oeufs",
+            "lactose"
+          ]
+        },
+        {
+          "titreFR": "Mini éclaire crabe et sardine et mascarpone",
+          "titreEN": "Sardine in puff pastry",
+          "allergenes": [
+            "gluten",
+            "crustaces",
+            "oeufs",
+            "poissons",
+            "lactose",
+            "moutarde"
+          ]
+        },
+        {
+          "titreFR": "Saumon et pickles de légumes",
+          "titreEN": "Salmon and pickled vegetables",
+          "allergenes": [
+            "poissons",
+            "lactose",
+            "sulfites"
+          ]
+        }
+      ]
+    },
+    {
+      "titreFR": "Pièces lunch",
+      "titreEN": "Finger Lunch",
+      "plats": [
+        {
+          "titreFR": "Club sandwich poulet, tomate, bacon et œufs",
+          "titreEN": "Club sandwich with chicken, tomato and egg",
+          "allergenes": [
+            "gluten",
+            "oeufs",
+            "lactose",
+            "moutarde"
+          ]
+        },
+        {
+          "titreFR": "Wrap crevette, avocat crudités et cheddar",
+          "titreEN": "Wrap with shrimp, avocado, vegetables and cheddar",
+          "allergenes": [
+            "vegetarien",
+            "gluten",
+            "crustaces",
+            "oeufs",
+            "lactose",
+            "moutarde"
+          ]
+        },
+        {
+          "titreFR": "Mini hamburger",
+          "titreEN": "Beef hamburger",
+          "allergenes": [
+            "gluten",
+            "oeufs",
+            "lactose",
+            "fruits-a-coques",
+            "moutarde"
+          ]
+        },
+        {
+          "titreFR": "Cappuccino de chou fleur et crabe",
+          "titreEN": "Crab cappuccino with cauliflower cream  and crispy Parmesan",
+          "allergenes": [
+            "vegetarien",
+            "crustaces",
+            "oeufs",
+            "lactose",
+            "moutarde"
+          ]
+        }
+      ]
+    },
+    {
+      "titreFR": "Minis plats chaud",
+      "titreEN": "Hot dishes",
+      "plats": [
+        {
+          "titreFR": "Joue de bœuf confite et crumble de légumes",
+          "titreEN": "Beef and vegetables crumble with Parmesan",
+          "allergenes": [
+            "gluten",
+            "lactose"
+          ]
+        },
+        {
+          "titreFR": "Saumon polenta crémeuse et tagliatelle de courgettes safranées",
+          "titreEN": "Salmon with polenta and saffron zucchini",
+          "allergenes": [
+            "poissons",
+            "lactose"
+          ]
+        },
+        {
+          "titreFR": "Risotto au lait végétal et légumes d'automne",
+          "titreEN": "Risotto with vegetal milk and vegetables",
+          "allergenes": [
+            "vegetarien"
+          ]
+        }
+      ]
+    },
+    {
+      "titreFR": "Douceurs sucrées",
+      "titreEN": "Sweet desserts",
+      "plats": [
+        {
+          "titreFR": "Atelier brioche perdue, pomme confite et caramel beurre salé",
+          "titreEN": "Demonstration : Brioche cooking in milk and served with apple and salted butter caramel",
+          "allergenes": [
+            "vegetarien",
+            "gluten",
+            "oeufs",
+            "lactose"
+          ]
+        },
+        {
+          "titreFR": "Biscuit caramel au beurre salé",
+          "titreEN": "Almond biscuit",
+          "allergenes": [
+            "vegetarien",
+            "gluten",
+            "oeufs",
+            "lactose",
+            "fruits-a-coques"
+          ]
+        },
+        {
+          "titreFR": "Eclair vanille",
+          "titreEN": "Eclair vanilla",
+          "allergenes": [
+            "vegetarien",
+            "gluten",
+            "oeufs",
+            "lactose"
+          ]
+        },
+        {
+          "titreFR": "Opera fondant chocolat amer",
+          "titreEN": "Bitter chocolate Opéra cake",
+          "allergenes": [
+            "vegetarien",
+            "gluten",
+            "oeufs",
+            "lactose",
+            "fruits-a-coques"
+          ]
+        },
+        {
+          "titreFR": "Palet fondant passion, sablé sarrasin ",
+          "titreEN": "Buckwheat shortbread and passion fruit",
+          "allergenes": [
+            "vegetarien",
+            "oeufs",
+            "lactose"
+          ]
+        },
+        {
+          "titreFR": "Cookies chocolat farine de riz",
+          "titreEN": "Chocolate cookies free of gluten",
+          "allergenes": [
+            "vegetarien",
+            "gluten",
+            "lactose"
+          ]
+        },
+        {
+          "titreFR": "Brochette de fruits",
+          "titreEN": "Seasonal fruit skewers",
+          "allergenes": [
+            "vegetarien"
+          ]
+        },
+        {
+          "titreFR": "Cylindres de macarons",
+          "titreEN": "Macaroons",
+          "allergenes": [
+            "vegetarien",
+            "oeufs",
+            "lactose",
+            "fruits-a-coques"
+          ]
+        }
+      ]
+    }
+  ]
+}
