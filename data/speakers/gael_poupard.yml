@@ -5,7 +5,7 @@ feature: false
 company: Onepoint
 companyLogo: /images/partners/onepoint.png
 city: Nantes, France
-photoUrl: https://avatars.githubusercontent.com/u/2890570?v=4
+photoUrl: https://www.ffoodd.fr/ffoodd.jpg
 socials:
   twitter: ffoodd_fr
   github: ffoodd
@@ -15,6 +15,6 @@ bio: |
 
   Spécialiste passé par les cases designer UX/UI en agence, développeur PHP, développeur front-end en start-up aux commandes d’un guide de styles — on ne parlait pas encore de design system ! —, chef de chantier sur une refonte technique front-end chez un éditeur dans un environnement Java, puis spécialiste front-end et CMS en ESN, je suis désormais référent accessibilité et expert HTML / CSS / SVG chez onepoint.
 
-  J’ai entre autres choses commis a11y.css et chaarts, fait partie de la core team Bootstrap et contribue régulièrement à divers projets open-source.
+  J’ai entre autres choses commis a11y.css et chaarts, fait partie de la core team Bootstrap et de l’organisation de Paris Web et contribue régulièrement à divers projets open-source.
   
   Je cultive désormais le bon HTML et du CSS, fait des audits RGAA et prône l’assurance qualité web avec Opquast.
