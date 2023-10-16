@@ -5,8 +5,9 @@ feature: false
 city: Blois, France
 company: Worldline
 companyLogo: /images/partners/worldline.png
-photoUrl: https://lh3.googleusercontent.com/a/ALm5wu0g8WnOJudW4cMCFwkD6oZGEsWapQAbBu1_Q-U0=s96-c
-socials: {}
+photoUrl: https://github.com/GDG-Nantes/Devfest2023/assets/525974/a0f2c4e8-1068-489d-bad5-884eda5dfe9b
+socials: 
+  linkedin: amelie-avignon-786b5522b
 bio: |
   Sortie de l’université en tant que data scientist, j’ai intégré une équipe d’experts sécurité mobile et web. Ma mission est alors de lier data et sécurité afin d’améliorer l’expérience utilisateur. 
 
