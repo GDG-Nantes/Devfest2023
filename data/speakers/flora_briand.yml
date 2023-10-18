@@ -4,10 +4,8 @@ name: Flora Briand
 feature: false
 company: Doctolib
 companyLogo: /images/partners/doctolib.png
-city: Brest, France
+city: Nantes, France
 photoUrl: https://media.licdn.com/dms/image/D4E03AQGQrlAFI0vk-w/profile-displayphoto-shrink_800_800/0/1681286831655?e=1703116800&v=beta&t=yHe_slVgJl4-P-R3kM3Z2at9KxceXsakbKL2PpSpe_s
 socials: {}
 bio: |-
-  Designeuse UX en freelance et membre de Designers éthiques.
-  Autrice du guide [concevoir sans dark patterns de Designers éthiques](https://beta.designersethiques.org/thematique-design-persuasif/concevoir-sans-dark-patterns).
-  Site web : [https://www.florabrochier.fr/](https://www.florabrochier.fr/)
+  Pendant 10 ans, Flora a travaillé sur la programmation et l'interactivité des robots Nao et Pepper (Aldebaran Robotics). Elle jonglait alors entre des enjeux de justesse d'expérience interactive naturelle et de performance d'embarqué. L'élaboration d'un CMS web permettant aux utilisateurs de créer et de modifier facilement le contenu de leurs robots en temps réel, l'a fait glisser petit à petit dans le monde du développement web full stack. Elle travaille maintenant chez Doctolib en tant qu'Engineering Manager d'une équipe focalisée sur l'optimisation de l'utilisation de sa base de données.
