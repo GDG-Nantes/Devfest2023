@@ -56,7 +56,7 @@
       "type": "string"
     },
     "openfeedbackId": {
-      "type": "number"
+      "type": "string"
     },
     "youtube": {
       "type": "string"
