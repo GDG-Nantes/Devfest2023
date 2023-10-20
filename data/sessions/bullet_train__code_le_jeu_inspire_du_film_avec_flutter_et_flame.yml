@@ -14,6 +14,8 @@ speakers:
 slot: day-2-codelab-2
 room: Hangar
 abstract: |-
-  Nous ferons un premier arrêt à Dart-la-jolie pour découvrir ce language de programmation moderne mais peu répandu. Un petit stop à Flutter-en-Retz pour découvrir les fondations du framework, nous passerons par Flame-sur-Erdre pour créer un jeu 2D puis nous nous arrêterons à Crossplatform-sur-mer pour admirer le rendu web, iOS, Android et meme desktop !
+  Nous ferons un premier arrêt à Dart-la-jolie pour découvrir ce language de programmation moderne mais peu répandu. Un petit stop à Flutter-en-Retz pour découvrir les fondations du framework, nous passerons par Flame-sur-Erdre pour créer un jeu 2D puis nous nous arrêterons à Crossplatform-sur-mer pour admirer le rendu web, iOS, Android et même desktop !
 
-  Ce talk est destiné à tous ceux qui veulent mettre les mains dans Flutter une première fois pour découvrir les possibilités qu'il offre ! Ouvert à tous les développeurs pratiquant au moins un autre language de programmation.
+  Ce talk est destiné à tous ceux qui veulent mettre les mains dans Flutter une première fois pour découvrir les possibilités qu'il offre ! Ouvert à tous les développeurs pratiquant au moins un autre langage de programmation.
+
+  Pour démarrer efficacement ce codelab, assurez vous en amont d'avoir les outils suivants : git, un IDE (VSCode/Android Studio/IntelliJ), la dernière version de Flutter (https://docs.flutter.dev/get-started/install) ainsi que le plugin Flutter sur votre IDE.
