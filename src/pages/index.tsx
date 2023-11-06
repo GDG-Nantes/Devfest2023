@@ -1,13 +1,11 @@
-import { Button, Stack, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { SubscribeNewsletter } from "../components/commun/newsletter";
 import { DefaultPage } from "../components/commun/page";
 import {
-  DefaultSection,
   PrimarySection,
-  SecondarySection,
-  TertiarySection,
+  TertiarySection
 } from "../components/commun/section/section";
 import { Youtube } from "../components/commun/youtube";
 import {
@@ -28,7 +26,7 @@ const HomeContent = () => {
         <Typography variant="body1">{t("site.description")}</Typography>
         <Typography variant="body1">{t("site.theme")}</Typography>
         <DevfestNumbers />
-        <Youtube id="33KLYe7ywkY" title="Teaser 2023" />
+        <Youtube id="KAH55yjCgUY" title="Teaser After Movie 2023" />
       </PrimarySection>
       <PlanCite />
       <HomeMap />

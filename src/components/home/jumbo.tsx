@@ -1,8 +1,7 @@
-import {Box, Button, IconButton, Modal, Paper, Stack, Typography} from "@mui/material";
+import { PhotoSharp, YouTube } from "@mui/icons-material";
+import { Button, Stack, Typography } from "@mui/material";
 import React from "react";
-import {useTranslation} from "react-i18next";
-import {MyLink} from "../../helpers/links";
-import {Android, Apple, LocalDrink, ShoppingBag} from "@mui/icons-material";
+import { useTranslation } from "react-i18next";
 
 export const HomeJumbo = () => {
   const [modalOpen, setModalOpen] = React.useState(false)
@@ -67,6 +66,7 @@ export const HomeJumbo = () => {
           {/*>*/}
           {/*  Billetterie*/}
           {/*</Button> */}
+          {/* 
           <Button
             color="secondary"
             variant="contained"
@@ -77,20 +77,40 @@ export const HomeJumbo = () => {
             {t('resend-tickets')}
           </Button>
           <Button
-            color="secondary"
-            variant="outlined"
-            onClick={() => setModalOpen(true)}
-            aria-label="Send tickets"
+          color="secondary"
+          variant="outlined"
+          onClick={() => setModalOpen(true)}
+          aria-label="Send tickets"
           >
-            {t('get-app')}
-          </Button>
+          {t('get-app')}
+        </Button> */}
+        <Button
+          color="secondary"
+          startIcon={<YouTube/>}
+          variant="contained"
+          href="https://www.youtube.com/watch?v=yr2hjzsdICg&list=PLuZ_sYdawLiUHU4E1i5RrFsRN_lQcgPwT"
+          aria-label="Videos"
+          target={"_blank"}
+        >
+          Videos
+        </Button>
+        <Button
+          color="secondary"
+          startIcon={<PhotoSharp/>}
+          variant="contained"
+          href="https://photos.app.goo.gl/wWF5PWykG2g2umC47"
+          aria-label="Photos"
+          target={"_blank"}
+        >
+          Photos
+        </Button>
 
         </Stack>
-        <Stack direction="row" spacing={3} justifyContent={"center"}>
+        {/* <Stack direction="row" spacing={3} justifyContent={"center"}>
           <Button href="/our-values" color="secondary">{t('bring-ecocup')}</Button>
-        </Stack>
+        </Stack> */}
       </Stack>
-      <Modal open={modalOpen} onClose={() => setModalOpen(false)} className={"modal-apps"}>
+      {/* <Modal open={modalOpen} onClose={() => setModalOpen(false)} className={"modal-apps"}>
         <Paper className={"modal-content"}>
           <Box className={"modal-body"}>
             <Stack spacing={[5,5]} direction={["column", "row"]}>
@@ -115,7 +135,7 @@ export const HomeJumbo = () => {
             </Stack>
           </Box>
         </Paper>
-      </Modal>
+      </Modal> */}
     </>
   );
 };
