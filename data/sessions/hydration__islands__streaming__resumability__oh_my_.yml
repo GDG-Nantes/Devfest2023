@@ -12,3 +12,5 @@ speakers:
 slot: day-1-conference-5
 room: Tour de Bretagne
 abstract: "Our ecosystem can be overwhelming! First, we had the rise of SSR and SSG—and each had its\_own\_gigantic pile of frameworks and tools. Then partial hydration enabled us to hydrate only some of our components on the client, which we've seen in React Server Components. \n\nBut what about islands? Do they relate at all to Streaming SSR? Moreover, what is resumability, and why do I keep hearing about it? […] Oh, did anyone say rendering on the Edge?\n\nWell… There are many approaches out there, and all of them argue that their philosophy is best. In this session, we’ll go over these architecture/rendering patterns, to help shed some light on how some are implemented and the concepts behind them."
+
+youtube: PdpRd64hhDQ

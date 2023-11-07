@@ -15,3 +15,5 @@ abstract: |
   “It’s a trap” - a call or feeling we all might be familiar with, not only when it comes to Star Wars. It signalizes a sudden moment of noticing imminent danger. This situation is an excellent allegory for an unpleasant realization in testing. Imagine having the best intentions regarding testing but still ending up with tests failing to deliver any value. Tests who are feeling like a pain to deal with?
 
   When writing frontend tests, there are lots of pitfalls on the way. In sum, they can lead to lousy maintainability, slow execution time, and - in the worst-case - tests you cannot trust. But it doesn’t have to be that way. In this session, I will talk about developers’ common mistakes (including mine) in tests using Jest and Cypress, at least from my experience. And, of course, how to avoid them using best practices. Testing doesn’t need to be painful, after all.
+
+youtube: XC1ZNCDlmSo

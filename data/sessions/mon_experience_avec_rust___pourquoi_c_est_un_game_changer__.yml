@@ -12,3 +12,4 @@ speakers:
 slot: day-2-quickie-2
 room: Jules Verne
 abstract: Dans ce quickie, je partage mon initiation à Rust en tant que débutant. Ses concepts, tels que Ownership et Borrowing, ont profondément modifié ma vision de la performance. J'illustrerai par des benchmarks et montrerai des exemples de son impact sur la performance web, soulignant les avantages distinctifs de Rust.
+youtube: Xj8j7lQ49a0

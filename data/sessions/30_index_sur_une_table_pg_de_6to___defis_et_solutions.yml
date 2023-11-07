@@ -19,3 +19,5 @@ abstract: |-
 
   Alors comment nous sommes-nous outillés pour améliorer l'usage de nos index et réduire leur nombre ?
   Nous parlerons de représentativité de tests, de pièges SQL, de write-amplification, de benchmark d'index, et des défis que notre équipe a rencontrés pendant quelques mois.
+
+youtube: HzHKG86C01A

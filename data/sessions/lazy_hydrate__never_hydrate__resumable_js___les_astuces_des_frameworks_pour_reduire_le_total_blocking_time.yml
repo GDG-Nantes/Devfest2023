@@ -19,3 +19,4 @@ abstract: |-
   Comment mesurer l’impact de cette phase sur le Total Blocking Time ? Est-ce que l’hydratation est la seule source de blocking time ? Comment mettre concrètement en pratique la recommandation d’alléger le thread principal ? Quelle est la réponse à cette lourde phase d’hydratation proposée par les framework front les plus récents comme Astro ou Qwik ?
 
   Je vous propose de répondre à ces questions au travers d’exemples concrets tirés de 6 mois d’accompagnement d’un site e-commerce à grande fréquentation (top 10 français), avec comme résultat une amélioration de 25% de leur TBT et 20 points de gagnés sur leur score de performance Lighthouse.
+youtube: UkzbK1zthLE

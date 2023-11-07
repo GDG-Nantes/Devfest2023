@@ -15,3 +15,4 @@ abstract: |
   Qui a dit monorepo ? Bien que Nx soit la principale alternative “human readable” à Bazel pour organiser un monorepo, Nx est aussi un outil permettant de découper aisément nos applications en libs. Cela dit, à quelles fins céderions-nous à une telle tentation ? Par simple esthétisme, ou bien plus ?
 
   Donnons-nous rendez-vous à ce talk pour que vous puissiez observer par vous même les gains que peut vous apporter Nx, dès demain au travers d’une adoption progressive.
+youtube: K8wYtBGzmsI

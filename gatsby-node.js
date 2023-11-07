@@ -63,6 +63,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               complexity
               abstract
               openfeedbackId
+              youtube
             }
           }
         }

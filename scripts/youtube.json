@@ -1,0 +1,246 @@
+[
+  {
+    "title": "[DEVFEST NANTES 2023] Motion",
+    "id": "yr2hjzsdICg"
+  },
+  {
+    "title": "Teaser Devfest 2023",
+    "id": "33KLYe7ywkY"
+  },
+  {
+    "title": "Devfest Nantes 2023 - Teaser After Movie",
+    "id": "KAH55yjCgUY"
+  },
+  {
+    "title": "Design System en pilote automatique : du design à la production",
+    "id": "Lp7ZSIkYYbY"
+  },
+  {
+    "title": "Keynote Ouverture",
+    "id": "7GgLvCngX2k"
+  },
+  {
+    "title": "Les meilleurs outils de dev sont-il dans le Cloud ?",
+    "id": "z5S6Je4wk0c"
+  },
+  {
+    "title": "Modern Web Debugging with DevTools",
+    "id": "CNrTlXOtcnE"
+  },
+  {
+    "title": "Programmation Concurrent et Asynchrone : le point en Java 21",
+    "id": "AQjTUxjMg78"
+  },
+  {
+    "title": "The Ethics of Generative AI",
+    "id": "NVne-IPcihM"
+  },
+  {
+    "title": "Towards a 'carbon-aware' cloud",
+    "id": "RCb9peXqRfM"
+  },
+  {
+    "title": "Apache Kafka & Apache Flink - Better Together",
+    "id": "_drs0pu-9Tk"
+  },
+  {
+    "title": "Comment les interfaces nous manipulent !",
+    "id": "iUNZUgJ8tqI"
+  },
+  {
+    "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style",
+    "id": "jCk0cyjexNU"
+  },
+  {
+    "title": "Go Serverless! But is it secure?",
+    "id": "m9sLWY8ddvc"
+  },
+  {
+    "title": "It's a (testing) trap! - Common end-to-end pitfalls and how to solve them",
+    "id": "XC1ZNCDlmSo"
+  },
+  {
+    "title": "L'AGC : retour sur l'ordinateur qui a amené l'humanité sur la Lune",
+    "id": "OWmcNQj4CQs"
+  },
+  {
+    "title": "Ma découverte de Rust : Game Changer ? La Performance Web Témoigne",
+    "id": "Xj8j7lQ49a0"
+  },
+  {
+    "title": "La compression Web : comment (re)prendre le contrôle ?",
+    "id": "JARVYdwNSrI"
+  },
+  {
+    "title": "Après l'ordi 8 bit voici la carte VGA sur breadboard",
+    "id": "aBjtkNY5UaE"
+  },
+  {
+    "title": "Keynote de conclusion",
+    "id": "fVxNks4KZAg"
+  },
+  {
+    "title": "De startup à entreprise rentable : quel chemin pour la tech ?",
+    "id": "ThrdKSeUOA4"
+  },
+  {
+    "title": "Dogmes et Design Systems, comment faire autrement",
+    "id": "2viq6HZ8PaI"
+  },
+  {
+    "title": "Et si l'IA était la solution pour comprendre la langue des signes ?",
+    "id": "5D1i_vmEhFQ"
+  },
+  {
+    "title": "Lazy Hydrate Never Hydrate Resumable JS : astuces des frameworks pour réduire le Total Blocking Time",
+    "id": "UkzbK1zthLE"
+  },
+  {
+    "title": "Le Second Brain, pourquoi et comment il peut changer votre vie.",
+    "id": "itkeL7yx0yU"
+  },
+  {
+    "title": "WebAssembly beyond the browser",
+    "id": "KbTYUsC4RGA"
+  },
+  {
+    "title": "Angular Signals : how do they work ?",
+    "id": "U2pmBPU6Hc4"
+  },
+  {
+    "title": "Au secours, j'ai une personne handicapée dans mon équipe !",
+    "id": "1dnIUGTvPf0"
+  },
+  {
+    "title": "Cloudbusters : À la Chasse des Coûts Fantômes",
+    "id": "Y8bDbgWvboc"
+  },
+  {
+    "title": "Core Web Vitals: Mettez votre application sur orbite avec les meilleures pratiques",
+    "id": "_cmbPeGrbCA"
+  },
+  {
+    "title": "Rendu 3D, la grande illusion expliquée",
+    "id": "g5BZdlS7xSo"
+  },
+  {
+    "title": "Spring Framework 6.0",
+    "id": "KT8BiRujkX4"
+  },
+  {
+    "title": "UX Writer : le 5e élément de l'équipe tech / produit",
+    "id": "wjCeLCtne4g"
+  },
+  {
+    "title": "Comment hacker vos applications mobiles ?",
+    "id": "rHuqa5dejhY"
+  },
+  {
+    "title": "Des secrets dans les pixels ! À la découverte de la stéganographie",
+    "id": "UVKpjqDzJA8"
+  },
+  {
+    "title": "Dessine moi un graphique (en CSS)",
+    "id": "VjS7SLFYxYk"
+  },
+  {
+    "title": "Devenez l’Élu et maîtrisez la Matrice AWS 🦸‍♂️",
+    "id": "488UUaRbVeQ"
+  },
+  {
+    "title": "Mais au fait, que se passe-t-il quand je mets en ligne une vidéo ?",
+    "id": "-kyd9ZGcFlk"
+  },
+  {
+    "title": "Sous le capot des navigateurs web",
+    "id": "6iOqNTOzGPk"
+  },
+  {
+    "title": "Woop woop assassin de la police...",
+    "id": "fTIF5k1gxyc"
+  },
+  {
+    "title": "30 index sur une table PG de 6To : défis et solutions",
+    "id": "HzHKG86C01A"
+  },
+  {
+    "title": "Apprenons ensemble grâce aux bookclubs",
+    "id": "pA4qsxEZ82Y"
+  },
+  {
+    "title": "Du CSS aux shaders WebGL : panorama des techniques d'animation en 2023",
+    "id": "DrpPVsMGHbc"
+  },
+  {
+    "title": "Finies les apps, pensez libs avec Nx !",
+    "id": "K8wYtBGzmsI"
+  },
+  {
+    "title": "📝 ✅ La checklist ultime pour rendre vos applications cloud native !",
+    "id": "ufQ4BbIXuEg"
+  },
+  {
+    "title": "L'UX accessible : Exploitez le potentiel des attributs ARIA",
+    "id": "ZsXzOz4u6Uw"
+  },
+  {
+    "title": "Towards Modern Development of Cloud Applications",
+    "id": "ovAGVLoLaJ4"
+  },
+  {
+    "title": "asdf, un outil pour toutes vos versions",
+    "id": "i2AfuQAaALQ"
+  },
+  {
+    "title": "Expand your view of your application performance with OpenTelemetry",
+    "id": "ZkPB1qqEASQ"
+  },
+  {
+    "title": "Hydration, Islands, Streaming, Resumability… Oh My!",
+    "id": "PdpRd64hhDQ"
+  },
+  {
+    "title": "Jeux de données de mes environnements hors production : construction ou anonymisation ?",
+    "id": "LWUQLHcJufQ"
+  },
+  {
+    "title": "MLOps : une CI/CD pour des IA fiables",
+    "id": "W56Zwojqakg"
+  },
+  {
+    "title": "SwiftUI vs Jetpack Compose par un Ingénieur Android",
+    "id": "OUTKf92iNo0"
+  },
+  {
+    "title": "The laundromat : quand les journalistes deviennent data analystes",
+    "id": "hqyczMPlDls"
+  },
+  {
+    "title": "Alfredo Linguini et les Modèles Génératifs : Qui Fait Vraiment la Cuisine ?",
+    "id": "W0h0lyrtABI"
+  },
+  {
+    "title": "Au delà du mythe, développez confortablement sur Windows",
+    "id": "926WO5K7FhA"
+  },
+  {
+    "title": "Je ne suis pas passionné(e) et alors ?!",
+    "id": "o-2cC8KC2wg"
+  },
+  {
+    "title": "Le micropython serpent peu connu dans la jungle IOT, mais facilement charmable vous allez voir !",
+    "id": "tUZqr7J9_bs"
+  },
+  {
+    "title": "Navigating the Chaos: A Holistic Approach to Incident Management",
+    "id": "VJ_WrOEDNAY"
+  },
+  {
+    "title": "Web ML in 2023 - What's new with Machine Learning in JavaScript?",
+    "id": "qlDxlwHIBOk"
+  },
+  {
+    "title": "Keynote de conclusion V2",
+    "id": "OCPOCZRarwU"
+  }
+]

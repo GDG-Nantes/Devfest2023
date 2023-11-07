@@ -19,3 +19,5 @@ abstract: |-
   Once these streams are reliable, governed and secured in a platform like Confluent Cloud the next step is to process them, to build applications on them and to derive insights. This is where Apache Flink comes in. Apache Flinks is a powerful stream processing framework that enables developers to address the full range of stream processing use cases: from offline analytics to real-time data pipelines to event-driven applications.
 
   In this talk, I will briefly introduce Apache Kafka and Apache Flink and we’ll explore their role in making streaming the default for modern data architectures. Then, we’ll showcase - by example -  how these two technologies become more than the sum of their parts when they are powering a cloud-native streaming platform like Confluent Cloud.
+
+youtube: _drs0pu-9Tk

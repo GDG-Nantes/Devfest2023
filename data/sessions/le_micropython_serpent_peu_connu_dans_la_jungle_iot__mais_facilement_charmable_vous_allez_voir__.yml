@@ -16,3 +16,5 @@ abstract: |-
   "Programmer une carte électronique, c'est dur " on entend souvent cette phrase, mais à quel point cela est-il vrai ? Aujourd'hui, les objets connectés font partie de notre quotidien et certains d'entre nous souhaitent peut-être se lancer dans la conception d'un système électronique, mais estiment qu'ils n'ont pas les connaissances et/ou que l'acquisition des connaissances nécessaires serait trop ardue.
 
   C'est là que le Python premier langage de l'index TIOBE en juin 2023 et l'un des seuls langages connus par l'ensemble de la communauté de développeurs rentre en scène ! Effectivement, il existe maintenant un portage de celui-ci pour microcontrôleur appelé Micropython ! Ce talk a pour but de vous en faire sa présentation de vous montrer un petit projet réalise à l'aide de celui-ci et nous l'espérons vous donner envie de vous y intéressez !
+
+youtube: tUZqr7J9_bs

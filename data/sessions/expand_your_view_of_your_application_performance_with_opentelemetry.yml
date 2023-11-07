@@ -23,3 +23,5 @@ abstract: |-
   Throughout the talk, we will provide tips and best practices for using OpenTelemetry effectively, including how to choose the right instrumentation and how to configure the collector and exporters for optimal performance.
 
   By the end of this talk, attendees will have a deep understanding of the capabilities of OpenTelemetry and how it can be used to gain insights into complex applications. They will also be equipped with the knowledge necessary to start using OpenTelemetry in their own applications and take advantage of its powerful observability capabilities.
+
+youtube: ZkPB1qqEASQ

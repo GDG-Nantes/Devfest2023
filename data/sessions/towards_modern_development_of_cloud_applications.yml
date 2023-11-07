@@ -42,3 +42,5 @@ abstract: |-
   * Provides affinity based routing embedded in the application itself - easy to create stateful applications and route requests to different component replicas based on load information;
   * Same testing, profiling, debugging experience on the local machine as in the cloud;
   * mTLS support with zero config.
+
+youtube: ovAGVLoLaJ4

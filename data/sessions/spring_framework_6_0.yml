@@ -25,3 +25,5 @@ abstract: |-
   * L'amélioration de l'observabilité, et ce que cela signifie pour les fonctionnalités de base telles que RestTemplate, contrôleurs web, etc.
   * Le support de clients par interface pour HTTP et d'autres transports.
   * Le support de problem details (RFC 7807).
+
+youtube: KT8BiRujkX4
